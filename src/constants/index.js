@@ -31,7 +31,7 @@ export const EXPERIENCES = [
     description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
     technologies: ["Python", "Svelte", "Three.js", "Postgres"],
   },
-  {
+  { 
     year: "2020 - 2021",
     role: "Software Nigganeer",
     company: "Paypal",
