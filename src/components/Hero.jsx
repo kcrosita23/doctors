@@ -1,6 +1,7 @@
 import { HERO_CONTENT } from "../constants";
 import profilePic from "../assets/docHipolito.jpg";
 import { motion } from "framer-motion";
+import ImageCard from "./ImageCard";
 
 
 const container = (delay) => ({
@@ -15,6 +16,29 @@ const container = (delay) => ({
 
 const Hero = () => {
     return (
+    <div>
+        <div className="text-center">
+  <h1 className="text-3xl font-bold mb-10">SURGICAL ONCOLOGY TEAM</h1>
+
+  <div className="px-20 pb-20 flex justify-center gap-20 flex-wrap">
+    <ImageCard
+      image={profilePic}
+      title="Doc Hipolito"
+      description="A stunning landscape from Unsplash."
+    />
+    <ImageCard
+      image={profilePic}
+      title="Doc Hipolito"
+      description="A stunning landscape from Unsplash."
+    />
+    <ImageCard
+      image={profilePic}
+      title="Doc Hipolito"
+      description="A stunning landscape from Unsplash."
+    />
+  </div>
+</div>
+
         <div className="border-b border-neutral-900 pb-4 lg:mb-35">
             <div className="flex flex-wrap">
                 <div className="w-full lg:w-1/2">
@@ -51,6 +75,7 @@ const Hero = () => {
                 </div>
             </div>
         </div>
+    </div>
     )
 }
 
