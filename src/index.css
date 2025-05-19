@@ -4,6 +4,14 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+  @apply font-sans;
+}
+
 :root {
     font-family: "Inter", sans-serif;
 }

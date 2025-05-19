@@ -3,15 +3,14 @@ import logo from "../assets/doc-logo.png";
 
 const Navbar = () => {
     const navItems = [
+        { name: 'Home', href: '#home' },
         { name: 'About', href: '#about' },
-        { name: 'Background', href: '#background' },
-        { name: 'Operations', href: '#operations' },
-        { name: 'Offers', href: '#offers' },
-        { name: 'Affiliates', href: '#affiliates' }
+        { name: 'Surgical Interventions', href: '#interventions' }
     ];
 
     return (
-        <nav className="flex flex-col md:flex-row items-center justify-between py-6 px-4">
+        <nav className="fixed top-0 left-0 w-full z-50 bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]
+                        shadow-md flex flex-col md:flex-row items-center justify-between py-6 px-4">
             <div className="flex flex-shrink-0 items-center mb-4 md:mb-0">
                 <img 
                     className="mx-2 w-64 h-auto" 

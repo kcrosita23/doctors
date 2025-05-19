@@ -4,9 +4,10 @@ import { PROJECTS } from "../constants"
 
 const Projects = () => {
     return (
-        <div className="border-b border-l-neutral-900 pb-4">
-            <h2 className="my-20 text-center text-4xl">
-                Operations
+        <div id="interventions" className="scroll-mt-32 border-b border-neutral-900 pb-4">
+
+            <h2 className="my-20 text-center text-4xl font-montserrat">
+                Surgical Interventions
             </h2>
             <div>
                 {PROJECTS.map((project, index) => (
@@ -31,6 +32,7 @@ const Projects = () => {
                     </div>
                 ))}
             </div>
+
         </div >
     )
 }

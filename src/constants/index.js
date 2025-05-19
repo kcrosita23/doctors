@@ -3,7 +3,7 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a dedicated and compassionate Surgical Oncologist specializing in the surgical treatment and management of cancer. With advanced training and extensive experience in performing complex oncologic procedures, I strive to provide patients with the highest standard of care, combining precision surgery with a multidisciplinary approach to ensure optimal outcomes. In addition to my clinical expertise, I am passionate about advancing cancer care through research and innovation. My work focuses on [specific area, e.g., "minimally invasive techniques," "tumor biology," or "improving post-surgical recovery processes"], and I have contributed to several publications and conferences in the field.`;
+export const HERO_CONTENT = 'We are a dedicated team of Surgical Oncologists specializing in the surgical treatment of cancer. With advanced training and a collaborative approach, we provide high-quality, personalized care to help patients achieve the best possible outcomes.'
 
 export const ABOUT_TEXT = `I specialize in surgical oncology, a field dedicated to the surgical management of cancer. My role involves diagnosing, staging, and treating various types of cancers through surgery while collaborating with a multidisciplinary team to provide comprehensive care to patients.
 
