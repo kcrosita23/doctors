@@ -6,7 +6,7 @@ const About = () => {
     return (
         <div id="about" className="scroll-mt-32 border-b border-neutral-900 pb-4">
 
-            <h2 className="my-8 text-center text-4xl font-montserrat">
+            <h2 className="mt-8 mb-2 text-center text-4xl font-montserrat">
                     About
                 <span className="text-neutral-500 font-montserrat"> Us
                 </span>
@@ -70,7 +70,7 @@ const About = () => {
                             whileInView={{ opacity: 1, x: 0 }}
                             initial={{ opacity: 0, x: 100 }}
                             transition={{ duration: 1.3}}
-                            className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent mb-1 pt-8">
+                            className="bg-gradient-to-r from-blue-600 via-slate-400 to-blue-700 bg-clip-text text-4xl tracking-tight text-transparent mb-1 pt-8">
                             DR. CECILIO D.S HIPOLITO JR, M.D, DPBS
                         </motion.span>
                         <p className="my-2 max-w-xl py-6">
@@ -91,7 +91,7 @@ const About = () => {
                             whileInView={{ opacity: 1, x: 0 }}
                             initial={{ opacity: 0, x: -100 }}
                             transition={{ duration: 1.3 }}
-                            className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent mb-1 pt-8">
+                            className="bg-gradient-to-r  from-blue-600 via-slate-400 to-blue-700 bg-clip-text text-4xl tracking-tight text-transparent mb-1 pt-8">
                             DR. GRACE DIANNE GONZALEZ RAYMUNDO, MD, FSOSP
                         </motion.span>
                         <p className="my-2 max-w-xl py-6">
@@ -115,7 +115,7 @@ const About = () => {
                     whileInView={{ opacity: 1, x: 0 }}
                     initial={{ opacity: 0, x: -100 }}
                     transition={{ duration: 1.5 }}
-                    className="w-full lg:w-1/2 lg:p-8">
+                    className="w-full lg:w-1/2 lg:p-8 pt-2">
                         <div className="flex items-center justify-center">
                                 <img className="rounded-lg w-4/5" src={aboutImg} alt="about" />
                         </div>
@@ -130,7 +130,7 @@ const About = () => {
                             whileInView={{ opacity: 1, x: 0 }}
                             initial={{ opacity: 0, x: 100 }}
                             transition={{ duration: 1.3 }}
-                            className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent mb-1 pt-8">
+                            className="bg-gradient-to-r  from-blue-600 via-slate-400 to-blue-700 bg-clip-text text-4xl tracking-tight text-transparent mb-1 pt-8">
                             DR. EDGARDO R. CORTEZ M.D., FPCS, FACS
                         </motion.span>
                         <p className="my-2 max-w-xl py-6">
@@ -139,7 +139,6 @@ const About = () => {
                     </div>
                 </motion.div>
             </div>    
-
         </div>
     );
 };

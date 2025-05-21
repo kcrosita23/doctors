@@ -9,7 +9,7 @@ const Navbar = () => {
     ];
 
     return (
-        <nav className="fixed top-0 left-0 w-full z-50 bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]
+        <nav className="fixed top-0 left-0 w-full z-50 bg-white bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]
                         shadow-md flex flex-col md:flex-row items-center justify-between py-6 px-4">
             <div className="flex flex-shrink-0 items-center mb-4 md:mb-0">
                 <img 
@@ -24,7 +24,7 @@ const Navbar = () => {
                         <li key={item.name}>
                             <a 
                                 href={item.href} 
-                                className="hover:text-violet-600 transition duration-300"
+                                className="hover:text-blue-500 transition duration-300"
                             >
                                 {item.name}
                             </a>
@@ -33,8 +33,8 @@ const Navbar = () => {
                     <li>
                         <a 
                             href="#contact"
-                            className="px-2  py-2 bg-violet-600 text-black rounded-md 
-                                       hover:bg-white transition duration-300 
+                            className="px-2  py-2 bg-blue-500 text-white rounded-md 
+                                       hover:bg-blue-700 transition duration-300 
                                        transform hover:-translate-y-1 hover:scale-105 
                                        shadow-md hover:shadow-lg"
                         >
