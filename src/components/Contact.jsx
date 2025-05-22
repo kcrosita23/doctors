@@ -7,7 +7,7 @@ const Contact = () => {
             <h2 className="mt-10 text-center text-4xl font-montserrat">
                 SCHEDULE A CONSULTATION TODAY
             </h2>
-            <p className="text-center text-2xl font-montserrat text-gray-600 m-1">
+            <p className="text-center text-2xl font-montserrat text-gray-600 m-1 pb-7">
                 Send us a message!
             </p>
 

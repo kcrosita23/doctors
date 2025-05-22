@@ -3,6 +3,7 @@ import profilePic from "../assets/docHipolito.jpg";
 import { motion } from "framer-motion";
 import ImageCard from "./ImageCard";
 import DocCortez from "../assets/docCortez.jpg";
+import { Link } from "react-router-dom";
 
 
 const container = (delay) => ({
@@ -40,21 +41,27 @@ const Hero = () => {
                 initial={{ opacity: 0, x: 100 }}
                 transition={{ duration: 1.5 }}
                 className="px-20 pb-20 flex justify-center gap-20 flex-wrap">
-                    <ImageCard
-                    image={profilePic}
-                    title="Dr. Hipolito"
-                    description="A stunning landscape from Unsplash."
-                    />
-                    <ImageCard
-                    image={DocCortez}
-                    title="Dr. Cortez"
-                    description="A stunning landscape from Unsplash."
-                    />
-                    <ImageCard
-                    image={profilePic}
-                    title="Dr. Raymundo"
-                    description="A stunning landscape from Unsplash."
-                    />
+                    
+                        <ImageCard
+                        image={profilePic}
+                        title="Dr. Hipolito"
+                        description="A stunning landscape from Unsplash."
+                        />
+                    
+                    
+                        <ImageCard
+                        image={DocCortez}
+                        title="Dr. Cortez"
+                        description="A stunning landscape from Unsplash."
+                        />
+                    
+                    
+                        <ImageCard
+                        image={profilePic}
+                        title="Dr. Raymundo"
+                        description="A stunning landscape from Unsplash."
+                        />
+                    
             </motion.div>
         </div>
         
