@@ -15,21 +15,27 @@ const Contact = () => {
                 <div>
                     <h3 className="font-bold mb-2">Dr. Hipolito</h3>
                     <p className="text-sm text-gray-600">
-                    Content for the first column goes here.
+                     Jennifer <br />
+                     +63 9637092072 <br />
+                     St. Lukes Quezon City <br />
                     </p>
                 </div>
                 
                 <div>
                     <h3 className="font-bold mb-2">Dr. Raymundo</h3>
                     <p className="text-sm text-gray-600">
-                    Content for the second column goes here.
+                    Nitz <br />
+                    +63 9178481649 <br />
+                    UERM <br />
                     </p>
                 </div>
                 
                 <div>
                     <h3 className="font-bold mb-2">Dr. Cortez</h3>
                     <p className="text-sm text-gray-600">
-                    Content for the third column goes here.
+                    Mean <br />
+                    +63 9184873816 <br />
+                    St. Lukes BGC <br />
                     </p>
                 </div>
             </div>
