@@ -15,9 +15,11 @@ const Contact = () => {
                 <div>
                     <h3 className="font-bold mb-2">Dr. Hipolito</h3>
                     <p className="text-sm text-gray-600">
-                     Jennifer <br />
-                     +63 9637092072 <br />
-                     St. Lukes Quezon City <br />
+                     Ann Carla <br />
+                        <p className="text-sm text-blue-600">
+                            <u>+63 916 946 8578 </u><br />
+                        </p>
+                     St. Lukes BGC <br />
                     </p>
                 </div>
                 
@@ -25,7 +27,9 @@ const Contact = () => {
                     <h3 className="font-bold mb-2">Dr. Raymundo</h3>
                     <p className="text-sm text-gray-600">
                     Nitz <br />
-                    +63 9178481649 <br />
+                        <p className="text-sm text-blue-600">
+                            <u>+63 917 848 1649  </u><br />
+                        </p>
                     UERM <br />
                     </p>
                 </div>
@@ -34,7 +38,9 @@ const Contact = () => {
                     <h3 className="font-bold mb-2">Dr. Cortez</h3>
                     <p className="text-sm text-gray-600">
                     Mean <br />
-                    +63 9184873816 <br />
+                        <p className="text-sm text-blue-600">
+                            <u>+63 918 487 3816  </u><br />
+                        </p>
                     St. Lukes BGC <br />
                     </p>
                 </div>
