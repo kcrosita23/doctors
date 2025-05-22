@@ -11,7 +11,7 @@ const Contact = () => {
                 Send us a message!
             </p>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
                 <div>
                     <h3 className="font-bold mb-2">Dr. Hipolito</h3>
                     <p className="text-sm text-gray-600">
@@ -34,7 +34,6 @@ const Contact = () => {
                 </div>
             </div>
 
-        
           {/*div className="text-center tracking-tighter">
                 <p className="my-4">{CONTACT.address}</p>
                 <p className="my-4">{CONTACT.phoneNo}</p>
