@@ -1,4 +1,7 @@
 import { CONTACT } from "../constants"
+import { FaPhone } from "react-icons/fa6";
+import { MdOutlinePinDrop } from "react-icons/md";
+
 
 
 const Contact = () => {
@@ -11,37 +14,55 @@ const Contact = () => {
                 Send us a message!
             </p>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+            <div className=" grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
                 <div>
                     <h3 className="font-bold mb-2">Dr. Hipolito</h3>
                     <p className="text-sm text-gray-600">
-                     Ann Carla <br />
-                        <p className="text-sm text-blue-600">
-                            <u>+63 916 946 8578 </u><br />
-                        </p>
-                     St. Lukes BGC <br />
+                        Ann Carla  
+                            <p className=" text-sm text-blue-600" >             
+                                <div className="flex items-center justify-center">
+                                    <FaPhone className="mr-1" />
+                                    <span><u>+63 916 946 8578 </u></span>
+                                </div>
+                            </p>
+                            <div className="flex items-center justify-center">
+                                 <MdOutlinePinDrop className="mr-1" />
+                                 <span>St. Lukes BGC </span>
+                            </div>
                     </p>
                 </div>
-                
+    
                 <div>
                     <h3 className="font-bold mb-2">Dr. Raymundo</h3>
                     <p className="text-sm text-gray-600">
-                    Nitz <br />
+                    Nitz
                         <p className="text-sm text-blue-600">
-                            <u>+63 917 848 1649  </u><br />
+                            <div className="flex items-center justify-center">
+                                    <FaPhone className="mr-1" />
+                                    <span><u>+63 917 848 1649 </u></span>
+                            </div>
                         </p>
-                    UERM <br />
+                        <div className="flex items-center justify-center">
+                                 <MdOutlinePinDrop className="mr-1" />
+                                 <span>UERM </span>
+                        </div>
                     </p>
                 </div>
                 
                 <div>
                     <h3 className="font-bold mb-2">Dr. Cortez</h3>
                     <p className="text-sm text-gray-600">
-                    Mean <br />
+                    Mean
                         <p className="text-sm text-blue-600">
-                            <u>+63 918 487 3816  </u><br />
+                            <div className="flex items-center justify-center">
+                                    <FaPhone className="mr-1" />
+                                    <span><u>+63 918 487 3816 </u></span>
+                            </div>
                         </p>
-                    St. Lukes BGC <br />
+                        <div className="flex items-center justify-center">
+                                 <MdOutlinePinDrop className="mr-1" />
+                                 <span>St. Lukes BGC </span>
+                        </div>
                     </p>
                 </div>
             </div>
