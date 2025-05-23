@@ -1,6 +1,8 @@
 import aboutImg from "../assets/aboutdoc.jpg";
 import { ABOUT_DRCORTEZ, ABOUT_DRHIPOLITO, ABOUT_DRRAYMUNDO, ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion";
+import DrCortez1 from "../assets/docCortez1.jpg";
+import DrHipolitoDrCortez from "../assets/DrHipolito&DrCortez.jpg";
 
 const About = () => {
     return (
@@ -105,7 +107,7 @@ const About = () => {
                         transition={{ duration: 1.5 }}
                         className="w-full lg:w-1/2 lg:p-8">
                     <div className="flex items-center justify-center">
-                                <img className="rounded-lg w-4/5" src={aboutImg} alt="about" />
+                                <img className="rounded-lg w-4/5" src={DrHipolitoDrCortez} alt="about" />
                         </div>
                 </motion.div>
             </div>
@@ -117,7 +119,7 @@ const About = () => {
                     transition={{ duration: 1.5 }}
                     className="w-full lg:w-1/2 lg:p-8 pt-2">
                         <div className="flex items-center justify-center">
-                                <img className="rounded-lg w-4/5" src={aboutImg} alt="about" />
+                                <img className="rounded-lg w-4/5" src={DrCortez1} alt="about" />
                         </div>
                 </motion.div>
                 <motion.div

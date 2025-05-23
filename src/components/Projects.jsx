@@ -1,6 +1,9 @@
 import aboutImg from "../assets/aboutdoc.jpg";
 import { ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion";
+import Operation1 from "../assets/operation1.jpg";
+import Operation2 from "../assets/operation2.jpg";
+import Operation3 from "../assets/operation3.jpg";
 
 
 
@@ -54,7 +57,7 @@ const Projects = () => {
                         transition={{ duration: 1.5 }}
                         className="w-full lg:w-1/2 lg:p-0">
                     <div className="flex items-center justify-center pt-2">
-                        <img className="rounded-lg w-2/3" src={aboutImg} alt="about" />
+                        <img className="rounded-lg w-2/3" src={Operation2} alt="about" />
                     </div>
                 </motion.div>
             </div>
@@ -66,7 +69,7 @@ const Projects = () => {
                         transition={{ duration: 1.5 }}
                         className="w-full lg:w-1/2 lg:p-0">
                     <div className="flex items-center justify-center pt-10">
-                        <img className="rounded-lg w-2/3" src={aboutImg} alt="about" />
+                        <img className="rounded-lg w-2/3" src={Operation3} alt="about" />
                     </div>
                 </motion.div>
                 <motion.div
