@@ -1,18 +1,17 @@
 import React, { useState } from "react";
 import logo from "../assets/doc-logo.png";
 import { Menu, X } from "lucide-react";
+import { HashLink } from "react-router-hash-link";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navItems = [
-    { name: "Home", href: "#home" },
-    { name: "About", href: "#about" },
-    { name: "Surgical Interventions", href: "#interventions" },
-    { name: "Contact Us", href: "#contact", isButton: true },
+    { name: "Home", to: "/#home" },
+    { name: "About", to: "/#about" },
+    { name: "Surgical Interventions", to: "/#interventions" },
+    { name: "Contact Us", to: "/#contact", isButton: true },
   ];
-
-    
 
     return (
     <nav className="fixed top-0 left-0 w-full z-50 bg-sky-500 
@@ -33,21 +32,19 @@ const Navbar = () => {
           {navItems.map((item) =>
             item.isButton ? (
               <li key={item.name}>
-                <a
-                  href={item.href}
+                <HashLink smooth to={item.to} onClick={() => setIsOpen(false)} 
                   className="px-2 py-2 bg-gray-800 text-white rounded-md 
                   hover:bg-black transition duration-300 transform hover:-translate-y-1 hover:scale-105 
                   shadow-md hover:shadow-lg">
                   {item.name}
-                </a>
+                </HashLink>
               </li>
             ) : (
               <li key={item.name}>
-                <a
-                  href={item.href}
+                <HashLink smooth to={item.to} onClick={() => setIsOpen(false)}
                   className="text-white hover:text-black transition duration-300">
                   {item.name}
-                </a>
+                </HashLink>
               </li>
             )
           )}
@@ -60,21 +57,19 @@ const Navbar = () => {
             {navItems.map((item) =>
               item.isButton ? (
                 <li key={item.name}>
-                  <a
-                    href={item.href}
+                  <HashLink smooth to={item.to} onClick={() => setIsOpen(false)}
                     className="block w-full text-center px-2 py-2 bg-gray-800 text-white rounded-md 
                             hover:bg-black transition duration-300 transform hover:-translate-y-1 hover:scale-105
                             shadow-md hover:shadow-lg">
                     {item.name}
-                  </a>
+                  </HashLink>
                 </li>
               ) : (
                 <li key={item.name}>
-                  <a
-                    href={item.href}
+                  <HashLink smooth to={item.to} onClick={() => setIsOpen(false)}
                     className="text-white hover:text-black transition duration-300 block">
                     {item.name}
-                  </a>
+                  </HashLink>
                 </li>
               ))}
           </ul>

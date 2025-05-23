@@ -1,8 +1,8 @@
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/docHipolito.jpg";
+import DrHipolito from "../assets/docHipolito.jpg";
 import { motion } from "framer-motion";
 import ImageCard from "./ImageCard";
-import DocCortez from "../assets/docCortez.jpg";
+import DrCortez from "../assets/docCortez.jpg";
 import { Link } from "react-router-dom";
 
 const Hero = () => {
@@ -33,21 +33,21 @@ const Hero = () => {
                 className="px-20 pb-20 flex justify-center gap-20 flex-wrap">
                     <Link to="/dr-hipolito">
                         <ImageCard
-                        image={profilePic}
+                        image={DrHipolito}
                         title="Dr. Hipolito"
                         description="A stunning landscape from Unsplash."
                         />
                     </Link>
                     <Link to="/dr-raymundo">
                         <ImageCard
-                        image={profilePic}
+                        image={DrHipolito}
                         title="Dr. Raymundo"
                         description="A stunning landscape from Unsplash."
                         />
                     </Link>
                     <Link to="/dr-cortez">
                         <ImageCard
-                        image={DocCortez}
+                        image={DrCortez}
                         title="Dr. Cortez"
                         description="A stunning landscape from Unsplash."
                         />
