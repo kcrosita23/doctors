@@ -9,6 +9,10 @@ export const ABOUT_TEXT = `I specialize in surgical oncology, a field dedicated 
 
 I pursued my medical education at [Medical School Name] and completed my residency in general surgery at [Institution Name], followed by a fellowship in surgical oncology at [Specialized Center]. My clinical expertise includes performing complex oncologic surgeries, such as tumor resections, minimally invasive procedures, and reconstructive surgeries when required.`;
 
+export const ABOUT_DRCORTEZ = 'Dr. Edgardo Cortez is a prominent oncologist known for his expertise in treating various types of cancer, including sarcomas and renal cancers. His approach often includes advanced surgical techniques and comprehensive oncological care. Hes highly regarded in the medical community for his research contributions and patient care outcomes.';
+export const ABOUT_DRRAYMUNDO = 'Dr. Grace Dianne Gonzalez Raymundo, MD, FSOSP, is a highly skilled surgical oncologist specializing in the treatment of breast cancer and other malignancies. With a focus on personalized patient care, she employs advanced surgical techniques and collaborates with multidisciplinary teams to ensure optimal outcomes for her patients.';
+export const ABOUT_DRHIPOLITO = 'Dr. Cecilio D.S Hipolito Jr, M.D, DPBS, is a distinguished surgical oncologist with extensive experience in treating various cancers. He is known for his expertise in complex surgical procedures and his commitment to advancing cancer care through research and education.';
+
 export const EXPERIENCES = [
   {
     year: "2023 - Present",

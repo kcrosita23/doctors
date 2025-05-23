@@ -1,5 +1,5 @@
 import aboutImg from "../assets/aboutdoc.jpg";
-import { ABOUT_TEXT } from "../constants";
+import { ABOUT_DRCORTEZ, ABOUT_DRHIPOLITO, ABOUT_DRRAYMUNDO, ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion";
 
 const About = () => {
@@ -74,7 +74,7 @@ const About = () => {
                             DR. CECILIO D.S HIPOLITO JR, M.D, DPBS
                         </motion.span>
                         <p className="my-2 max-w-xl py-6">
-                            {ABOUT_TEXT}
+                            {ABOUT_DRHIPOLITO}
                         </p>
                     </div>
                 </motion.div>
@@ -95,7 +95,7 @@ const About = () => {
                             DR. GRACE DIANNE GONZALEZ RAYMUNDO, MD, FSOSP
                         </motion.span>
                         <p className="my-2 max-w-xl py-6">
-                            {ABOUT_TEXT}
+                            {ABOUT_DRRAYMUNDO}
                         </p>
                     </div>
                 </motion.div>
@@ -134,7 +134,7 @@ const About = () => {
                             DR. EDGARDO R. CORTEZ M.D., FPCS, FACS
                         </motion.span>
                         <p className="my-2 max-w-xl py-6">
-                            {ABOUT_TEXT}
+                            {ABOUT_DRCORTEZ}
                         </p>
                     </div>
                 </motion.div>
