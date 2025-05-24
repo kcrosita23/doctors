@@ -9,7 +9,7 @@ const DrRaymundo = () => {
   <div className="container mx-auto px-8">
     <Navbar />
     <div id="aboutDrRaymundo" className="scroll-mt-32 border-b border-neutral-900 pb-4 pt-12">
-            <div className="flex flex-wrap">
+            <div className="flex flex-wrap pt-20">
               <motion.div
                 whileInView={{ opacity: 1, x: 0 }}
                 initial={{ opacity: 0, x: -100 }}
