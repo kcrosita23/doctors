@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion';
-import aboutImg from "../assets/aboutdoc.jpg";
 import { ABOUT_TEXT } from "../constants";
 import Navbar from './Navbar';
 import DrCortezImg from "../assets/docCortez.jpg";
