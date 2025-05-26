@@ -1,8 +1,8 @@
 import aboutImg from "../assets/aboutdoc.jpg";
 import { ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion";
-import Operation2 from "../assets/operation2.jpg";
-import Operation3 from "../assets/operation3.jpg";
+import Operation2 from "../assets/Operation2.jpg";
+import Operation3 from "../assets/Operation3.jpg";
 
 
 
