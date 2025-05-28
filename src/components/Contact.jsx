@@ -6,7 +6,7 @@ import { MdOutlinePinDrop } from "react-icons/md";
 
 const Contact = () => {
     return (
-        <div id="contact" className="scroll-mt-32 border-b border-neutral-900 pb-20">
+        <div id="contact" className="scroll-mt-32 bg-slate-100 text-gray-900 border-b border-neutral-900 pb-20">
             <h2 className="mt-10 text-center text-4xl font-montserrat">
                 SCHEDULE A CONSULTATION TODAY
             </h2>
