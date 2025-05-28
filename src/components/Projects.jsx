@@ -5,10 +5,9 @@ import Operation2 from "../assets/Operation2.jpg";
 import Operation3 from "../assets/Operation3.jpg";
 
 
-
 const Projects = () => {
     return (
-        <div id="interventions" className="scroll-mt-32 border-b border-neutral-900 pb-4">
+        <div id="interventions" className="scroll-mt-32">
 
             <h2 className="my-8 text-center text-4xl font-montserrat">
                 Surgical Interventions

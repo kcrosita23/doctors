@@ -8,7 +8,7 @@ import { MdOutlinePinDrop } from "react-icons/md";
 
 const DrRaymundo = () => {
   return (
-
+<div>
   <div className="container mx-auto px-8">
     <Navbar />
     <div id="aboutDrRaymundo" className="scroll-mt-32 border-b border-neutral-900 pb-10 pt-12">
@@ -90,7 +90,7 @@ const DrRaymundo = () => {
                   </div>
               </div>
     
-              <div className="px-4 sm:px-6 lg:px-8 py-12 scroll-mt-32 border-b border-neutral-900">
+              <div className="px-4 sm:px-6 lg:px-8 py-12 scroll-mt-32">
                   <div className="flex flex-col items-center lg:items-start mb-10">
                     <motion.span
                       whileInView={{ opacity: 1, x: 0 }}
@@ -135,8 +135,8 @@ const DrRaymundo = () => {
                     </motion.div>
                   </div>
               </div>
-    
-            <div className="scroll-mt-32 border-b border-neutral-900 pb-20">
+</div>
+            <div className="scroll-mt-32 border-t border-neutral-900 pb-20 bg-gray-100">
                 <h2 className="mt-10 text-center text-4xl font-montserrat">
                     SCHEDULE A CONSULTATION TODAY
                 </h2>

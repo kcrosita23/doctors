@@ -6,8 +6,8 @@ import { MdOutlinePinDrop } from "react-icons/md";
 
 const Contact = () => {
     return (
-        <div id="contact" className="scroll-mt-32 bg-slate-100 text-gray-900 border-b border-neutral-900 pb-20">
-            <h2 className="mt-10 text-center text-4xl font-montserrat">
+        <div id="contact" className="scroll-mt-32 bg-slate-100 text-gray-900 border-t border-neutral-900 pb-20">
+            <h2 className="pt-10 text-center text-4xl font-montserrat">
                 SCHEDULE A CONSULTATION TODAY
             </h2>
             <p className="text-center text-2xl font-montserrat text-gray-600 m-1 pb-7">
@@ -78,4 +78,4 @@ const Contact = () => {
     )
 }
 
-export default Contact
+export default Contact;

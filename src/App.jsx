@@ -12,15 +12,17 @@ import DrRaymundo from "./components/DrRaymundo"
 
 const Home = () => {
   return (
-    <div className="container mx-auto px-8">
+    <>
       <Navbar />
-      <Hero />
-      <About />
-      {/* <Technologies />
-      <Experience /> */}
-      <Projects />
+      <div className="container mx-auto px-8">
+        <Hero />
+        <About />
+          {/* <Technologies />
+          <Experience /> */}
+        <Projects />
+      </div>
       <Contact />
-    </div>
+    </>
   );
 };
 
