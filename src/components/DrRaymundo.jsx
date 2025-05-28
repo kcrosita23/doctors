@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import aboutImg from "../assets/aboutdoc.jpg";
 import { ABOUT_TEXT } from "../constants";
 import Navbar from './Navbar';
+import Blank from "../assets/blank.jpg"; // Placeholder for Dr. Raymundo's image
 
 const DrRaymundo = () => {
   return (
@@ -35,7 +36,7 @@ const DrRaymundo = () => {
                 transition={{ duration: 1.5 }}
                 className="w-full lg:w-1/2 lg:p-8">
                 <div className="flex items-center justify-center">
-                  <img className="rounded-lg w-4/5" src={aboutImg} alt="about" />
+                  <img className="rounded-lg w-4/5" src={Blank} alt="about" />
                 </div>
               </motion.div>
             </div>

@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import ImageCard from "./ImageCard";
 import DrCortez from "../assets/docCortez.jpg";
 import { Link } from "react-router-dom";
+import Blank from "../assets/blank.jpg"; // Placeholder for Dr. Raymundo's image
 
 const Hero = () => {
     return (
@@ -40,7 +41,7 @@ const Hero = () => {
                     </Link>
                     <Link to="/dr-raymundo">
                         <ImageCard
-                        image={DrHipolito}
+                        image={Blank}
                         title="Dr. Raymundo"
                         description="A stunning landscape from Unsplash."
                         />
