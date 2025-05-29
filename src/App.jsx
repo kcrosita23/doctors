@@ -16,10 +16,13 @@ const Home = () => {
     <>
       <Navbar />
       <Hero />
+      <div className="container mx-auto px-8">
+      <DocsCards/>
       <About />
       {/* <Technologies />
       <Experience /> */}
       <Projects />
+      </div>
       <Contact />
     </>
   );

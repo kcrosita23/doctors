@@ -11,7 +11,7 @@ const Hero = () => {
     return (
 
         
-        <div id="home" className="scroll-mt-32 border-b border-neutral-900 pb-4 pt-10">
+        <div id="home" className="scroll-mt-32 pb-7 pt-10">
 
 
            <div className="ml-40 mb-20">

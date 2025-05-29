@@ -7,14 +7,14 @@ import { Link } from "react-router-dom";
 
 const DocsCards = () => {
     return (
-    <div id="doctors" className="scroll-mt-20 border-b border-neutral-900 pb-2 pt-12">
+    <div id="doctors" className="scroll-mt-32 border-t border-b border-neutral-900 pb-2 pt-6">
 
         <div className="text-center">
             <motion.h1 
                 whileInView={{ opacity: 1, x: 0 }}
                 initial={{ opacity: 0, x: 100 }}
                 transition={{ duration: 1.3 }}
-                className="text-4xl mb-20 pt-10 font-montserrat">SURGICAL ONCOLOGY TEAM
+                className="text-4xl mb-10 pt-6 font-montserrat">SURGICAL ONCOLOGY TEAM
             </motion.h1>
 
             <motion.div 
