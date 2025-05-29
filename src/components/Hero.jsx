@@ -1,60 +1,54 @@
-import { HERO_CONTENT } from "../constants";
-import DrHipolito from "../assets/docHipolito.jpg";
+import { ABOUT_DRRAYMUNDO, HERO_CONTENT } from "../constants"
 import { motion } from "framer-motion";
-import ImageCard from "./ImageCard";
-import DrCortez from "../assets/docCortez.jpg";
-import { Link } from "react-router-dom";
+import DrHipolitoDrCortez from "../assets/DrHipolito&DrCortez.jpg";
+import DrCortez1 from "../assets/docCortez1.jpg";
+import HeroPhoto from "../assets/Hero_photo.png"
+import { image } from "framer-motion/client";
+import HeroBg from "../assets/hero_bg.png";
+import Operation3 from "../assets/Operation3.jpg";
 
 const Hero = () => {
     return (
-    <div id="home" className="scroll-mt-36 border-b border-neutral-900 pb-2 pt-12">
 
-        <div className="text-center">
-            <motion.h1 
-                whileInView={{ opacity: 1, x: 0 }}
-                initial={{ opacity: 0, x: 100 }}
-                transition={{ duration: 1.3 }}
-                className="text-4xl mb-auto pt-20 font-montserrat">SURGICAL ONCOLOGY TEAM
-            </motion.h1>
+        
+        <div id="home" className="scroll-mt-32 pb-7 pt-10">
 
-            <div className="flex justify-center">
-                <motion.p
-                    whileInView={{ opacity: 1, x: 0 }}
-                    initial={{ opacity: 0, x: -100 }}
-                    transition={{ duration: 1.5 }}
-                    className="my-2 max-w-xl py-6 font-light tracking-tighter">{HERO_CONTENT}
-                </motion.p>
-            </div>
 
-            <motion.div 
-                whileInView={{ opacity: 1, y: 0 }}
-                initial={{ opacity: 0, y: 100 }}
-                transition={{ duration: 1.5 }}
-                className="px-20 pb-20 flex justify-center gap-20 flex-wrap">
-                    <Link to="/dr-hipolito">
-                        <ImageCard
-                        image={DrHipolito}
-                        title="Dr. Hipolito"
-                        description="A stunning landscape from Unsplash."
-                        />
-                    </Link>
-                    <Link to="/dr-raymundo">
-                        <ImageCard
-                        image={DrHipolito}
-                        title="Dr. Raymundo"
-                        description="A stunning landscape from Unsplash."
-                        />
-                    </Link>
-                    <Link to="/dr-cortez">
-                        <ImageCard
-                        image={DrCortez}
-                        title="Dr. Cortez"
-                        description="A stunning landscape from Unsplash."
-                        />
-                    </Link>
-            </motion.div>
+           <div className="ml-40 mb-20">
+
+                <div className="flex mx-auto items-center lg:items-start">
+                    
+                
+                 <div className="block mt-20 mr-10">
+
+                        <h1   h1 className="text-5xl mb-5 pt-20 font-montserrat">
+                         Surgical Excellence, Lifesaving Results
+                        </h1>
+
+                        <div className="m-30 max-w-xl py-6 font-light tracking-tighter">
+                        {HERO_CONTENT}
+                        </div>
+
+                        <div className="mt-8 flex gap-x-4">
+                            <a href="#" className="px-8 py-3 text-lg font-semibold outline-orange-400 rounded-lg bg-sky-500">Contact Us</a>
+                            <a href="#" className="px-8 py-3 text-lg font-semibold rounded-lg bg-gray-300 ">Team</a>
+                        </div>
+
+                    </div>
+
+
+                    <div className = "md:ml-20 mt-30">
+                        
+
+                        {/* <img className="rounded-lg w-1/2" src={DrCortez1} alt="about" /> */}
+                        <img className="rounded-lg w-90" src={HeroPhoto} alt="heropic" />
+                
+                    </div>  
+
+                </div>         
+
+           </div>
         </div>
-    </div>
     )
 }
 

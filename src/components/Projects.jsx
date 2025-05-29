@@ -3,13 +3,9 @@ import { ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion";
 
 
-
 const Projects = () => {
-  return (
-    <div id="interventions" className="scroll-mt-32 border-b border-neutral-200 pb-16">
-      <h2 className="mb-12 text-center text-4xl font-bold text-blue-950 font-montserrat tracking-wide">
-        Surgical Interventions
-      </h2>
+    return (
+        <div id="interventions" className="scroll-mt-32">
 
       <div className="flex flex-wrap justify-between gap-12">
         <motion.div

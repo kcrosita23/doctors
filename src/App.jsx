@@ -1,7 +1,7 @@
 import About from "./components/About"
 import Contact from "./components/Contact"
 import Experience from "./components/Experience"
-import Hero from "./components/Hero"
+import DocsCards from "./components/DocsCards"
 import Navbar from "./components/Navbar"
 import Projects from "./components/Projects"
 import Technologies from "./components/Technologies"
@@ -10,19 +10,24 @@ import DrHipolito from "./components/DrHipolito"
 import DrCortez from "./components/DrCortez"
 import DrRaymundo from "./components/DrRaymundo"
 import Tabs from "./components/Tabs"
+import Hero from "./components/Hero"
+import ScrollToTop from "./components/ScrollToTop";
 
 const Home = () => {
   return (
-    <div className="container mx-auto px-8">
+    <>
       <Navbar />
       <Hero />
+      <div className="container mx-auto px-8">
+      <DocsCards/>
       <About />
       <Tabs />
       {/* <Technologies />
       <Experience /> */}
-      <Projects /> 
+      <Projects />
+      </div>
       <Contact />
-    </div>
+    </>
   );
 };
 
@@ -43,6 +48,7 @@ const App = () => {
             */}
             
       <Router>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/dr-hipolito" element={<DrHipolito />} />
