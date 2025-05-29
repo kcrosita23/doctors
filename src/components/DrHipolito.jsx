@@ -26,12 +26,44 @@ const DrHipolito = () => {
                     className="bg-gradient-to-r from-blue-600 via-slate-400 
                               to-blue-700 bg-clip-text text-4xl tracking-tight 
                               text-transparent mb-1 pt-8">
-                          DR. CECILIO D.S HIPOLITO JR, M.D, DPBS
+                          DR. CECILIO D.S HIPOLITO JR, M.D, DPBS 
                   </motion.span>
-                  <p className="my-2 max-w-xl py-6">{ABOUT_TEXT}</p>
-                </div>
-              </motion.div>
+                    
+                  <motion.div
+                    whileInView={{ opacity: 1, x: 0 }}
+                    initial={{ opacity: 0, x: 100 }}
+                    transition={{ duration: 1.5 }}
+                    className="w-full lg:w-1/2">
+                      
+                       <ul className="space-y-10 pt-12">
+                           <li className=" pl-4">
+                             <h3 className="text-xl font-semibold text-gray-800">EDUCATION: </h3>
+                             <h3 className="text-xl font-semibold text-gray-800">BS. Medical Technology </h3>
+                                <p className="text-gray-600 mt-1">
+                                  University Of Santo Tomas Manila, Philippines 1990-1994 <br />
+                                  
+                                </p>
+                            </li>
 
+                            <li className="border-l-4 border-blue-500 pl-4">
+                              <h3 className="text-xl font-semibold text-gray-800">Head, Neck & Skin Cancers</h3>
+                                  <p className="text-gray-600 mt-1">
+                                    Thyroidectomy – removal of the thyroid gland. <br />
+                                    Neck dissection – to remove lymph nodes with cancer. <br />
+                                    Wide local excision – for melanoma or skin cancers.
+                                  </p>
+                            </li>
+
+                        <li className="border-l-4 border-blue-500 pl-4">
+                            <h3 className="text-xl font-semibold text-gray-800">Soft Tissue Tumors (Sarcomas)</h3>
+                              <p className="text-gray-600 mt-1">
+                                Surgical removal of soft tissue or bone sarcomas, often involving limb-sparing techniques.
+                              </p>
+                        </li>
+                      </ul>
+                  </motion.div>
+                  </div>
+              </motion.div>
               <motion.div
                 whileInView={{ opacity: 1, x: 0 }}
                 initial={{ opacity: 0, x: 0 }}
@@ -109,14 +141,33 @@ const DrHipolito = () => {
                   transition={{ duration: 1.5 }}
                   className="w-full lg:w-1/2"
                 >
-                  <ul className="space-y-8">
-                    {[1, 2, 3].map((_, i) => (
-                      <li key={i} className="border-l-4 border-blue-500 pl-4">
-                        <h3 className="text-xl font-semibold text-gray-800">Hospital {i + 1}</h3>
-                        <p className="text-gray-600 mt-1">Address</p>
-                      </li>
-                    ))}
-                  </ul>
+                <ul className="space-y-10 pt-16">
+                    <li className="border-l-4 border-blue-500 pl-4">
+                        <h3 className="text-xl font-semibold text-gray-800">Gynecologic Cancer Surgeries </h3>
+                            <p className="text-gray-600 mt-1">
+                                Hysterectomy – removal of the uterus for uterine or cervical cancer. <br />
+                                Oophorectomy – removal of the ovaries. <br />
+                                Debulking surgery – removing as much tumor as possible, especially in ovarian cancer.
+                            </p>
+                    </li>
+
+                    <li className="border-l-4 border-blue-500 pl-4">
+                        <h3 className="text-xl font-semibold text-gray-800">Head, Neck & Skin Cancers</h3>
+                            <p className="text-gray-600 mt-1">
+                                Thyroidectomy – removal of the thyroid gland. <br />
+                                Neck dissection – to remove lymph nodes with cancer. <br />
+                                Wide local excision – for melanoma or skin cancers.
+                            </p>
+                    </li>
+
+                    <li className="border-l-4 border-blue-500 pl-4">
+                        <h3 className="text-xl font-semibold text-gray-800">Soft Tissue Tumors (Sarcomas)</h3>
+                            <p className="text-gray-600 mt-1">
+                                Surgical removal of soft tissue or bone sarcomas, often involving limb-sparing techniques.
+                            </p>
+                    </li>
+                </ul>
+                
                 </motion.div>
                 <motion.div
                   whileInView={{ opacity: 1, x: 0 }}
@@ -158,7 +209,7 @@ const DrHipolito = () => {
                 </div></p>
             </div>
         </div>
-</div>
+    </div>
   );
 };
 
