@@ -12,8 +12,23 @@ import DrRaymundo from "./components/DrRaymundo"
 import Tabs from "./components/Tabs"
 import Hero from "./components/Hero"
 import ScrollToTop from "./components/ScrollToTop";
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 const Home = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      const el = document.getElementById(location.hash.replace("#", ""));
+      if (el) {
+        setTimeout(() => {
+          el.scrollIntoView({ behavior: "smooth" });
+        }, 100);
+      }
+    }
+  }, [location]);
+
   return (
     <>
       <Navbar />
