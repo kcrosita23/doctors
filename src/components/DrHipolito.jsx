@@ -164,30 +164,18 @@ const DrHipolito = () => {
                   transition={{ duration: 1.5 }}
                   className="w-full lg:w-1/2"
                 >
-                <ul className="space-y-10 pt-16">
-                    <li className="border-l-4 border-blue-500 pl-4">
-                        <h3 className="text-xl font-semibold text-gray-800">Gynecologic Cancer Surgeries </h3>
-                            <p className="text-gray-600 mt-1">
-                                Hysterectomy – removal of the uterus for uterine or cervical cancer. <br />
-                                Oophorectomy – removal of the ovaries. <br />
-                                Debulking surgery – removing as much tumor as possible, especially in ovarian cancer.
-                            </p>
+                  <ul className="space-y-10 pt-1">
+                    <li className=" pl-4">
+                      <h3 className="text-xl font-semibold text-gray-800">American Society of Peritoneal Surface Malignancies </h3>
+                        <p className="text-gray-600 mt-1">
+                          MEMBER <br />
+                        </p>
                     </li>
-
-                    <li className="border-l-4 border-blue-500 pl-4">
-                        <h3 className="text-xl font-semibold text-gray-800">Head, Neck & Skin Cancers</h3>
-                            <p className="text-gray-600 mt-1">
-                                Thyroidectomy – removal of the thyroid gland. <br />
-                                Neck dissection – to remove lymph nodes with cancer. <br />
-                                Wide local excision – for melanoma or skin cancers.
-                            </p>
-                    </li>
-
-                    <li className="border-l-4 border-blue-500 pl-4">
-                        <h3 className="text-xl font-semibold text-gray-800">Soft Tissue Tumors (Sarcomas)</h3>
-                            <p className="text-gray-600 mt-1">
-                                Surgical removal of soft tissue or bone sarcomas, often involving limb-sparing techniques.
-                            </p>
+                    <li className=" pl-4">
+                        <h3 className="text-xl font-semibold text-gray-800">Philippine Medical Association</h3>
+                          <p className="text-gray-600 mt-1">
+                            MEMBER <br />
+                          </p>
                     </li>
                 </ul>
                 
@@ -198,16 +186,18 @@ const DrHipolito = () => {
                   transition={{ duration: 1.5 }}
                   className="w-full lg:w-1/2"
                 >
-                  <ul className="space-y-8">
-                    {[4, 5, 6].map((_, i) => (
-                      <li key={i} className="border-l-4 border-blue-500 pl-4">
-                        <h3 className="text-xl font-semibold text-gray-800">Hospital {i + 4}</h3>
-                        <p className="text-gray-600 mt-1">Address</p>
-                      </li>
-                    ))}
-                  </ul>
+                  <ul className="space-y-10 pt-1">
+                    <li className=" pl-4">
+                        <h3 className="text-xl font-semibold text-gray-800">Philippine Association for Study of Liver Diseases</h3>
+                            <p className="text-gray-600 mt-1">
+                                MEMBER <br />
+                            </p>
+                    </li>
+                </ul>
+                
                 </motion.div>
               </div>
+
           </div>
     </div>
         <div className="scroll-mt-32 border-t border-neutral-900 pb-20 bg-gray-100">
