@@ -9,6 +9,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import DrHipolito from "./components/DrHipolito"
 import DrCortez from "./components/DrCortez"
 import DrRaymundo from "./components/DrRaymundo"
+import Tabs from "./components/Tabs"
 
 const Home = () => {
   return (
@@ -16,9 +17,10 @@ const Home = () => {
       <Navbar />
       <Hero />
       <About />
+      <Tabs />
       {/* <Technologies />
       <Experience /> */}
-      <Projects />
+      <Projects /> 
       <Contact />
     </div>
   );
