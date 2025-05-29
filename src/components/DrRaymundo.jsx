@@ -12,7 +12,7 @@ const DrRaymundo = () => {
   <div className="container mx-auto px-8">
     <Navbar />
     <div id="aboutDrRaymundo" className="scroll-mt-32 border-b border-neutral-900 pb-10 pt-12">
-            <div className="flex flex-wrap pt-20 pb-20">
+            <div className="flex flex-wrap pt-10 pb-24">
               <motion.div
                 whileInView={{ opacity: 1, x: 0 }}
                 initial={{ opacity: 0, x: -100 }}
@@ -98,7 +98,7 @@ const DrRaymundo = () => {
                   transition={{ duration: 1.5 }}
                   className="w-full lg:w-1/2"
                 >
-                  <ul className="space-y-10 pt-1">
+                  <ul className="space-y-10 pt-1 pb-10">
                     <li className=" pl-4">
                       <h3 className="text-xl font-semibold text-gray-800">CLINICAL PRECEPTOR for SURGERY I,
                         Department of Surgery, College of Medicine, 
@@ -145,8 +145,8 @@ const DrRaymundo = () => {
           </div>
 
     
-              <div className="px-4 sm:px-6 lg:px-8 py-12 scroll-mt-32">
-                  <div className="flex flex-col items-center lg:items-start mb-10">
+              <div className="px-4 sm:px-6 lg:px-8 pb-12 pt-6 scroll-mt-32">
+                  <div className="flex flex-col items-center lg:items-start mb-10 ">
                     <motion.span
                       whileInView={{ opacity: 1, x: 0 }}
                       initial={{ opacity: 0, x: 0 }}
