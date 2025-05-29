@@ -30,52 +30,87 @@ const tabContent = {
     </div>
   ),
   colorectal: (
-    <div>
-      <h3 className="text-xl font-semibold text-blue-900">Colorectal Surgery</h3>
-      <p className="text-gray-600 mt-2 leading-relaxed">
+    <div className="flex flex-col md:flex-row items-center gap-6"> 
+      <img
+        src={Operation3}
+        alt="Colorectal Surgery"
+        className="w-64 sm:w-72 md:w-80 lg:w-96 xl:w- rounded-lg shadow-md cursor-pointer filter grayscale hover:grayscale-0 duration-500 object-cover"
+      />
+      <div>
+        <h3 className="text-3xl font-semibold text-blue-900 mb-2">Colorectal Surgery</h3>
+        <p className="text-gray-600 mt-2 leading-relaxed">
         Colectomy – removal of all or part of the colon.<br />
         Low anterior resection – removes part of the rectum while preserving anal function.<br />
         Abdominoperineal resection – complete removal of the rectum and anus.
-      </p>
+        </p>
+      </div>
     </div>
   ),
   gi: (
-    <div>
-      <h3 className="text-xl font-semibold text-blue-900">Gastrointestinal Surgeries</h3>
-      <p className="text-gray-600 mt-2 leading-relaxed">
+    <div className="flex flex-col md:flex-row items-center gap-6"> 
+      <img
+        src={Operation2}
+        alt="Gastrointestinal Surgeries"
+        className="w-64 sm:w-72 md:w-80 lg:w-96 xl:w- rounded-lg shadow-md cursor-pointer filter grayscale hover:grayscale-0 duration-500 object-cover"
+      />
+      <div>
+        <h3 className="text-3xl font-semibold text-blue-900 mb-2">Gastrointestinal Surgeries</h3>
+        <p className="text-gray-600 mt-2 leading-relaxed">
         Gastrectomy – removal of part or all of the stomach.<br />
         Whipple procedure – for pancreatic or bile duct cancer.<br />
         Liver resection – to remove cancerous liver tissue.<br />
         Esophagectomy – removal of part or all of the esophagus.
-      </p>
+        </p>
+      </div>
     </div>
   ),
   gynecologic: (
-    <div>
-      <h3 className="text-xl font-semibold text-blue-900">Gynecologic Surgeries</h3>
-      <p className="text-gray-600 mt-2 leading-relaxed">
+    <div className="flex flex-col md:flex-row items-center gap-6"> 
+      <img
+        src={Operation3}
+        alt="Gynecologic Surgeries"
+        className="w-64 sm:w-72 md:w-80 lg:w-96 xl:w- rounded-lg shadow-md cursor-pointer filter grayscale hover:grayscale-0 duration-500 object-cover"
+      />
+      <div>
+        <h3 className="text-3xl font-semibold text-blue-900 mb-2">Gynecologic Surgeries</h3>
+        <p className="text-gray-600 mt-2 leading-relaxed">
         Hysterectomy – removal of the uterus for uterine or cervical cancer.<br />
         Oophorectomy – removal of the ovaries.<br />
         Debulking surgery – removing as much tumor as possible.
-      </p>
+        </p>
+      </div>
     </div>
   ),
   'head-neck': (
-    <div>
-      <h3 className="text-xl font-semibold text-blue-900">Head & Neck Cancers</h3>
-      <p className="text-gray-600 mt-2 leading-relaxed">
+    <div className="flex flex-col md:flex-row items-center gap-6"> 
+      <img
+        src={Operation2}
+        alt="Gynecologic Surgeries"
+        className="w-64 sm:w-72 md:w-80 lg:w-96 xl:w- rounded-lg shadow-md cursor-pointer filter grayscale hover:grayscale-0 duration-500 object-cover"
+      />
+      <div>
+        <h3 className="text-3xl font-semibold text-blue-900 mb-2">Head & Neck Cancers</h3>
+        <p className="text-gray-600 mt-2 leading-relaxed">
         Thyroidectomy – removal of the thyroid gland.<br />
         Neck dissection – to remove lymph nodes with cancer.<br />
         Wide local excision – for melanoma or skin cancers.
-      </p>
+        </p>
+      </div>
     </div>
   ),
   sarcomas: (
-    <div>
-      <h3 className="text-xl font-semibold text-blue-900">Soft Tissue Tumors (Sarcomas)</h3>
-      <p className="text-gray-600 mt-2 leading-relaxed">
+    <div className="flex flex-col md:flex-row items-center gap-6"> 
+      <img
+        src={Operation3}
+        alt="Gynecologic Surgeries"
+        className="w-64 sm:w-72 md:w-80 lg:w-96 xl:w- rounded-lg shadow-md cursor-pointer filter grayscale hover:grayscale-0 duration-500 object-cover"
+      />
+      <div>
+        <h3 className="text-3xl font-semibold text-blue-900 mb-2">Soft Tissue Tumors (Sarcomas)</h3>
+        <p className="text-gray-600 mt-2 leading-relaxed">
         Surgical removal of soft tissue or bone sarcomas, often involving limb-sparing techniques.
-      </p>
+        </p>
+      </div>
     </div>
   ),
 };
