@@ -29,7 +29,7 @@ const DrRaymundo = () => {
                           DR. GRACE DIANNE GONZALEZ RAYMUNDO, MD, FSOSP
                   </motion.span>
                  
-<motion.div
+              <motion.div
                     whileInView={{ opacity: 1, x: 0 }}
                     initial={{ opacity: 0, x: 100 }}
                     transition={{ duration: 1.5 }}
@@ -142,6 +142,10 @@ const DrRaymundo = () => {
                 </ul>
                 </motion.div>
               </div>
+
+
+
+
           </div>
 
     
@@ -154,7 +158,7 @@ const DrRaymundo = () => {
                       className="bg-gradient-to-r from-blue-600 via-slate-400 to-blue-700
                                 bg-clip-text text-transparent text-2xl sm:text-3xl lg:text-4xl tracking-tight"
                     >
-                      SOCIETIES 
+                      SOCIETIES AND ORGANIZATION
                     </motion.span>
                   </div>
                   <div className="flex flex-col lg:flex-row gap-8">
