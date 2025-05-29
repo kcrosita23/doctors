@@ -104,23 +104,22 @@ const DrHipolito = () => {
                   className="w-full lg:w-1/2"
                 >
                   <ul className="space-y-10 pt-1">
-                    <li className="border-l-4 border-blue-500 pl-4">
+                    <li className=" pl-4">
                       <h3 className="text-xl font-semibold text-gray-800">St. Luke's Medical Center - Global City </h3>
                         <p className="text-gray-600 mt-1">
                           ADDRESS : 32nd St. Bonifacio Global City Taguig City, 1634 <br />
                         </p>
                     </li>
-                    <li className="border-l-4 border-blue-500 pl-4">
+                    <li className=" pl-4">
                         <h3 className="text-xl font-semibold text-gray-800">St Luke's Medical Center - Quezon City</h3>
                             <p className="text-gray-600 mt-1">
                                 ADDRESS : Rm.1018 South Cathedral Heights Building Complex, St. Luke's Medical Center 279 E.Rodriquez Sr. Boulevard Quezon City, 1112 <br />
                             </p>
                     </li>
-
-                    <li className="border-l-4 border-blue-500 pl-4">
-                        <h3 className="text-xl font-semibold text-gray-800">Soft Tissue Tumors (Sarcomas)</h3>
+                    <li className=" pl-4">
+                        <h3 className="text-xl font-semibold text-gray-800">UERM Memorial Medical Center</h3>
                             <p className="text-gray-600 mt-1">
-                                Surgical removal of soft tissue or bone sarcomas, often involving limb-sparing techniques.
+                                ADDRESS : Rm. 112 College of Medicine Bldg. 64 Aurora Blvd. Brgy. Dona Imelda, Quezon City, Philippines 1113h
                             </p>
                     </li>
                 </ul>
@@ -132,29 +131,12 @@ const DrHipolito = () => {
                   transition={{ duration: 1.5 }}
                   className="w-full lg:w-1/2"
                 >
-                  <ul className="space-y-10 pt-16">
-                    <li className="border-l-4 border-blue-500 pl-4">
-                        <h3 className="text-xl font-semibold text-gray-800">Gynecologic Cancer Surgeries </h3>
+                  <ul className="space-y-10 pt-1">
+                    <li className=" pl-4">
+                        <h3 className="text-xl font-semibold text-gray-800">International Clinical Rotation</h3>
                             <p className="text-gray-600 mt-1">
-                                Hysterectomy – removal of the uterus for uterine or cervical cancer. <br />
-                                Oophorectomy – removal of the ovaries. <br />
-                                Debulking surgery – removing as much tumor as possible, especially in ovarian cancer.
-                            </p>
-                    </li>
-
-                    <li className="border-l-4 border-blue-500 pl-4">
-                        <h3 className="text-xl font-semibold text-gray-800">Head, Neck & Skin Cancers</h3>
-                            <p className="text-gray-600 mt-1">
-                                Thyroidectomy – removal of the thyroid gland. <br />
-                                Neck dissection – to remove lymph nodes with cancer. <br />
-                                Wide local excision – for melanoma or skin cancers.
-                            </p>
-                    </li>
-
-                    <li className="border-l-4 border-blue-500 pl-4">
-                        <h3 className="text-xl font-semibold text-gray-800">Soft Tissue Tumors (Sarcomas)</h3>
-                            <p className="text-gray-600 mt-1">
-                                Surgical removal of soft tissue or bone sarcomas, often involving limb-sparing techniques.
+                                -Hepatopancreatico-biliary Section Memorial Sloan Kettering, New York USA 2009 <br />
+                                - Peritoneal Surface Malignancy Division St Agnes Hospital,Baltimore USA 2011
                             </p>
                     </li>
                 </ul>
