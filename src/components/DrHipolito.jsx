@@ -18,7 +18,8 @@ const DrHipolito = () => {
                 initial={{ opacity: 0, x: -100 }}
                 transition={{ duration: 1.5 }}
                 className="w-full lg:w-1/2">
-                <div className="flex flex-col items-center lg:items-start">
+                  
+                <div className="flex flex-col items-left lg:items-start">
                   <motion.span
                     whileInView={{ opacity: 1, x: 0 }}
                     initial={{ opacity: 0, x: -100 }}
@@ -35,12 +36,12 @@ const DrHipolito = () => {
                     transition={{ duration: 1.5 }}
                     className="w-full lg:w-1/2">
                       
-                       <ul className="space-y-10 pt-12">
+                       <ul className="space-y-10 space-x- pt-12">
                            <li className=" pl-4">
                              <h3 className="text-xl font-semibold text-gray-800">EDUCATION: </h3>
                              <h3 className="text-xl font-semibold text-gray-800">BS. Medical Technology </h3>
                                 <p className="text-gray-600 mt-1">
-                                  University Of Santo Tomas Manila, Philippines 1990-1994 <br />
+                                  University Of Santo Tomas Manila, Philippines 1990-1994 
                                   
                                 </p>
                             </li>
