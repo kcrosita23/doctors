@@ -8,8 +8,9 @@ const Navbar = () => {
 
   const navItems = [
     { name: "HOME", to: "/#home" },
+    { name: "TEAM", to: "/#doctors"},
     { name: "ABOUT", to: "/#about" },
-    { name: "SUGICAL INTEVENTIONS", to: "/#interventions" },
+    { name: "SUGICAL INTERVENTIONS", to: "/#interventions" },
     { name: "CONTACT US", to: "/#contact", isButton: true },
   ];
 

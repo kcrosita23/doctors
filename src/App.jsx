@@ -1,7 +1,7 @@
 import About from "./components/About"
 import Contact from "./components/Contact"
 import Experience from "./components/Experience"
-import Hero from "./components/Hero"
+import DocsCards from "./components/DocsCards"
 import Navbar from "./components/Navbar"
 import Projects from "./components/Projects"
 import Technologies from "./components/Technologies"
@@ -9,18 +9,17 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import DrHipolito from "./components/DrHipolito"
 import DrCortez from "./components/DrCortez"
 import DrRaymundo from "./components/DrRaymundo"
+import Hero from "./components/Hero"
 
 const Home = () => {
   return (
     <>
       <Navbar />
-      <div className="container mx-auto px-8">
-        <Hero />
-        <About />
-          {/* <Technologies />
-          <Experience /> */}
-        <Projects />
-      </div>
+      <Hero />
+      <About />
+      {/* <Technologies />
+      <Experience /> */}
+      <Projects />
       <Contact />
     </>
   );
