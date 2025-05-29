@@ -84,8 +84,8 @@ const DrHipolito = () => {
             </div>
       </div>
     
-          <div className="px-4 sm:px-6 lg:px-8 py-12 scroll-mt-32 border-b border-neutral-900">
-              <div className="flex flex-col items-center lg:items-start mb-10">
+          <div className="px-4 sm:px-6 lg:px-8 py-6 scroll-mt-32 border-b border-neutral-900">
+              <div className="flex flex-col items-center lg:items-start mb-6">
                 <motion.span
                   whileInView={{ opacity: 1, x: 0 }}
                   initial={{ opacity: 0, x: 0 }}
@@ -103,14 +103,28 @@ const DrHipolito = () => {
                   transition={{ duration: 1.5 }}
                   className="w-full lg:w-1/2"
                 >
-                  <ul className="space-y-8">
-                    {[1, 2, 3].map((_, i) => (
-                      <li key={i} className="border-l-4 border-blue-500 pl-4">
-                        <h3 className="text-xl font-semibold text-gray-800">Hospital {i + 1}</h3>
-                        <p className="text-gray-600 mt-1">Address</p>
-                      </li>
-                    ))}
-                  </ul>
+                  <ul className="space-y-10 pt-1">
+                    <li className="border-l-4 border-blue-500 pl-4">
+                      <h3 className="text-xl font-semibold text-gray-800">St. Luke's Medical Center - Global City </h3>
+                        <p className="text-gray-600 mt-1">
+                          ADDRESS : 32nd St. Bonifacio Global City Taguig City, 1634 <br />
+                        </p>
+                    </li>
+                    <li className="border-l-4 border-blue-500 pl-4">
+                        <h3 className="text-xl font-semibold text-gray-800">St Luke's Medical Center - Quezon City</h3>
+                            <p className="text-gray-600 mt-1">
+                                ADDRESS : Rm.1018 South Cathedral Heights Building Complex, St. Luke's Medical Center 279 E.Rodriquez Sr. Boulevard Quezon City, 1112 <br />
+                            </p>
+                    </li>
+
+                    <li className="border-l-4 border-blue-500 pl-4">
+                        <h3 className="text-xl font-semibold text-gray-800">Soft Tissue Tumors (Sarcomas)</h3>
+                            <p className="text-gray-600 mt-1">
+                                Surgical removal of soft tissue or bone sarcomas, often involving limb-sparing techniques.
+                            </p>
+                    </li>
+                </ul>
+                
                 </motion.div>
                 <motion.div
                   whileInView={{ opacity: 1, x: 0 }}
@@ -118,14 +132,33 @@ const DrHipolito = () => {
                   transition={{ duration: 1.5 }}
                   className="w-full lg:w-1/2"
                 >
-                  <ul className="space-y-8">
-                    {[4, 5, 6].map((_, i) => (
-                      <li key={i} className="border-l-4 border-blue-500 pl-4">
-                        <h3 className="text-xl font-semibold text-gray-800">Hospital {i + 4}</h3>
-                        <p className="text-gray-600 mt-1">Address</p>
-                      </li>
-                    ))}
-                  </ul>
+                  <ul className="space-y-10 pt-16">
+                    <li className="border-l-4 border-blue-500 pl-4">
+                        <h3 className="text-xl font-semibold text-gray-800">Gynecologic Cancer Surgeries </h3>
+                            <p className="text-gray-600 mt-1">
+                                Hysterectomy – removal of the uterus for uterine or cervical cancer. <br />
+                                Oophorectomy – removal of the ovaries. <br />
+                                Debulking surgery – removing as much tumor as possible, especially in ovarian cancer.
+                            </p>
+                    </li>
+
+                    <li className="border-l-4 border-blue-500 pl-4">
+                        <h3 className="text-xl font-semibold text-gray-800">Head, Neck & Skin Cancers</h3>
+                            <p className="text-gray-600 mt-1">
+                                Thyroidectomy – removal of the thyroid gland. <br />
+                                Neck dissection – to remove lymph nodes with cancer. <br />
+                                Wide local excision – for melanoma or skin cancers.
+                            </p>
+                    </li>
+
+                    <li className="border-l-4 border-blue-500 pl-4">
+                        <h3 className="text-xl font-semibold text-gray-800">Soft Tissue Tumors (Sarcomas)</h3>
+                            <p className="text-gray-600 mt-1">
+                                Surgical removal of soft tissue or bone sarcomas, often involving limb-sparing techniques.
+                            </p>
+                    </li>
+                </ul>
+                
                 </motion.div>
               </div>
           </div>
