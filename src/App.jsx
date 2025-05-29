@@ -10,6 +10,7 @@ import DrHipolito from "./components/DrHipolito"
 import DrCortez from "./components/DrCortez"
 import DrRaymundo from "./components/DrRaymundo"
 import Hero from "./components/Hero"
+import ScrollToTop from "./components/ScrollToTop";
 
 const Home = () => {
   return (
@@ -45,6 +46,7 @@ const App = () => {
             */}
             
       <Router>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/dr-hipolito" element={<DrHipolito />} />

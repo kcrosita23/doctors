@@ -1,10 +1,9 @@
 import { motion } from 'framer-motion';
 import DrHipolitoImg from "../assets/docHipolito.jpg";
-import { ABOUT_TEXT } from "../constants";
 import Navbar from './Navbar';
 import { FaPhone } from "react-icons/fa6";
 import { MdOutlinePinDrop } from "react-icons/md";
-import { HERO_CONTENT } from "../constants";
+
 
 const DrHipolito = () => {
   return (
