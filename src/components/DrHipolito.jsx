@@ -11,7 +11,7 @@ const DrHipolito = () => {
 <div>
   <div className="container mx-auto px-8">
     <Navbar />
-      <div id="aboutDrHipolito" className="scroll-mt-32 border-b border-neutral-900 pb-10 pt-12">
+      <div id="aboutDrHipolito" className="scroll-mt-32 border-b border-neutral-900 pb-8 pt-1">
             <div className="flex flex-wrap pt-20">
               <motion.div
                 whileInView={{ opacity: 1, x: 0 }}
@@ -19,7 +19,7 @@ const DrHipolito = () => {
                 transition={{ duration: 1.5 }}
                 className="w-full lg:w-1/2">
                   
-                <div className="flex flex-col items-left lg:items-start">
+                <div className="flex flex-col items-center lg:items-start">
                   <motion.span
                     whileInView={{ opacity: 1, x: 0 }}
                     initial={{ opacity: 0, x: -100 }}
@@ -34,35 +34,42 @@ const DrHipolito = () => {
                     whileInView={{ opacity: 1, x: 0 }}
                     initial={{ opacity: 0, x: 100 }}
                     transition={{ duration: 1.5 }}
-                    className="w-full lg:w-1/2">
+                    className="w-full lg:w-8/9">
                       
-                       <ul className="space-y-10 space-x- pt-12">
-                           <li className=" pl-4">
-                             <h3 className="text-xl font-semibold text-gray-800">EDUCATION: </h3>
-                             <h3 className="text-xl font-semibold text-gray-800">BS. Medical Technology </h3>
-                                <p className="text-gray-600 mt-1">
-                                  University Of Santo Tomas Manila, Philippines 1990-1994 
-                                  
-                                </p>
-                            </li>
-
-                            <li className="border-l-4 border-blue-500 pl-4">
-                              <h3 className="text-xl font-semibold text-gray-800">Head, Neck & Skin Cancers</h3>
-                                  <p className="text-gray-600 mt-1">
-                                    Thyroidectomy – removal of the thyroid gland. <br />
-                                    Neck dissection – to remove lymph nodes with cancer. <br />
-                                    Wide local excision – for melanoma or skin cancers.
-                                  </p>
-                            </li>
-
-                        <li className="border-l-4 border-blue-500 pl-4">
-                            <h3 className="text-xl font-semibold text-gray-800">Soft Tissue Tumors (Sarcomas)</h3>
+                       <ul className="space-y-5 pt-5">
+                          <li className=" pl-4">
+                            <h3 className="pb-6 text-xl font-semibold text-gray-800">EDUCATION: </h3>
+                            <h3 className="text-xl font-semibold text-gray-800">BS. Medical Technology </h3>
                               <p className="text-gray-600 mt-1">
-                                Surgical removal of soft tissue or bone sarcomas, often involving limb-sparing techniques.
+                                University Of Santo Tomas Manila, Philippines 1990-1994  
                               </p>
-                        </li>
-                      </ul>
-                  </motion.div>
+                          </li>
+                          <li className="pl-4">
+                            <h3 className="text-xl font-semibold text-gray-800">Doctor Of Medicine</h3>
+                              <p className="text-gray-600 mt-1">
+                                University Of The East Ramon Magsaysay Memorial Medical Center Quezon City, Philippines 1994- 1998 <br />
+                              </p>
+                          </li>
+                          <li className=" pl-4">
+                            <h3 className="text-xl font-semibold text-gray-800">Post-Graduate internship</h3>
+                              <p className="text-gray-600 mt-1">
+                                University Of The East Ramon Magsaysay Memorial Medical Center Quezon City, Philippines 1998-1999 
+                              </p>
+                          </li>
+                          <li className=" pl-4">
+                            <h3 className="text-xl font-semibold text-gray-800">General Surgery Residency </h3>
+                              <p className="text-gray-600 mt-1">
+                                University Of The East Ramon Magsaysay Memorial Medical Center Quezon City, Philippines 2002-2006  
+                              </p>
+                          </li>
+                          <li className=" pl-4">
+                            <h3 className="text-xl font-semibold text-gray-800">Surgical Oncology  </h3>
+                              <p className="text-gray-600 mt-1">
+                                St. Luke's Medical Center Quezon City, Philippines 2008-2009  
+                              </p>
+                          </li>
+                        </ul>
+                    </motion.div>
                   </div>
               </motion.div>
               <motion.div
