@@ -9,6 +9,7 @@ import {
 } from "react-icons/fa";
 import Operation2 from "../assets/Operation2.jpg";
 import Operation3 from "../assets/Operation3.jpg";
+import { motion, AnimatePresence } from "framer-motion";
 
 const tabs = [
   { id: "breast", label: "Breast Cancer Surgery", icon: FaRibbon },
@@ -148,6 +149,12 @@ const tabContent = {
   ),
 };
 
+const contentVariants = {
+  initial: { opacity: 0, y: 20 },
+  animate: { opacity: 1, y: 0 },
+  exit: { opacity: 0, y: -20 },
+};
+
 const Projects = () => {
   const [activeTab, setActiveTab] = useState("breast");
 
@@ -159,6 +166,7 @@ const Projects = () => {
       <h2 className="mb-12 text-center text-4xl font-montserrat tracking-wide pt-10">
         SURGICAL INTERVENTIONS
       </h2>
+
       <div className="w-full overflow-x-auto">
         <div className="flex justify-center px-4">
           <div className="flex w-full max-w-4xl">
@@ -172,8 +180,10 @@ const Projects = () => {
                     : "bg-gray-200 text-gray-700 hover:bg-blue-100"
                 }`}
               >
+                {/* Icon: Visible on all screen sizes with responsive sizing */}
                 <tab.icon className="text-2xl md:text-3xl lg:text-4xl mb-1" />
 
+                {/* Label: Hidden on small screens, visible on medium and larger screens */}
                 <span className="hidden md:block text-sm md:text-base text-center">
                   {tab.label}
                 </span>
@@ -183,7 +193,20 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="max-w-3xl mx-auto mt-8 px-4">{tabContent[activeTab]}</div>
+      <div className="max-w-3xl mx-auto mt-8 px-4">
+        <AnimatePresence mode="wait">
+          <motion.div
+            key={activeTab}
+            variants={contentVariants}
+            initial="initial"
+            animate="animate"
+            exit="exit"
+            transition={{ duration: 0.3 }}
+          >
+            {tabContent[activeTab]}
+          </motion.div>
+        </AnimatePresence>
+      </div>
     </div>
   );
 };
