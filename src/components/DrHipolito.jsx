@@ -206,19 +206,50 @@ const DrHipolito = () => {
             <p className="text-center text-2xl font-montserrat text-gray-600 m-1 pb-7">
                 Send us a message!
             </p>
-            <div>
-               <h3 className="font-bold mb-2 text-center">Dr. Hipolito</h3>
-                  <p className="text-sm text-gray-600 text-center">
+            <div className=" grid grid-cols-1 md:grid-cols-3  text-center">
+              <div>
+                  <p className="text-sm text-black font-bold text-center">
                     Ann Carla  
                   <p className=" text-sm text-blue-600" >             
                 <div className="flex items-center justify-center">
                   <FaPhone className="mr-1" />
                      <span><u>+63 916 946 8578 </u></span>
                 </div></p>
-                <div className="flex items-center justify-center">
-                   <MdOutlinePinDrop className="mr-1" />
-                     <span>St. Lukes BGC </span>
+                <div className="flex items-center text-gray-600 font-normal justify-center">
+                  <MdOutlinePinDrop className="mr-1" />
+                    <span>St. Lukes BGC </span>
                 </div></p>
+              </div>       
+              <div>
+                  <p className="text-sm text-black font-bold text-center">
+                    Jennifer  
+                  <p className=" text-sm text-blue-600" >             
+                <div className="flex items-center justify-center">
+                  <FaPhone className="mr-1" />
+                    <span><u>+63 963 709 2072 </u></span>
+                </div></p>
+                <div className="flex items-center text-gray-600 font-normal justify-center">
+                  <MdOutlinePinDrop className="mr-1" />
+                    <span>St. Lukes Quezon City </span>
+                </div></p>
+              </div>  
+              <div>
+                
+                  <p className="text-sm text-black font-bold text-center">
+                    Marylen 
+                  <p className=" text-sm text-blue-600" >             
+                <div className="flex items-center  justify-center">
+                  <FaPhone className="mr-1" />
+                    <span><u>+63 997 188 7848</u></span>
+                </div></p>
+                <div className="flex items-center text-gray-600 font-normal justify-center">
+                  <MdOutlinePinDrop className="mr-1" />
+                    <span>UERM </span>
+                </div></p>
+              </div>  
+              
+
+
             </div>
         </div>
     </div>

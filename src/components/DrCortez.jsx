@@ -273,14 +273,14 @@ const DrCortez = () => {
                 </p>
                 <div>
                    <h3 className="font-bold mb-2 text-center">Dr. Cortez</h3>
-                      <p className="text-sm text-gray-600 text-center">
+                      <p className="text-sm text-black font-bold text-center">
                         Mean  
                       <p className=" text-sm text-blue-600" >             
                     <div className="flex items-center justify-center">
                       <FaPhone className="mr-1" />
                          <span><u>+63 918 487 3816 </u></span>
                     </div></p>
-                    <div className="flex items-center justify-center">
+                    <div className="flex items-center text-gray-600 font-normal justify-center">
                        <MdOutlinePinDrop className="mr-1" />
                          <span>St. Lukes BGC </span>
                     </div></p>

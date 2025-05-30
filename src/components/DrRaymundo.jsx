@@ -162,7 +162,7 @@ const DrRaymundo = () => {
                     </motion.span>
                   </div>
                   <div className="flex flex-col lg:flex-row gap-8">
-                <motion.div
+                  <motion.div
                   whileInView={{ opacity: 1, x: 0 }}
                   initial={{ opacity: 0, x: -100 }}
                   transition={{ duration: 1.5 }}
@@ -240,14 +240,14 @@ const DrRaymundo = () => {
                 </p>
                 <div>
                    <h3 className="font-bold mb-2 text-center">Dr. Raymundo</h3>
-                      <p className="text-sm text-gray-600 text-center">
+                      <p className="text-sm text-black font-bold text-center">
                         Nitz  
                       <p className=" text-sm text-blue-600" >             
                     <div className="flex items-center justify-center">
                       <FaPhone className="mr-1" />
                          <span><u>+63 917 848 1649 </u></span>
                     </div></p>
-                    <div className="flex items-center justify-center">
+                    <div className="flex items-center font-normal justify-center">
                        <MdOutlinePinDrop className="mr-1" />
                          <span>UERM </span>
                     </div></p>
