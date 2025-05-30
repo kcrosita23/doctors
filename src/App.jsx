@@ -33,8 +33,9 @@ const Home = () => {
     <>
       <Navbar />
       <Hero />
-      <div className="container mx-auto px-8">
       <DocsCards/>
+      <div className="container mx-auto px-8">
+      
       <About />
       <Tabs />
       {/* <Technologies />

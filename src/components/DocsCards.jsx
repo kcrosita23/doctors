@@ -1,14 +1,14 @@
 import { HERO_CONTENT } from "../constants";
-import DrHipolito from "../assets/docHipolito.jpg";
+import DrHipolito from "../assets/DrHipolito.png";
 import { motion } from "framer-motion";
 import ImageCard from "./ImageCard";
-import DrCortez from "../assets/docCortez.jpg";
+import DrCortez from "../assets/DrCortez.png";
 import { Link } from "react-router-dom";
-import Blank from "../assets/blank.jpg";
+import DrRaymundo from "../assets/DrRaymundo.png";
 
 const DocsCards = () => {
     return (
-    <div id="doctors" className="scroll-mt-32 border-t border-b border-neutral-900 pb-2 pt-6">
+    <div id="doctors" className="scroll-mt-32 border-t border-b border-neutral-300 pb-2 pt-6 bg-slate-200">
 
         <div className="text-center">
             <motion.h1 
@@ -27,21 +27,21 @@ const DocsCards = () => {
                         <ImageCard
                         image={DrHipolito}
                         title="Dr. Hipolito"
-                        description="A stunning landscape from Unsplash."
+                        description="Click to know more about Dr. Hipolito."
                         />
                     </Link>
                     <Link to="/dr-raymundo">
                         <ImageCard
-                        image={Blank}
+                        image={DrRaymundo}
                         title="Dr. Raymundo"
-                        description="A stunning landscape from Unsplash."
+                        description="Click to know more about Dr. Raymundo."
                         />
                     </Link>
                     <Link to="/dr-cortez">
                         <ImageCard
                         image={DrCortez}
                         title="Dr. Cortez"
-                        description="A stunning landscape from Unsplash."
+                        description="Click to know more about Dr. Cortez."
                         />
                     </Link>
             </motion.div>
