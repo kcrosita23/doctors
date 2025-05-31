@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'HeroBG': 'url("../src/assets/Herobg6.png")'
+      },
       fontFamily: {
         sans: ['Inter, sans-serif'], 
         montserrat: ['Montserrat', 'sans-serif'],
