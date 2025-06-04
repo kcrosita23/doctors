@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import ImageCard from "./ImageCard";
 import DrCortez from "../assets/DrCortez.png";
 import { Link } from "react-router-dom";
-import DrRaymundo from "../assets/DrRaymundo.png";
+import DrRaymundo from "../assets/DraRaymundo.png";
 
 const DocsCards = () => {
     return (

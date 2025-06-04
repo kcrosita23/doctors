@@ -1,18 +1,17 @@
 import { motion } from 'framer-motion';
-import aboutImg from "../assets/aboutdoc.jpg";
-import { ABOUT_TEXT } from "../constants";
 import Navbar from './Navbar';
 import Blank from "../assets/blank.jpg";
 import { FaPhone } from "react-icons/fa6";
 import { MdOutlinePinDrop } from "react-icons/md";
+import DraRaymundo from "../assets/DraRaymundo.jpg";
 
 const DrRaymundo = () => {
   return (
 <div>
   <div className="container mx-auto px-8">
     <Navbar />
-    <div id="aboutDrRaymundo" className="scroll-mt-32 border-b border-neutral-900 pb-10 pt-12">
-            <div className="flex flex-wrap pt-10 pb-24">
+    <div id="aboutDrRaymundo" className="scroll-mt-32 border-b border-neutral-900 pb-8 pt-12">
+            <div className="flex flex-wrap pt-10">
               <motion.div
                 whileInView={{ opacity: 1, x: 0 }}
                 initial={{ opacity: 0, x: -100 }}
@@ -72,8 +71,8 @@ const DrRaymundo = () => {
                 initial={{ opacity: 0, x: 0 }}
                 transition={{ duration: 1.5 }}
                 className="w-full lg:w-1/2 lg:p-8">
-                <div className="flex items-center justify-center">
-                  <img className="rounded-lg w-4/5" src={Blank} alt="about" />
+                <div className="flex items-center justify-center pt-2">
+                  <img className="rounded-lg w-4/5" src={DraRaymundo} alt="about" />
                 </div>
               </motion.div>
             </div>

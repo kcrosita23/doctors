@@ -77,7 +77,7 @@ const DrHipolito = () => {
                 transition={{ duration: 1.5 }}
                 className="w-full lg:w-1/2 lg:p-8">
                   <div className="flex items-center justify-center pt-2">
-                    <img className="rounded-lg" src={DrHipolitoImg} alt="about" />
+                    <img className="rounded-lg w-4/5" src={DrHipolitoImg} alt="about" />
                   </div>
               </motion.div>
             </div>

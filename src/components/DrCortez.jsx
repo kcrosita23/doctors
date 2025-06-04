@@ -10,7 +10,7 @@ const DrCortez = () => {
 <div>
   <div className="container mx-auto px-8">
     <Navbar />
-    <div id="aboutDrCortez" className="scroll-mt-32 border-b border-neutral-900 pb-10 pt-12">
+    <div id="aboutDrCortez" className="scroll-mt-32 border-b border-neutral-900 pb-8 pt-12">
             <div className="flex flex-wrap pt-10">
               <motion.div
                 whileInView={{ opacity: 1, x: 0 }}
@@ -79,7 +79,7 @@ const DrCortez = () => {
                 initial={{ opacity: 0, x: 0 }}
                 transition={{ duration: 1.5 }}
                 className="w-full lg:w-1/2 lg:p-8">
-                <div className="flex items-center justify-center">
+                <div className="flex items-center justify-center pt-2">
                   <img className="rounded-lg w-4/5" src={DrCortezImg} alt="about" />
                 </div>
               </motion.div>

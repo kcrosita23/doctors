@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import DrCortez1 from "../assets/docCortez1.jpg";
 import DrHipolitoDrCortez from "../assets/DrHipolito&DrCortez.jpg";
 import DrRaymundo1 from "../assets/docRaymundo.jpg";
+import DrHipolitoScrub from "../assets/DrHipolitoScrub.jpg";
 
 const About = () => {
     return (
