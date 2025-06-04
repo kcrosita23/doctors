@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants";
-import DrHipolito from "../assets/DrHipolito.png";
+import DrHipolito from "../assets/docHipolito1.png";
 import { motion } from "framer-motion";
 import ImageCard from "./ImageCard";
 import DrCortez from "../assets/DrCortez.png";
