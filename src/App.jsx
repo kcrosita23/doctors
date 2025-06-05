@@ -35,7 +35,6 @@ const Home = () => {
       <Hero />
       <DocsCards/>
       <div className="container mx-auto px-8">
-      
       <About />
       <Tabs />
       {/* <Technologies />

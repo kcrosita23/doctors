@@ -8,7 +8,7 @@ import DrRaymundo from "../assets/DraRaymundo.png";
 
 const DocsCards = () => {
     return (
-    <div id="doctors" className="scroll-mt-20 border-t border-b border-neutral-900 pb-2 pt-6 bg-slate-300">
+    <div id="doctors" className="scroll-mt-20 border-t border-b border-neutral-900 pb-2 pt-6 bg-slate-200">
 
         <div className="text-center my-10">
             <motion.h1 
