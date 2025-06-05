@@ -9,7 +9,7 @@ const Navbar = () => {
   const navItems = [
     { name: "HOME", to: "/#home" },
     { name: "TEAM", to: "/#doctors"},
-    { name: "ABOUT", to: "/#about" },
+    { name: "ABOUT US", to: "/#about" },
     { name: "SURGICAL INTERVENTIONS", to: "/#interventions" },
     { name: "CONTACT US", to: "/#contact", isButton: true },
   ];
@@ -20,31 +20,31 @@ const Navbar = () => {
       <div className="flex justify-between items-center py-4 px-9 md:px-40 ">
         
         <div className="flex items-start">
-          <img className="w-80 md:w-30 h-15" src={logo} alt="logo" />
+          <img className="w-40 sm:w-80 h-15" src={logo} alt="logo" />
         </div>
 
 
-        <div className="md:hidden">
+        <div className="xl:hidden">
           <button onClick={() => setIsOpen(!isOpen)} className="text-white">
             {isOpen ? <X size={28} /> : <Menu size={28} />}
           </button>
         </div>
 
-        <ul className="hidden md:flex gap-10 items-center text-lg font-thin">
+        <ul className="hidden xl:flex gap-10 items-center text-xl font-thin">
           {navItems.map((item) =>
             item.isButton ? (
               <li key={item.name}>
                 <HashLink smooth to={item.to} onClick={() => setIsOpen(false)} 
                   className="px-2 py-2 bg-sky-800 text-white rounded-md 
                   hover:bg-sky-500 hover:text-sky-800 transition duration-300 transform hover:-translate-y-1 hover:scale-105 
-                  shadow-md hover:shadow-lg">
+                  shadow-md hover:shadow-lg  focus:outline-2 focus:outline-offset-2 active:bg-black">
                   {item.name}
                 </HashLink>
               </li>
             ) : (
               <li key={item.name}>
                 <HashLink smooth to={item.to} onClick={() => setIsOpen(false)}
-                  className="text-white hover:text-black transition duration-300">
+                  className="justify-center text-white hover:text-black transition duration-300">
                   {item.name}
                 </HashLink>
               </li>
@@ -54,22 +54,22 @@ const Navbar = () => {
       </div>
 
       {isOpen && (
-        <div className="md:hidden px-4 pb-4">
-          <ul className="flex flex-col gap-4 text-lg">
+        <div className="xl:hidden px-4 mt-60 mb-80 pb-4">
+          <ul className="flex flex-col gap-10 text-xl">
             {navItems.map((item) =>
               item.isButton ? (
                 <li key={item.name}>
                   <HashLink smooth to={item.to} onClick={() => setIsOpen(false)}
                     className="block w-full text-center px-2 py-2 bg-gray-800 text-white rounded-md 
                             hover:bg-black transition duration-300 transform hover:-translate-y-1 hover:scale-105
-                            shadow-md hover:shadow-lg">
+                            shadow-md hover:shadow-lg active:text-black">
                     {item.name}
                   </HashLink>
                 </li>
               ) : (
                 <li key={item.name}>
                   <HashLink smooth to={item.to} onClick={() => setIsOpen(false)}
-                    className="text-white hover:text-black transition duration-300 block">
+                    className="text-center font-thin text-white hover:text-black transition duration-300 block">
                     {item.name}
                   </HashLink>
                 </li>
