@@ -1,12 +1,13 @@
 import { CONTACT } from "../constants"
 import { FaPhone } from "react-icons/fa6";
 import { MdOutlinePinDrop } from "react-icons/md";
+import { TbCircleLetterC } from "react-icons/tb";
 
 
 
 const Contact = () => {
     return (
-        <div id="contact" className="scroll-mt-32 bg-sky-400 text-gray-900 border-t border-neutral-400 pb-20">
+        <div id="contact" className="scroll-mt-32 bg-sky-400 text-gray-900 border-t border-neutral-400 pb-2">
             <h2 className="pt-10 text-center text-4xl font-montserrat">
                 SCHEDULE A CONSULTATION TODAY
             </h2>
@@ -19,7 +20,7 @@ const Contact = () => {
                     <h3 className="font-bold mb-2 ">Dr. Hipolito</h3>
                     <p className="text-sm ">
                         Ann Carla  
-                            <p className=" text-sm text-gray-100" >             
+                            <p className="font-semibold text-sm text-gray-100" >             
                                 <div className="flex items-center justify-center">
                                     <FaPhone className="mr-1" />
                                     <span><u>+63 916 946 8578 </u></span>
@@ -36,7 +37,7 @@ const Contact = () => {
                     <h3 className="font-bold mb-2  ">Dr. Raymundo</h3>
                     <p className="text-sm ">
                     Nitz
-                        <p className="text-sm text-gray-100">
+                        <p className="font-semibold text-sm text-gray-100">
                             <div className="flex items-center justify-center">
                                     <FaPhone className="mr-1" />
                                     <span><u>+63 917 848 1649 </u></span>
@@ -53,7 +54,7 @@ const Contact = () => {
                     <h3 className="font-bold mb-2  ">Dr. Cortez</h3>
                     <p className="text-sm ">
                     Mean
-                        <p className="text-sm text-gray-100">
+                        <p className="font-semibold text-sm text-gray-100">
                             <div className="flex items-center justify-center">
                                     <FaPhone className="mr-1" />
                                     <span><u>+63 918 487 3816 </u></span>
@@ -66,14 +67,16 @@ const Contact = () => {
                     </p>
                 </div>
             </div>
-
           {/*div className="text-center tracking-tighter">
                 <p className="my-4">{CONTACT.address}</p>
                 <p className="my-4">{CONTACT.phoneNo}</p>
                 <a href="#" className="border-b">{CONTACT.email}</a>
             </div>
             */}
-
+            <p className="pt-6 flex items-center justify-center text-gray-500 font-montserrat  m-1">
+                <TbCircleLetterC className="mr-1"/>
+                <span>vibecoders04@gmail.com</span>
+            </p>
         </div>
     )
 }

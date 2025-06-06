@@ -4,6 +4,7 @@ import Navbar from './Navbar';
 import DrCortezImg from "../assets/docCortez.jpg";
 import { FaPhone } from "react-icons/fa6";
 import { MdOutlinePinDrop } from "react-icons/md";
+import { TbCircleLetterC } from "react-icons/tb";
 
 const DrCortez = () => {
   return (
@@ -264,27 +265,31 @@ const DrCortez = () => {
               </div>
               </div>
     </div>
-            <div className="scroll-mt-32 border-t border-neutral-900 pb-20 bg-gray-100">
+            <div className="scroll-mt-32 border-t border-neutral-400 pb-2 bg-sky-400">
                 <h2 className="mt-10 text-center text-4xl font-montserrat">
                     SCHEDULE A CONSULTATION TODAY
                 </h2>
-                <p className="text-center text-2xl font-montserrat text-gray-600 m-1 pb-7">
+                <p className="text-center text-2xl font-montserrat m-1 pb-7">
                     Send us a message!
                 </p>
                 <div>
                    <h3 className="font-bold mb-2 text-center">Dr. Cortez</h3>
-                      <p className="text-sm text-black font-bold text-center">
+                      <p className="text-sm text-black font-semibold text-center">
                         Mean  
-                      <p className=" text-sm text-blue-600" >             
+                      <p className="font-semibold text-sm text-white" >             
                     <div className="flex items-center justify-center">
                       <FaPhone className="mr-1" />
                          <span><u>+63 918 487 3816 </u></span>
                     </div></p>
-                    <div className="flex items-center text-gray-600 font-normal justify-center">
+                    <div className="flex items-center font-normal justify-center">
                        <MdOutlinePinDrop className="mr-1" />
                          <span>St. Lukes BGC </span>
                     </div></p>
                 </div>
+                <p className="pt-6 flex items-center justify-center text-gray-500 font-montserrat  ">
+                                        <TbCircleLetterC className="mr-1"/>
+                                        <span>vibecoders04@gmail.com</span>
+                                </p>
             </div>
 
   </div>
