@@ -159,10 +159,7 @@ const Projects = () => {
   const [activeTab, setActiveTab] = useState("breast");
 
   return (
-    <div
-      id="interventions"
-      className="scroll-mt-24 border-b border-neutral-200 pb-16"
-    >
+    <div id="interventions" className="scroll-mt-24 pb-16">
       <h2 className="mb-8 text-center text-4xl font-montserrat tracking-wide pt-10">
         SURGICAL INTERVENTIONS
       </h2>
