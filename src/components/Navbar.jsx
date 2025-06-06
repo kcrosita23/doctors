@@ -20,7 +20,9 @@ const Navbar = () => {
       <div className="flex justify-between items-center py-4 px-9 md:px-40 ">
         
         <div className="flex items-start">
+          <a href="/#home">
           <img className="w-40 sm:w-80 h-15" src={logo} alt="logo" />
+          </a>
         </div>
 
 
@@ -35,9 +37,9 @@ const Navbar = () => {
             item.isButton ? (
               <li key={item.name}>
                 <HashLink smooth to={item.to} onClick={() => setIsOpen(false)} 
-                  className="px-2 py-2 bg-sky-800 text-white rounded-md 
-                  hover:bg-sky-500 hover:text-sky-800 transition duration-300 transform hover:-translate-y-1 hover:scale-105 
-                  shadow-md hover:shadow-lg  focus:outline-2 focus:outline-offset-2 active:bg-black">
+                  className="px-3 py-3 bg-sky-800 font-semibold text-white rounded-md 
+                  hover:bg-white hover:text-sky-800 transition duration-300 transform hover:-translate-y-1 hover:scale-105 
+                  shadow-md hover:shadow-lg ">
                   {item.name}
                 </HashLink>
               </li>
