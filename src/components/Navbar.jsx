@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import logo from "../assets/oncology_logo.png";
 import { Menu, X } from "lucide-react";
 import { HashLink } from "react-router-hash-link";
+import { motion } from "framer-motion";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -56,15 +57,21 @@ const Navbar = () => {
       </div>
 
       {isOpen && (
-        <div className="xl:hidden px-4 mt-60 mb-80 pb-4">
-          <ul className="flex flex-col gap-10 text-xl">
+        <motion.div
+                whileInView={{ opacity: 1, y: 0 }}
+                initial={{ opacity: 0, y: -100 }}
+                transition={{ duration: 1 }}
+        className="xl:hidden px-4 mt-60 mb-80 pb-4">
+          <ul       
+          className="flex flex-col gap-10 text-xl">
             {navItems.map((item) =>
               item.isButton ? (
-                <li key={item.name}>
+                <li
+                key={item.name}>
                   <HashLink smooth to={item.to} onClick={() => setIsOpen(false)}
                     className="block w-full text-center px-2 py-2 bg-gray-800 text-white rounded-md 
                             hover:bg-black transition duration-300 transform hover:-translate-y-1 hover:scale-105
-                            shadow-md hover:shadow-lg active:text-black">
+                            shadow-md hover:shadow-lg">
                     {item.name}
                   </HashLink>
                 </li>
@@ -77,7 +84,7 @@ const Navbar = () => {
                 </li>
               ))}
           </ul>
-        </div>
+        </motion.div>
       )}
     </nav>
   );

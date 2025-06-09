@@ -14,7 +14,7 @@ const Hero = () => {
         
         
         <div id="home" className="scroll-mt-32 flex flex-wrap">
-           <img className="float-right top-0 -z-10 fixed md:bg-none hidden md:block" src="..\src\assets\Herobg7.png" alt="Herobg" /> 
+           <img className="float-right w-auto top-0 -z-10 fixed md:bg-none hidden md:block" src="..\src\assets\Herobg7.png" alt="Herobg" /> 
          
            <div className="py-40 px-10 mt-10  md:p-20">
 
