@@ -7,24 +7,25 @@ import {
   FaHeadSideVirus,
   FaBone,
 } from "react-icons/fa";
+import Operation1 from "../assets/Operation1.jpg";
 import Operation2 from "../assets/Operation2.jpg";
 import Operation3 from "../assets/Operation3.jpg";
 import { motion, AnimatePresence } from "framer-motion";
 
 const tabs = [
   { id: "breast", label: "Breast Cancer Surgery", icon: FaRibbon },
-  { id: "colorectal", label: "Colorectal Surgery", icon: FaToilet },
-  { id: "gi", label: "Gastrointestinal Surgeries", icon: FaStethoscope },
-  { id: "gynecologic", label: "Gynecologic Surgeries", icon: FaFemale },
-  { id: "head-neck", label: "Head & Neck Cancers", icon: FaHeadSideVirus },
-  { id: "sarcomas", label: "Soft Tissue Tumors", icon: FaBone },
+  { id: "colorectal", label: "Colorectal Surgery", icon: FaRibbon },
+  { id: "gi", label: "Gastrointestinal Surgeries", icon: FaRibbon },
+  { id: "gynecologic", label: "Gynecologic Surgeries", icon: FaRibbon },
+  { id: "head-neck", label: "Head & Neck Cancers", icon: FaRibbon },
+  { id: "sarcomas", label: "Soft Tissue Tumors", icon: FaRibbon },
 ];
 
 const tabContent = {
   breast: (
     <div className="flex flex-col md:flex-row items-center gap-6">
       <img
-        src={Operation2}
+        src={Operation1}
         alt="Breast Cancer Surgery"
         className="w-64 sm:w-72 md:w-80 lg:w-96 xl:w- rounded-lg shadow-md cursor-pointer filter grayscale hover:grayscale-0 duration-500 object-cover"
       />
@@ -90,7 +91,7 @@ const tabContent = {
   gynecologic: (
     <div className="flex flex-col md:flex-row items-center gap-6">
       <img
-        src={Operation3}
+        src={Operation1}
         alt="Gynecologic Surgeries"
         className="w-64 sm:w-72 md:w-80 lg:w-96 xl:w- rounded-lg shadow-md cursor-pointer filter grayscale hover:grayscale-0 duration-500 object-cover"
       />
