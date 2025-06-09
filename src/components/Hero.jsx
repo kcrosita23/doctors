@@ -14,7 +14,7 @@ const Hero = () => {
         
         
         <div id="home" className="scroll-mt-32 flex flex-wrap">
-           <img className="float-right w-auto top-0 -z-10 fixed md:bg-none hidden md:block" src="..\src\assets\Herobg7.png" alt="Herobg" /> 
+           <img className="float-right w-auto top-0 -z-10 fixed  hidden xl:block" src="..\src\assets\Herobg7.png" alt="Herobg" /> 
          
            <div className="py-40 px-10 mt-10  md:p-20">
 
@@ -23,7 +23,7 @@ const Hero = () => {
                 
                  <div className="mx-auto text-center md:text-start md:mt-10 md:ml-20" >
 
-                        <h1   h1 className="text-5xl mb-5 pt-10 md:pt-20 font-montserrat">
+                        <h1   h1 className="text-5xl mb-5 pt-10 md:pt-20  md:pr-80 font-montserrat">
                          Surgical Excellence, Lifesaving Results
                         </h1>
 

@@ -8,7 +8,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navItems = [
-    { name: "HOME", to: "/#home" },
+    { name: "HOME ", to: "/#home" },
     { name: "TEAM", to: "/#doctors"},
     { name: "ABOUT US", to: "/#about" },
     { name: "SURGICAL INTERVENTIONS", to: "/#interventions" },
@@ -18,7 +18,7 @@ const Navbar = () => {
     return (
     <nav className="fixed top-0 left-0 w-full z-50 bg-sky-500 
                     bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))] shadow-md">
-      <div className="flex justify-between items-center py-4 px-9 md:px-40 ">
+      <div className="flex justify-between items-center py-4 px-9 md:px-40 xl:px-20 ">
         
         <div className="flex items-start">
           <a href="/#home">
