@@ -2,9 +2,8 @@ import { ABOUT_DRRAYMUNDO, HERO_CONTENT } from "../constants"
 import { motion } from "framer-motion";
 import DrHipolitoDrCortez from "../assets/DrHipolito&DrCortez.jpg";
 import DrCortez1 from "../assets/docCortez1.jpg";
-import HeroPhoto from "../assets/Hero_photo.png"
 import { image } from "framer-motion/client";
-import HeroBg from "../assets/hero_bg.png";
+import HeroBg from "../assets/herobg.png";
 import Operation3 from "../assets/Operation3.jpg";
 import Navbar from "./Navbar";
 
