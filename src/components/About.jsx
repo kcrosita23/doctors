@@ -8,9 +8,9 @@ import DrHipolitoScrub from "../assets/DrHipolitoScrub.jpg";
 
 const About = () => {
     return (
-        <div id="about" className="scroll-mt-32 border-b border-neutral-900 pb-4">
+        <div id="about" className="scroll-mt-32 border-b border-neutral-900 pb-4 bg-slate-100">
 
-            <h2 className="mt-8 mb-4 text-center text-4xl font-montserrat">
+            <h2 className="mb-4 text-center text-4xl font-montserrat">
                     ABOUT US
             </h2>
               {/*
@@ -153,8 +153,8 @@ const About = () => {
                     </div>
                 </motion.div>
             </div>
-    
         </div>
+        
     );
 };
 

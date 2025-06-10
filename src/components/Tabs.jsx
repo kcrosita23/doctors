@@ -160,7 +160,7 @@ const Projects = () => {
   const [activeTab, setActiveTab] = useState("breast");
 
   return (
-    <div id="interventions" className="scroll-mt-24 pb-16">
+    <div id="interventions" className="scroll-mt-24">
       <h2 className="mb-8 text-center text-4xl font-montserrat tracking-wide pt-10">
         SURGICAL INTERVENTIONS
       </h2>
@@ -205,6 +205,7 @@ const Projects = () => {
           </motion.div>
         </AnimatePresence>
       </div>
+      <div class="bg-transparent bg-gradient-to-b from-transparent to-sky-400 w-full h-24"></div>
     </div>
   );
 };

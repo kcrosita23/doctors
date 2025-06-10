@@ -34,13 +34,13 @@ const Home = () => {
       <Navbar />
       <Hero />
       <DocsCards/>
-      <div className="container mx-auto px-8">
       <About />
-      <Tabs />
+      <div className="container mx-auto px-8">
       {/* <Technologies />
       <Experience /> 
       <Projects />*/}
       </div>
+      <Tabs />
       <Contact />
     </>
   );

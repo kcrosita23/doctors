@@ -8,7 +8,7 @@ import DrRaymundo from "../assets/DraRaymundo.png";
 
 const DocsCards = () => {
     return (
-    <div id="doctors" className="scroll-mt-40 pb-2">
+    <div id="doctors" className="scroll-mt-40">
         
         <div className="text-center bg-sky-400">
             <motion.h1 
@@ -46,6 +46,7 @@ const DocsCards = () => {
                     </Link>
             </motion.div>
         </div>
+        <div class="bg-transparent bg-gradient-to-b from-sky-400 to-slate-100 w-full h-48"></div>
     </div>
     )
 }

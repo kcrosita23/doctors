@@ -7,7 +7,7 @@ import { TbCircleLetterC } from "react-icons/tb";
 
 const Contact = () => {
     return (
-        <div id="contact" className="scroll-mt-32 bg-sky-400 text-gray-900 border-t border-neutral-400 pb-2">
+        <div id="contact" className="scroll-mt-32 bg-sky-400 text-gray-900 pb-2">
             <h2 className="pt-10 text-center text-4xl font-montserrat">
                 SCHEDULE A CONSULTATION TODAY
             </h2>
