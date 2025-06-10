@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import DrHipolitoDrCortez from "../assets/DrHipolito&DrCortez.jpg";
 import DrCortez1 from "../assets/docCortez1.jpg";
 import { image } from "framer-motion/client";
-import HeroBg from "../assets/herobg.png";
+import heroBg from "../assets/herobg.png";
 import Operation3 from "../assets/Operation3.jpg";
 import Navbar from "./Navbar";
 
@@ -13,7 +13,7 @@ const Hero = () => {
         
         
         <div id="home" className="scroll-mt-32 flex flex-wrap">
-           <img className="float-right w-auto top-0 -z-10 fixed  hidden xl:block" src="..\src\assets\herobg.png" alt="Herobg" /> 
+           <img className="float-right w-auto top-0 -z-10 fixed hidden xl:block" src={heroBg} alt="Hero Background" /> 
          
            <div className="py-40 px-10 mt-10  md:p-20">
 
