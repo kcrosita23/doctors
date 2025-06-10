@@ -15,7 +15,7 @@ const DrCortez = () => {
             <div className="flex flex-wrap pt-10">
               <motion.div
                 whileInView={{ opacity: 1, x: 0 }}
-                initial={{ opacity: 0, x: -100 }}
+                // initial={{ opacity: 0, x: -100 }}
                 transition={{ duration: 1.5 }}
                 className="w-full lg:w-1/2">
                 <div className="flex flex-col items-center lg:items-start">
@@ -32,7 +32,7 @@ const DrCortez = () => {
 
                 <motion.div
                     whileInView={{ opacity: 1, x: 0 }}
-                    initial={{ opacity: 0, x: 100 }}
+                    // initial={{ opacity: 0, x: 100 }}
                     transition={{ duration: 1.5 }}
                     className="w-full lg:w-8/9">
                       
@@ -94,18 +94,17 @@ const DrCortez = () => {
                   <div className="flex flex-col items-center lg:items-start mb-10">
                     <motion.span
                       whileInView={{ opacity: 1, x: 0 }}
-                      initial={{ opacity: 0, x: 0 }}
+                      initial={{ opacity: 0, x: -100 }}
                       transition={{ duration: 1.3 }}
                       className="bg-gradient-to-r from-blue-600 via-slate-400 to-blue-700
-                                bg-clip-text text-transparent text-2xl sm:text-3xl lg:text-4xl tracking-tight"
-                    >
+                                bg-clip-text text-transparent text-2xl sm:text-3xl lg:text-4xl tracking-tight">
                       POSITION HELD
                     </motion.span>
                   </div>
                   <div className="flex flex-col lg:flex-row gap-8">
                 <motion.div
                   whileInView={{ opacity: 1, x: 0 }}
-                  initial={{ opacity: 0, x: -100 }}
+                  // initial={{ opacity: 0, x: 0 }}
                   transition={{ duration: 1.5 }}
                   className="w-full lg:w-1/2"
                 >
@@ -157,7 +156,7 @@ const DrCortez = () => {
                 </motion.div>
                 <motion.div
                   whileInView={{ opacity: 1, x: 0 }}
-                  initial={{ opacity: 0, x: 100 }}
+                  // initial={{ opacity: 0, x: 0 }}
                   transition={{ duration: 1.5 }}
                   className="w-full lg:w-1/2"
                 >
@@ -214,7 +213,7 @@ const DrCortez = () => {
                   <div className="flex flex-col items-center lg:items-start mb-10">
                     <motion.span
                       whileInView={{ opacity: 1, x: 0 }}
-                      initial={{ opacity: 0, x: 0 }}
+                      initial={{ opacity: 0, x: -100 }}
                       transition={{ duration: 1.3 }}
                       className="bg-gradient-to-r from-blue-600 via-slate-400 to-blue-700
                                 bg-clip-text text-transparent text-2xl sm:text-3xl lg:text-4xl tracking-tight"
@@ -225,7 +224,7 @@ const DrCortez = () => {
                   <div className="flex flex-col lg:flex-row gap-8">
                   <motion.div
                   whileInView={{ opacity: 1, x: 0 }}
-                  initial={{ opacity: 0, x: -100 }}
+                  // </div>initial={{ opacity: 0, x: -100 }}
                   transition={{ duration: 1.5 }}
                   className="w-full lg:w-1/2"
                 >
@@ -248,7 +247,7 @@ const DrCortez = () => {
                 </motion.div>
                 <motion.div
                   whileInView={{ opacity: 1, x: 0 }}
-                  initial={{ opacity: 0, x: 100 }}
+                  // initial={{ opacity: 0, x: 100 }}
                   transition={{ duration: 1.5 }}
                   className="w-full lg:w-1/2"
                 >

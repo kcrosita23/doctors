@@ -17,10 +17,10 @@ const Contact = () => {
 
             <div className=" grid grid-cols-1 md:grid-cols-3 gap-1 text-center">
                 <div>
-                    <h3 className="font-bold mb-2 ">Dr. Hipolito</h3>
+                    <h3 className="font-bold mb-1">Dr. Hipolito</h3>
                     <p className="text-sm ">
                         Ann Carla  
-                            <p className="font-semibold text-sm text-gray-100" >             
+                            <p className="text-sm text-gray-100" >             
                                 <div className="flex items-center justify-center">
                                     <FaPhone className="mr-1" />
                                     <span><u>+63 916 946 8578 </u></span>
@@ -34,10 +34,10 @@ const Contact = () => {
                 </div>
     
                 <div>
-                    <h3 className="font-bold mb-2  ">Dr. Raymundo</h3>
+                    <h3 className="font-bold mb-1">Dr. Raymundo</h3>
                     <p className="text-sm ">
                     Nitz
-                        <p className="font-semibold text-sm text-gray-100">
+                        <p className="text-sm text-gray-100">
                             <div className="flex items-center justify-center">
                                     <FaPhone className="mr-1" />
                                     <span><u>+63 917 848 1649 </u></span>
@@ -51,10 +51,10 @@ const Contact = () => {
                 </div>
                 
                 <div>
-                    <h3 className="font-bold mb-2  ">Dr. Cortez</h3>
+                    <h3 className="font-bold mb-1">Dr. Cortez</h3>
                     <p className="text-sm ">
                     Mean
-                        <p className="font-semibold text-sm text-gray-100">
+                        <p className="text-sm text-gray-100">
                             <div className="flex items-center justify-center">
                                     <FaPhone className="mr-1" />
                                     <span><u>+63 918 487 3816 </u></span>
