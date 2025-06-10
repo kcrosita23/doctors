@@ -1,268 +1,317 @@
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 import DrHipolitoImg from "../assets/docHipolito.jpg";
-import Navbar from './Navbar';
+import Navbar from "./Navbar";
 import { FaPhone } from "react-icons/fa6";
 import { MdOutlinePinDrop } from "react-icons/md";
 import { TbCircleLetterC } from "react-icons/tb";
 
-
 const DrHipolito = () => {
   return (
-<div>
-  <div className="container mx-auto px-8">
-    <Navbar />
-      <div id="aboutDrHipolito" className="scroll-mt-32 border-b border-neutral-900 pb-8">
-            <div className="flex flex-wrap pt-20">
-              <motion.div
-                whileInView={{ opacity: 1, x: 0 }}
-                initial={{ opacity: 0, x: -100 }}
-                transition={{ duration: 1.5 }}
-                viewport={{ once: true }}
-                className="w-full lg:w-1/2">
-                  
-                <div className="flex flex-col items-center lg:items-start">
-                  <motion.span
-                    whileInView={{ opacity: 1, x: 0 }}
-                    initial={{ opacity: 0, x: -100 }}
-                    transition={{ duration: 1.3 }}
-                    viewport={{ once: true }}
-                    className="bg-gradient-to-r from-blue-600 via-slate-400 
+    <div>
+      <div className="container mx-auto px-8">
+        <Navbar />
+        <div
+          id="aboutDrHipolito"
+          className="scroll-mt-32 border-b border-neutral-900 pb-8"
+        >
+          <div className="flex flex-wrap pt-20">
+            <motion.div
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: -100 }}
+              transition={{ duration: 1.5 }}
+              viewport={{ once: true }}
+              className="w-full lg:w-1/2"
+            >
+              <div className="flex flex-col items-center lg:items-start">
+                <motion.span
+                  whileInView={{ opacity: 1, x: 0 }}
+                  initial={{ opacity: 0, x: -100 }}
+                  transition={{ duration: 1.3 }}
+                  viewport={{ once: true }}
+                  className="bg-gradient-to-r from-blue-600 via-slate-400 
                               to-blue-700 bg-clip-text text-4xl tracking-tight 
-                              text-transparent mb-1 pt-8">
-                          DR. CECILIO D.S HIPOLITO JR, M.D, DPBS 
-                  </motion.span>
-                    
-                  <motion.div
-                    whileInView={{ opacity: 1, x: 0 }}
-                    initial={{ opacity: 0, x: 100 }}
-                    transition={{ duration: 1.5 }}
-                    viewport={{ once: true }}
-                    className="w-full lg:w-8/9">
-                      
-                       <ul className="space-y-5 pt-5">
-                          <li className=" pl-4">
-                            <h3 className="pb-6 text-xl font-semibold text-gray-800">EDUCATION: </h3>
-                            <h3 className="text-xl font-semibold text-gray-800">BS. Medical Technology </h3>
-                              <p className="text-gray-600 mt-1">
-                                University Of Santo Tomas Manila, Philippines 1990-1994  
-                              </p>
-                          </li>
-                          <li className="pl-4">
-                            <h3 className="text-xl font-semibold text-gray-800">Doctor Of Medicine</h3>
-                              <p className="text-gray-600 mt-1">
-                                University Of The East Ramon Magsaysay Memorial Medical Center Quezon City, Philippines 1994- 1998 <br />
-                              </p>
-                          </li>
-                          <li className=" pl-4">
-                            <h3 className="text-xl font-semibold text-gray-800">Post-Graduate internship</h3>
-                              <p className="text-gray-600 mt-1">
-                                University Of The East Ramon Magsaysay Memorial Medical Center Quezon City, Philippines 1998-1999 
-                              </p>
-                          </li>
-                          <li className=" pl-4">
-                            <h3 className="text-xl font-semibold text-gray-800">General Surgery Residency </h3>
-                              <p className="text-gray-600 mt-1">
-                                University Of The East Ramon Magsaysay Memorial Medical Center Quezon City, Philippines 2002-2006  
-                              </p>
-                          </li>
-                          <li className=" pl-4">
-                            <h3 className="text-xl font-semibold text-gray-800">Surgical Oncology  </h3>
-                              <p className="text-gray-600 mt-1">
-                                St. Luke's Medical Center Quezon City, Philippines 2008-2009  
-                              </p>
-                          </li>
-                        </ul>
-                    </motion.div>
-                  </div>
-              </motion.div>
-              <motion.div
-                whileInView={{ opacity: 1, x: 0 }}
-                initial={{ opacity: 0, x: 0 }}
-                transition={{ duration: 1.5 }}
-                viewport={{ once: true }}
-                className="w-full lg:w-1/2 lg:p-8">
-                  <div className="flex items-center justify-center pt-2">
-                    <img className="rounded-lg w-4/5" src={DrHipolitoImg} alt="about" />
-                  </div>
-              </motion.div>
-            </div>
+                              text-transparent mb-1 pt-8"
+                >
+                  DR. CECILIO D.S HIPOLITO JR, M.D, DPBS
+                </motion.span>
+
+                <motion.div
+                  whileInView={{ opacity: 1, x: 0 }}
+                  initial={{ opacity: 0, x: 100 }}
+                  transition={{ duration: 1.5 }}
+                  viewport={{ once: true }}
+                  className="w-full lg:w-8/9"
+                >
+                  <ul className="space-y-5 pt-5">
+                    <li className=" pl-4">
+                      <h3 className="pb-6 text-xl font-semibold text-gray-800">
+                        EDUCATION:{" "}
+                      </h3>
+                      <h3 className="text-xl font-semibold text-gray-800">
+                        BS. Medical Technology{" "}
+                      </h3>
+                      <p className="text-gray-600 mt-1">
+                        University Of Santo Tomas Manila, Philippines 1990-1994
+                      </p>
+                    </li>
+                    <li className="pl-4">
+                      <h3 className="text-xl font-semibold text-gray-800">
+                        Doctor Of Medicine
+                      </h3>
+                      <p className="text-gray-600 mt-1">
+                        University Of The East Ramon Magsaysay Memorial Medical
+                        Center Quezon City, Philippines 1994- 1998 <br />
+                      </p>
+                    </li>
+                    <li className=" pl-4">
+                      <h3 className="text-xl font-semibold text-gray-800">
+                        Post-Graduate internship
+                      </h3>
+                      <p className="text-gray-600 mt-1">
+                        University Of The East Ramon Magsaysay Memorial Medical
+                        Center Quezon City, Philippines 1998-1999
+                      </p>
+                    </li>
+                    <li className=" pl-4">
+                      <h3 className="text-xl font-semibold text-gray-800">
+                        General Surgery Residency{" "}
+                      </h3>
+                      <p className="text-gray-600 mt-1">
+                        University Of The East Ramon Magsaysay Memorial Medical
+                        Center Quezon City, Philippines 2002-2006
+                      </p>
+                    </li>
+                    <li className=" pl-4">
+                      <h3 className="text-xl font-semibold text-gray-800">
+                        Surgical Oncology{" "}
+                      </h3>
+                      <p className="text-gray-600 mt-1">
+                        St. Luke's Medical Center Quezon City, Philippines
+                        2008-2009
+                      </p>
+                    </li>
+                  </ul>
+                </motion.div>
+              </div>
+            </motion.div>
+            <motion.div
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: 0 }}
+              transition={{ duration: 1.5 }}
+              viewport={{ once: true }}
+              className="w-full lg:w-1/2 lg:p-8"
+            >
+              <div className="flex items-center justify-center pt-2">
+                <img
+                  className="rounded-lg w-4/5"
+                  src={DrHipolitoImg}
+                  alt="about"
+                />
+              </div>
+            </motion.div>
+          </div>
+        </div>
+
+        <div className="px-4 sm:px-6 lg:px-8 py-6 scroll-mt-32 border-b border-neutral-900">
+          <div className="flex flex-col items-center lg:items-start mb-6">
+            <motion.span
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: -100 }}
+              transition={{ duration: 1.3 }}
+              viewport={{ once: true }}
+              className="bg-gradient-to-r from-blue-600 via-slate-400 to-blue-700
+                            bg-clip-text text-transparent text-2xl sm:text-3xl lg:text-4xl tracking-tight"
+            >
+              HOSPITAL AFFILIATES
+            </motion.span>
+          </div>
+          <div className="flex flex-col lg:flex-row gap-8">
+            <motion.div
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: 0 }}
+              transition={{ duration: 1.5 }}
+              viewport={{ once: true }}
+              className="w-full lg:w-1/2"
+            >
+              <ul className="space-y-10 pt-1">
+                <li className=" pl-4">
+                  <h3 className="text-xl font-semibold text-gray-800">
+                    St. Luke's Medical Center - Global City{" "}
+                  </h3>
+                  <p className="text-gray-600 mt-1">
+                    ADDRESS : 32nd St. Bonifacio Global City Taguig City, 1634{" "}
+                    <br />
+                  </p>
+                </li>
+                <li className=" pl-4">
+                  <h3 className="text-xl font-semibold text-gray-800">
+                    St Luke's Medical Center - Quezon City
+                  </h3>
+                  <p className="text-gray-600 mt-1">
+                    ADDRESS : Rm.1018 South Cathedral Heights Building Complex,
+                    St. Luke's Medical Center 279 E.Rodriquez Sr. Boulevard
+                    Quezon City, 1112 <br />
+                  </p>
+                </li>
+                <li className=" pl-4">
+                  <h3 className="text-xl font-semibold text-gray-800">
+                    UERM Memorial Medical Center
+                  </h3>
+                  <p className="text-gray-600 mt-1">
+                    ADDRESS : Rm. 112 College of Medicine Bldg. 64 Aurora Blvd.
+                    Brgy. Dona Imelda, Quezon City, Philippines 1113h
+                  </p>
+                </li>
+              </ul>
+            </motion.div>
+            <motion.div
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: 0 }}
+              transition={{ duration: 1.5 }}
+              className="w-full lg:w-1/2"
+            >
+              <ul className="space-y-10 pt-1">
+                <li className=" pl-4">
+                  <h3 className="text-xl font-semibold text-gray-800">
+                    International Clinical Rotation
+                  </h3>
+                  <p className="text-gray-600 mt-1">
+                    -Hepatopancreatico-biliary Section Memorial Sloan Kettering,
+                    New York USA 2009 <br />- Peritoneal Surface Malignancy
+                    Division St Agnes Hospital,Baltimore USA 2011
+                  </p>
+                </li>
+              </ul>
+            </motion.div>
+          </div>
+        </div>
+
+        <div className="px-4 sm:px-6 lg:px-8 py-12 scroll-mt-32">
+          <div className="flex flex-col items-center lg:items-start mb-10">
+            <motion.span
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: -100 }}
+              transition={{ duration: 1.3 }}
+              viewport={{ once: true }}
+              className="bg-gradient-to-r from-blue-600 via-slate-400 to-blue-700
+                            bg-clip-text text-transparent text-2xl sm:text-3xl lg:text-4xl tracking-tight"
+            >
+              SOCIETIES AND ORGANIZATIONS
+            </motion.span>
+          </div>
+          <div className="flex flex-col lg:flex-row gap-8">
+            <motion.div
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: 0 }}
+              transition={{ duration: 1.5 }}
+              viewport={{ once: true }}
+              className="w-full lg:w-1/2"
+            >
+              <ul className="space-y-10 pt-1">
+                <li className=" pl-4">
+                  <h3 className="text-xl font-semibold text-gray-800">
+                    American Society of Peritoneal Surface Malignancies{" "}
+                  </h3>
+                  <p className="text-gray-600 mt-1">
+                    MEMBER <br />
+                  </p>
+                </li>
+                <li className=" pl-4">
+                  <h3 className="text-xl font-semibold text-gray-800">
+                    Philippine Medical Association
+                  </h3>
+                  <p className="text-gray-600 mt-1">
+                    MEMBER <br />
+                  </p>
+                </li>
+              </ul>
+            </motion.div>
+            <motion.div
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: 0 }}
+              transition={{ duration: 1.5 }}
+              viewport={{ once: true }}
+              className="w-full lg:w-1/2"
+            >
+              <ul className="space-y-10 pt-1">
+                <li className=" pl-4">
+                  <h3 className="text-xl font-semibold text-gray-800">
+                    Philippine Association for Study of Liver Diseases
+                  </h3>
+                  <p className="text-gray-600 mt-1">
+                    MEMBER <br />
+                  </p>
+                </li>
+              </ul>
+            </motion.div>
+          </div>
+        </div>
       </div>
-    
-          <div className="px-4 sm:px-6 lg:px-8 py-6 scroll-mt-32 border-b border-neutral-900">
-              <div className="flex flex-col items-center lg:items-start mb-6">
-                <motion.span
-                  whileInView={{ opacity: 1, x: 0 }}
-                  initial={{ opacity: 0, x: -100 }}
-                  transition={{ duration: 1.3 }}
-                  viewport={{ once: true }}
-                  className="bg-gradient-to-r from-blue-600 via-slate-400 to-blue-700
-                            bg-clip-text text-transparent text-2xl sm:text-3xl lg:text-4xl tracking-tight"
-                >
-                  HOSPITAL AFFILIATES
-                </motion.span>
+      <div className="scroll-mt-32 border-t border-neutral-400 pb-2 bg-sky-400">
+        <h2 className="mt-10 text-center text-4xl font-montserrat">
+          SCHEDULE A CONSULTATION TODAY
+        </h2>
+        <p className="text-center text-2xl font-montserrat m-1 pb-1">
+          Send us a message!
+        </p>
+        <div className=" grid grid-cols-1 md:grid-cols-3  text-center">
+          <div>
+            <p className="text-sm text-black font-bold text-center mt-8 ">
+              Ann Carla
+              <p className="text-sm text-gray-100">
+                <div className="flex items-center justify-center">
+                  <FaPhone className="mr-1" />
+                  <span>
+                    <u>+63 916 946 8578 </u>
+                  </span>
+                </div>
+              </p>
+              <div className="flex items-center  font-normal justify-center">
+                <MdOutlinePinDrop className="mr-1" />
+                <span>St. Lukes BGC </span>
               </div>
-              <div className="flex flex-col lg:flex-row gap-8">
-                <motion.div
-                  whileInView={{ opacity: 1, x: 0 }}
-                  initial={{ opacity: 0, x: 0 }}
-                  transition={{ duration: 1.5 }}
-                  viewport={{ once: true }}
-                  className="w-full lg:w-1/2"
-                >
-                  <ul className="space-y-10 pt-1">
-                    <li className=" pl-4">
-                      <h3 className="text-xl font-semibold text-gray-800">St. Luke's Medical Center - Global City </h3>
-                        <p className="text-gray-600 mt-1">
-                          ADDRESS : 32nd St. Bonifacio Global City Taguig City, 1634 <br />
-                        </p>
-                    </li>
-                    <li className=" pl-4">
-                        <h3 className="text-xl font-semibold text-gray-800">St Luke's Medical Center - Quezon City</h3>
-                            <p className="text-gray-600 mt-1">
-                                ADDRESS : Rm.1018 South Cathedral Heights Building Complex, St. Luke's Medical Center 279 E.Rodriquez Sr. Boulevard Quezon City, 1112 <br />
-                            </p>
-                    </li>
-                    <li className=" pl-4">
-                        <h3 className="text-xl font-semibold text-gray-800">UERM Memorial Medical Center</h3>
-                            <p className="text-gray-600 mt-1">
-                                ADDRESS : Rm. 112 College of Medicine Bldg. 64 Aurora Blvd. Brgy. Dona Imelda, Quezon City, Philippines 1113h
-                            </p>
-                    </li>
-                </ul>
-                
-                </motion.div>
-                <motion.div
-                  whileInView={{ opacity: 1, x: 0 }}
-                  initial={{ opacity: 0, x: 0 }}
-                  transition={{ duration: 1.5 }}
-                  className="w-full lg:w-1/2"
-                >
-                  <ul className="space-y-10 pt-1">
-                    <li className=" pl-4">
-                        <h3 className="text-xl font-semibold text-gray-800">International Clinical Rotation</h3>
-                            <p className="text-gray-600 mt-1">
-                                -Hepatopancreatico-biliary Section Memorial Sloan Kettering, New York USA 2009 <br />
-                                - Peritoneal Surface Malignancy Division St Agnes Hospital,Baltimore USA 2011
-                            </p>
-                    </li>
-                </ul>
-                
-                </motion.div>
-              </div>
-          </div>
-
-          <div className="px-4 sm:px-6 lg:px-8 py-12 scroll-mt-32">
-              <div className="flex flex-col items-center lg:items-start mb-10">
-                <motion.span
-                  whileInView={{ opacity: 1, x: 0 }}
-                  initial={{ opacity: 0, x: -100 }}
-                  transition={{ duration: 1.3 }}
-                  viewport={{ once: true }}
-                  className="bg-gradient-to-r from-blue-600 via-slate-400 to-blue-700
-                            bg-clip-text text-transparent text-2xl sm:text-3xl lg:text-4xl tracking-tight"
-                >
-                  SOCIETIES AND ORGANIZATIONS
-                </motion.span>
-              </div>
-              <div className="flex flex-col lg:flex-row gap-8">
-                <motion.div
-                  whileInView={{ opacity: 1, x: 0 }}
-                  initial={{ opacity: 0, x: 0 }}
-                  transition={{ duration: 1.5 }}
-                  viewport={{ once: true }}
-                  className="w-full lg:w-1/2"
-                >
-                  <ul className="space-y-10 pt-1">
-                    <li className=" pl-4">
-                      <h3 className="text-xl font-semibold text-gray-800">American Society of Peritoneal Surface Malignancies </h3>
-                        <p className="text-gray-600 mt-1">
-                          MEMBER <br />
-                        </p>
-                    </li>
-                    <li className=" pl-4">
-                        <h3 className="text-xl font-semibold text-gray-800">Philippine Medical Association</h3>
-                          <p className="text-gray-600 mt-1">
-                            MEMBER <br />
-                          </p>
-                    </li>
-                </ul>
-                
-                </motion.div>
-                <motion.div
-                  whileInView={{ opacity: 1, x: 0 }}
-                  initial={{ opacity: 0, x: 0 }}
-                  transition={{ duration: 1.5 }}
-                  viewport={{ once: true }}
-                  className="w-full lg:w-1/2"
-                >
-                  <ul className="space-y-10 pt-1">
-                    <li className=" pl-4">
-                        <h3 className="text-xl font-semibold text-gray-800">Philippine Association for Study of Liver Diseases</h3>
-                            <p className="text-gray-600 mt-1">
-                                MEMBER <br />
-                            </p>
-                    </li>
-                </ul>
-                
-                </motion.div>
-              </div>
-
-          </div>
-    </div>
-        <div className="scroll-mt-32 border-t border-neutral-400 pb-2 bg-sky-400">
-            <h2 className="mt-10 text-center text-4xl font-montserrat">
-                SCHEDULE A CONSULTATION TODAY
-            </h2>
-            <p className="text-center text-2xl font-montserrat m-1 pb-7">
-                Send us a message!
             </p>
-            <div className=" grid grid-cols-1 md:grid-cols-3  text-center">
-              <div>
-                  <p className="text-sm text-black font-bold text-center">
-                    Ann Carla  
-                  <p className="text-sm text-gray-100" >             
+          </div>
+          <div>
+            <p className="text-sm text-black font-bold text-center mt-8">
+              Jennifer
+              <p className="text-sm text-gray-100">
                 <div className="flex items-center justify-center">
                   <FaPhone className="mr-1" />
-                     <span><u>+63 916 946 8578 </u></span>
-                </div></p>
-                <div className="flex items-center  font-normal justify-center">
-                  <MdOutlinePinDrop className="mr-1" />
-                    <span>St. Lukes BGC </span>
-                </div></p>
-              </div>       
-              <div>
-                  <p className="text-sm text-black font-bold text-center">
-                    Jennifer  
-                  <p className="text-sm text-gray-100" >             
-                <div className="flex items-center justify-center">
-                  <FaPhone className="mr-1" />
-                    <span><u>+63 963 709 2072 </u></span>
-                </div></p>
-                <div className="flex items-center font-normal justify-center">
-                  <MdOutlinePinDrop className="mr-1" />
-                    <span>St. Lukes Quezon City </span>
-                </div></p>
-              </div>  
-              <div>
-                
-                  <p className="text-sm text-black font-bold text-center">
-                    Marylen 
-                  <p className="text-sm text-gray-100" >             
+                  <span>
+                    <u>+63 963 709 2072 </u>
+                  </span>
+                </div>
+              </p>
+              <div className="flex items-center font-normal justify-center ">
+                <MdOutlinePinDrop className="mr-1" />
+                <span>St. Lukes Quezon City </span>
+              </div>
+            </p>
+          </div>
+          <div>
+            <p className="text-sm text-black font-bold text-center mt-8">
+              Marylen
+              <p className="text-sm text-gray-100">
                 <div className="flex items-center  justify-center">
                   <FaPhone className="mr-1" />
-                    <span><u>+63 997 188 7848</u></span>
-                </div></p>
-                <div className="flex items-center font-normal justify-center">
-                  <MdOutlinePinDrop className="mr-1" />
-                    <span>UERM </span>
-                </div></p>
-              </div>  
-            </div>
-            <p className="pt-6 flex items-center justify-center text-gray-500 font-montserrat  ">
-              <TbCircleLetterC className="mr-1"/>
-              <span>vibecoders04@gmail.com</span>
+                  <span>
+                    <u>+63 997 188 7848</u>
+                  </span>
+                </div>
+              </p>
+              <div className="flex items-center font-normal justify-center">
+                <MdOutlinePinDrop className="mr-1" />
+                <span>UERM </span>
+              </div>
             </p>
+          </div>
         </div>
+        <p className="pt-6 flex items-center justify-center text-gray-500 font-montserrat  ">
+          <TbCircleLetterC className="mr-1" />
+          <span>2025 Copyright | vibecoders04@gmail.com</span>
+        </p>
+      </div>
     </div>
   );
 };
