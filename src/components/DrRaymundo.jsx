@@ -12,9 +12,9 @@ const DrRaymundo = () => {
         <Navbar />
         <div
           id="aboutDrRaymundo"
-          className="scroll-mt-32 border-b border-neutral-900 pb-8 pt-12"
+          className="scroll-mt-32 border-b border-neutral-900 pb-8 pt-20"
         >
-          <div className="flex flex-wrap pt-10">
+          <div className="flex flex-wrap ">
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
@@ -42,45 +42,60 @@ const DrRaymundo = () => {
                   viewport={{ once: true }}
                   className="w-full lg:w-8/9"
                 >
+                  <div className="flex flex-col items-left lg:items-start mt-6 mb-4">
+                    <motion.span
+                      whileInView={{ opacity: 1, x: 0 }}
+                      initial={{ opacity: 0, x: -100 }}
+                      transition={{ duration: 1.3 }}
+                      viewport={{ once: true }}
+                      className="bg-gradient-to-r from-blue-600 via-slate-400 to-blue-700
+                            bg-clip-text text-transparent text-2xl sm:text-3xl lg:text-4xl tracking-tight"
+                    >
+                      HOSPITAL AFFILIATES
+                    </motion.span>
+                  </div>
                   <ul className="space-y-8 pt-5">
                     <li className=" pl-4">
-                      <h3 className="pb-6 text-xl font-semibold text-gray-800">
-                        EDUCATION:{" "}
-                      </h3>
                       <h3 className="text-xl font-semibold text-gray-800">
                         {" "}
-                        Doctor of Medicine
+                        CLINICAL PRECEPTOR for SURGERY I, Department of Surgery,
+                        College of Medicine, University of the East Ramon
+                        Magsaysay Memorial Medical Center, Inc.
                       </h3>
-                      <p className="text-gray-600 mt-1">
-                        University of the East Ramon Magsaysay Memorial Medical
-                        Center, Philippines, 2007 to 2011
-                      </p>
                     </li>
                     <li className="pl-4">
                       <h3 className="text-xl font-semibold text-gray-800">
-                        Bachelor of Science in Geography{" "}
+                        CONSULTANT, Institute of Surgery, St. Luke’s Medical
+                        Center – Quezon City{" "}
                       </h3>
                       <p className="text-gray-600 mt-1">
-                        University of the Philippines, Diliman, 2004 to 2007{" "}
+                        N-809 CHBC, 279 E. Rodriguez Sr. Ave, Quezon City, 1112
                         <br />
                       </p>
                     </li>
                     <li className=" pl-4">
                       <h3 className="text-xl font-semibold text-gray-800">
-                        High School Diploma
+                        CONSULTANT, Department of Surgery, Diliman Doctors
+                        Hospital, Inc.
                       </h3>
                       <p className="text-gray-600 mt-1">
-                        St. Scholastica's College, Manila, Philippines, 1998 to
-                        2002
+                        Rm. 706 MAB, #251 Commonwealth Ave., Matandang Balara,
+                        Quezon City, 1119
                       </p>
                     </li>
                     <li className=" pl-4">
                       <h3 className="text-xl font-semibold text-gray-800">
-                        Elementary Diploma{" "}
+                        CONSULTANT, Institute of Surgery, St. Luke’s Medical
+                        Center – Global City{" "}
+                      </h3>
+                    </li>
+                    <li className=" pl-4">
+                      <h3 className="text-xl font-semibold text-gray-800">
+                        CONSULTANT, Department of Surgery, University of the
+                        East Ramon Magsaysay Memorial Medical Center, Inc.
                       </h3>
                       <p className="text-gray-600 mt-1">
-                        O.B. Montessori Center, Inc., Sta. Ana, Philippines
-                        1992-1998
+                        Rm. 322 MAB, #64 Aurora Boulevard, Quezon City, 1113
                       </p>
                     </li>
                   </ul>
@@ -106,7 +121,7 @@ const DrRaymundo = () => {
           </div>
         </div>
 
-        <div className="px-4 sm:px-6 lg:px-8 py-6 scroll-mt-32 border-b border-neutral-900">
+        <div className=" py-6 scroll-mt-32 ">
           <div className="flex flex-col items-center lg:items-start mb-6">
             <motion.span
               whileInView={{ opacity: 1, x: 0 }}
@@ -116,10 +131,10 @@ const DrRaymundo = () => {
               className="bg-gradient-to-r from-blue-600 via-slate-400 to-blue-700
                             bg-clip-text text-transparent text-2xl sm:text-3xl lg:text-4xl tracking-tight"
             >
-              HOSPITAL AFFILIATES
+              SOCIETIES AND ORGANIZATION
             </motion.span>
           </div>
-          <div className="flex flex-col lg:flex-row gap-8">
+          <div className="flex flex-col lg:flex-row gap-7">
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: 0 }}
@@ -130,93 +145,11 @@ const DrRaymundo = () => {
               <ul className="space-y-10 pt-1 pb-10">
                 <li className=" pl-4">
                   <h3 className="text-xl font-semibold text-gray-800">
-                    CLINICAL PRECEPTOR for SURGERY I, Department of Surgery,
-                    College of Medicine, University of the East Ramon Magsaysay
-                    Memorial Medical Center, Inc.{" "}
-                  </h3>
-                </li>
-                <li className=" pl-4">
-                  <h3 className="text-xl font-semibold text-gray-800">
-                    CONSULTANT, Institute of Surgery, St. Luke’s Medical Center
-                    – Quezon City
-                  </h3>
-                  <p className="text-gray-600 mt-1">
-                    ADDRESS : N-809 CHBC, 279 E Rodriguez Sr. Ave, Quezon City,
-                    1112 Metro Manila <br />
-                  </p>
-                </li>
-                <li className=" pl-4">
-                  <h3 className="text-xl font-semibold text-gray-800">
-                    CONSULTANT, Department of Surgery, Diliman Doctors Hospital,
-                    Inc.
-                  </h3>
-                  <p className="text-gray-600 mt-1">
-                    ADDRESS : Room 706 MAB, #251 Commonwealth Ave., Matandang
-                    Balara, Quezon City, 1119
-                  </p>
-                </li>
-              </ul>
-            </motion.div>
-            <motion.div
-              whileInView={{ opacity: 1, x: 0 }}
-              initial={{ opacity: 0, x: 0 }}
-              transition={{ duration: 1.5 }}
-              className="w-full lg:w-1/2"
-            >
-              <ul className="space-y-10 pt-1">
-                <li className=" pl-4">
-                  <h3 className="text-xl font-semibold text-gray-800">
-                    CONSULTANT, Institute of Surgery, St. Luke’s Medical Center
-                    – Global City
-                  </h3>
-                </li>
-              </ul>
-              <br />
-              <br />
-              <ul className="space-y-10 pt-1">
-                <li className=" pl-4">
-                  <h3 className="text-xl font-semibold text-gray-800">
-                    CONSULTANT, Department of Surgery, University of the East
-                    Ramon Magsaysay Memorial Medical Center, Inc.
-                  </h3>
-                  <p className="text-gray-600 mt-1">
-                    ADDRESS : Room 322 MAB, #64 Aurora Boulevard, Quezon City,
-                    1113
-                  </p>
-                </li>
-              </ul>
-            </motion.div>
-          </div>
-        </div>
-
-        <div className="px-4 sm:px-6 lg:px-8 pb-12 pt-6 scroll-mt-32">
-          <div className="flex flex-col items-center lg:items-start mb-10 ">
-            <motion.span
-              whileInView={{ opacity: 1, x: 0 }}
-              initial={{ opacity: 0, x: -100 }}
-              transition={{ duration: 1.3 }}
-              viewport={{ once: true }}
-              className="bg-gradient-to-r from-blue-600 via-slate-400 to-blue-700
-                                bg-clip-text text-transparent text-2xl sm:text-3xl lg:text-4xl tracking-tight"
-            >
-              SOCIETIES AND ORGANIZATION
-            </motion.span>
-          </div>
-          <div className="flex flex-col lg:flex-row gap-8">
-            <motion.div
-              whileInView={{ opacity: 1, x: 0 }}
-              initial={{ opacity: 0, x: 0 }}
-              transition={{ duration: 1.5 }}
-              viewport={{ once: true }}
-              className="w-full lg:w-1/2"
-            >
-              <ul className="space-y-10 pt-1">
-                <li className=" pl-4">
-                  <h3 className="text-xl font-semibold text-gray-800">
                     Surgical Oncology Society of the Philippines{" "}
                   </h3>
                   <p className="text-gray-600 mt-1">
-                    FELLOW <br />
+                    FELLOW
+                    <br />
                   </p>
                 </li>
                 <li className=" pl-4">
@@ -225,7 +158,8 @@ const DrRaymundo = () => {
                     Lukang, Taiwan
                   </h3>
                   <p className="text-gray-600 mt-1">
-                    ROBOTIC SURGERY TRAINING <br />
+                    ROBOTIC SURGERY TRAINING
+                    <br />
                   </p>
                 </li>
                 <li className=" pl-4">
@@ -233,18 +167,14 @@ const DrRaymundo = () => {
                     Division of Surgical Oncology, Institute of Surgery, St.
                     Luke’s Medical Center, Philippines
                   </h3>
-                  <p className="text-gray-600 mt-1">
-                    FELLOWSHIP TRAINING <br />
-                  </p>
+                  <p className="text-gray-600 mt-1">FELLOWSHIP TRAINING</p>
                 </li>
                 <li className=" pl-4">
                   <h3 className="text-xl font-semibold text-gray-800">
                     University of the East Ramon Magsaysay Memorial Medical
                     Center, Philippines
                   </h3>
-                  <p className="text-gray-600 mt-1">
-                    POST-GRADUATE INTERNSHIP <br />
-                  </p>
+                  <p className="text-gray-600 mt-1">POST-GRADUATE INTERNSHIP</p>
                 </li>
               </ul>
             </motion.div>
@@ -252,7 +182,6 @@ const DrRaymundo = () => {
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: 0 }}
               transition={{ duration: 1.5 }}
-              viewport={{ once: true }}
               className="w-full lg:w-1/2"
             >
               <ul className="space-y-10 pt-1">
@@ -260,28 +189,26 @@ const DrRaymundo = () => {
                   <h3 className="text-xl font-semibold text-gray-800">
                     Philippine Medical Association
                   </h3>
-                  <p className="text-gray-600 mt-1">
-                    MEMBER <br />
-                  </p>
+                  <p className="text-gray-600 mt-1">MEMBER</p>
                 </li>
+              </ul>
+              <br />
+              <br />
+              <ul className="space-y-10 pt-1">
                 <li className=" pl-4">
                   <h3 className="text-xl font-semibold text-gray-800">
                     Hepatopancreatobiliary Surgery Section, Complex General
                     Surgical Oncology Program, Memorial Sloan Kettering Cancer
                     Center, New York, USA
                   </h3>
-                  <p className="text-gray-600 mt-1">
-                    OBSERVERSHIP <br />
-                  </p>
+                  <p className="text-gray-600 mt-1">OBSERVERSHIP</p>
                 </li>
                 <li className=" pl-4">
                   <h3 className="text-xl font-semibold text-gray-800">
                     Department of Surgery, University of the East Ramon
                     Magsaysay Memorial Medical Center, Philippines
                   </h3>
-                  <p className="text-gray-600 mt-1">
-                    RESIDENCY TRAINING <br />
-                  </p>
+                  <p className="text-gray-600 mt-1">RESIDENCY TRAINING</p>
                 </li>
               </ul>
             </motion.div>
@@ -315,7 +242,9 @@ const DrRaymundo = () => {
         </div>
         <p className="pt-6 flex items-center justify-center text-gray-500 font-montserrat  ">
           <TbCircleLetterC className="mr-1" />
-          <span className="text-center">2025 Copyright | vibecoders04@gmail.com</span>
+          <span className="text-center">
+            2025 Copyright | vibecoders04@gmail.com
+          </span>
         </p>
       </div>
     </div>

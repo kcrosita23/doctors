@@ -12,9 +12,9 @@ const DrHipolito = () => {
         <Navbar />
         <div
           id="aboutDrHipolito"
-          className="scroll-mt-32 border-b border-neutral-900 pb-8"
+          className="scroll-mt-32 border-b border-neutral-900 pb-8 pt-20"
         >
-          <div className="flex flex-wrap pt-20">
+          <div className="flex flex-wrap ">
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
@@ -42,52 +42,55 @@ const DrHipolito = () => {
                   viewport={{ once: true }}
                   className="w-full lg:w-8/9"
                 >
-                  <ul className="space-y-5 pt-5">
+                  <div className="flex flex-col items-left lg:items-start mt-6 mb-4">
+                    <motion.span
+                      whileInView={{ opacity: 1, x: 0 }}
+                      initial={{ opacity: 0, x: -100 }}
+                      transition={{ duration: 1.3 }}
+                      viewport={{ once: true }}
+                      className="bg-gradient-to-r from-blue-600 via-slate-400 to-blue-700
+                            bg-clip-text text-transparent text-2xl sm:text-3xl lg:text-4xl tracking-tight"
+                    >
+                      HOSPITAL AFFILIATES
+                    </motion.span>
+                  </div>
+
+                  <ul className="space-y-8 pt-5">
                     <li className=" pl-4">
-                      <h3 className="pb-6 text-xl font-semibold text-gray-800">
-                        EDUCATION:{" "}
-                      </h3>
                       <h3 className="text-xl font-semibold text-gray-800">
-                        BS. Medical Technology{" "}
+                        St. Luke's Medical Center - Global City{" "}
                       </h3>
                       <p className="text-gray-600 mt-1">
-                        University Of Santo Tomas Manila, Philippines 1990-1994
+                        32nd St. Bonifacio Global City Taguig City, 1634
                       </p>
                     </li>
                     <li className="pl-4">
                       <h3 className="text-xl font-semibold text-gray-800">
-                        Doctor Of Medicine
+                        St Luke's Medical Center - Quezon City
                       </h3>
                       <p className="text-gray-600 mt-1">
-                        University Of The East Ramon Magsaysay Memorial Medical
-                        Center Quezon City, Philippines 1994- 1998 <br />
+                        Rm.1018 South Cathedral Heights Bldg. Complex, St.
+                        Luke's Medical Center 279 E. Rodriquez Sr. Boulevard
+                        Quezon City, 1112
                       </p>
                     </li>
                     <li className=" pl-4">
                       <h3 className="text-xl font-semibold text-gray-800">
-                        Post-Graduate internship
+                        UERM Memorial Medical Center
                       </h3>
                       <p className="text-gray-600 mt-1">
-                        University Of The East Ramon Magsaysay Memorial Medical
-                        Center Quezon City, Philippines 1998-1999
+                        Rm.112 College of Medicine Bldg. 64 Aurora Blvd. Brgy.
+                        Dona Imelda, Quezon City, 1113h
                       </p>
                     </li>
                     <li className=" pl-4">
                       <h3 className="text-xl font-semibold text-gray-800">
-                        General Surgery Residency{" "}
+                        International Clinical Rotation{" "}
                       </h3>
                       <p className="text-gray-600 mt-1">
-                        University Of The East Ramon Magsaysay Memorial Medical
-                        Center Quezon City, Philippines 2002-2006
-                      </p>
-                    </li>
-                    <li className=" pl-4">
-                      <h3 className="text-xl font-semibold text-gray-800">
-                        Surgical Oncology{" "}
-                      </h3>
-                      <p className="text-gray-600 mt-1">
-                        St. Luke's Medical Center Quezon City, Philippines
-                        2008-2009
+                        - Hepatopancreatico-biliary Section Memorial Sloan
+                        Kettering, New York USA 2009 - Peritoneal Surface
+                        Malignancy Division St Agnes Hospital,Baltimore USA 2011
                       </p>
                     </li>
                   </ul>
@@ -101,7 +104,7 @@ const DrHipolito = () => {
               viewport={{ once: true }}
               className="w-full lg:w-1/2 lg:p-8"
             >
-              <div className="flex items-center justify-center pt-2">
+              <div className="flex items-center justify-center pt-6">
                 <img
                   className="rounded-lg w-4/5"
                   src={DrHipolitoImg}
@@ -112,82 +115,8 @@ const DrHipolito = () => {
           </div>
         </div>
 
-        <div className="px-4 sm:px-6 lg:px-8 py-6 scroll-mt-32 border-b border-neutral-900">
+        <div className=" lg: py-6 scroll-mt-32 ">
           <div className="flex flex-col items-center lg:items-start mb-6">
-            <motion.span
-              whileInView={{ opacity: 1, x: 0 }}
-              initial={{ opacity: 0, x: -100 }}
-              transition={{ duration: 1.3 }}
-              viewport={{ once: true }}
-              className="bg-gradient-to-r from-blue-600 via-slate-400 to-blue-700
-                            bg-clip-text text-transparent text-2xl sm:text-3xl lg:text-4xl tracking-tight"
-            >
-              HOSPITAL AFFILIATES
-            </motion.span>
-          </div>
-          <div className="flex flex-col lg:flex-row gap-8">
-            <motion.div
-              whileInView={{ opacity: 1, x: 0 }}
-              initial={{ opacity: 0, x: 0 }}
-              transition={{ duration: 1.5 }}
-              viewport={{ once: true }}
-              className="w-full lg:w-1/2"
-            >
-              <ul className="space-y-10 pt-1">
-                <li className=" pl-4">
-                  <h3 className="text-xl font-semibold text-gray-800">
-                    St. Luke's Medical Center - Global City{" "}
-                  </h3>
-                  <p className="text-gray-600 mt-1">
-                    ADDRESS : 32nd St. Bonifacio Global City Taguig City, 1634{" "}
-                    <br />
-                  </p>
-                </li>
-                <li className=" pl-4">
-                  <h3 className="text-xl font-semibold text-gray-800">
-                    St Luke's Medical Center - Quezon City
-                  </h3>
-                  <p className="text-gray-600 mt-1">
-                    ADDRESS : Rm.1018 South Cathedral Heights Building Complex,
-                    St. Luke's Medical Center 279 E.Rodriquez Sr. Boulevard
-                    Quezon City, 1112 <br />
-                  </p>
-                </li>
-                <li className=" pl-4">
-                  <h3 className="text-xl font-semibold text-gray-800">
-                    UERM Memorial Medical Center
-                  </h3>
-                  <p className="text-gray-600 mt-1">
-                    ADDRESS : Rm. 112 College of Medicine Bldg. 64 Aurora Blvd.
-                    Brgy. Dona Imelda, Quezon City, Philippines 1113h
-                  </p>
-                </li>
-              </ul>
-            </motion.div>
-            <motion.div
-              whileInView={{ opacity: 1, x: 0 }}
-              initial={{ opacity: 0, x: 0 }}
-              transition={{ duration: 1.5 }}
-              className="w-full lg:w-1/2"
-            >
-              <ul className="space-y-10 pt-1">
-                <li className=" pl-4">
-                  <h3 className="text-xl font-semibold text-gray-800">
-                    International Clinical Rotation
-                  </h3>
-                  <p className="text-gray-600 mt-1">
-                    -Hepatopancreatico-biliary Section Memorial Sloan Kettering,
-                    New York USA 2009 <br />- Peritoneal Surface Malignancy
-                    Division St Agnes Hospital,Baltimore USA 2011
-                  </p>
-                </li>
-              </ul>
-            </motion.div>
-          </div>
-        </div>
-
-        <div className="px-4 sm:px-6 lg:px-8 py-12 scroll-mt-32">
-          <div className="flex flex-col items-center lg:items-start mb-10">
             <motion.span
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
@@ -199,7 +128,7 @@ const DrHipolito = () => {
               SOCIETIES AND ORGANIZATIONS
             </motion.span>
           </div>
-          <div className="flex flex-col lg:flex-row gap-8">
+          <div className="flex flex-col lg:flex-row gap-7">
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: 0 }}
@@ -207,8 +136,8 @@ const DrHipolito = () => {
               viewport={{ once: true }}
               className="w-full lg:w-1/2"
             >
-              <ul className="space-y-10 pt-1">
-                <li className=" pl-4">
+              <ul className="space-y-10 pt-2 pb-2">
+                <li className="pl-4">
                   <h3 className="text-xl font-semibold text-gray-800">
                     American Society of Peritoneal Surface Malignancies{" "}
                   </h3>
@@ -216,12 +145,13 @@ const DrHipolito = () => {
                     MEMBER <br />
                   </p>
                 </li>
-                <li className=" pl-4">
+                <li className="pl-4">
                   <h3 className="text-xl font-semibold text-gray-800">
                     Philippine Medical Association
                   </h3>
                   <p className="text-gray-600 mt-1">
-                    MEMBER <br />
+                    MEMBER
+                    <br />
                   </p>
                 </li>
               </ul>
@@ -230,17 +160,14 @@ const DrHipolito = () => {
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: 0 }}
               transition={{ duration: 1.5 }}
-              viewport={{ once: true }}
               className="w-full lg:w-1/2"
             >
-              <ul className="space-y-10 pt-1">
-                <li className=" pl-4">
+              <ul className="space-y-10 pt-2 pb-2">
+                <li className="pl-4">
                   <h3 className="text-xl font-semibold text-gray-800">
                     Philippine Association for Study of Liver Diseases
                   </h3>
-                  <p className="text-gray-600 mt-1">
-                    MEMBER <br />
-                  </p>
+                  <p className="text-gray-600 mt-1">MEMBER</p>
                 </li>
               </ul>
             </motion.div>
@@ -309,7 +236,9 @@ const DrHipolito = () => {
         </div>
         <p className="pt-6 flex items-center justify-center text-gray-500 font-montserrat  ">
           <TbCircleLetterC className="mr-1" />
-          <span className="text-center">2025 Copyright | vibecoders04@gmail.com</span>
+          <span className="text-center">
+            2025 Copyright | vibecoders04@gmail.com
+          </span>
         </p>
       </div>
     </div>
