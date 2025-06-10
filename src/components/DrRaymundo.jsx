@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import Navbar from "./Navbar";
-import Blank from "../assets/blank.jpg";
 import { FaPhone } from "react-icons/fa6";
 import { MdOutlinePinDrop } from "react-icons/md";
 import DraRaymundo from "../assets/DraRaymundo.jpg";
