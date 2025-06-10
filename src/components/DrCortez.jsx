@@ -15,7 +15,8 @@ const DrCortez = () => {
             <div className="flex flex-wrap pt-10">
               <motion.div
                 whileInView={{ opacity: 1, x: 0 }}
-                // initial={{ opacity: 0, x: -100 }}
+                initial={{ opacity: 0, x: -100 }}
+                viewport={{ once: true }}
                 transition={{ duration: 1.5 }}
                 className="w-full lg:w-1/2">
                 <div className="flex flex-col items-center lg:items-start">
@@ -23,6 +24,7 @@ const DrCortez = () => {
                     whileInView={{ opacity: 1, x: 0 }}
                     initial={{ opacity: 0, x: -100 }}
                     transition={{ duration: 1.3 }}
+                    viewport={{ once: true }}
                     className="bg-gradient-to-r from-blue-600 via-slate-400 
                               to-blue-700 bg-clip-text text-4xl tracking-tight 
                               text-transparent mb-1 pt-8">
@@ -32,8 +34,9 @@ const DrCortez = () => {
 
                 <motion.div
                     whileInView={{ opacity: 1, x: 0 }}
-                    // initial={{ opacity: 0, x: 100 }}
+                    initial={{ opacity: 0, x: 100 }}
                     transition={{ duration: 1.5 }}
+                    viewport={{ once: true }}
                     className="w-full lg:w-8/9">
                       
                        <ul className="space-y-7 pt-7">
@@ -79,6 +82,7 @@ const DrCortez = () => {
                 whileInView={{ opacity: 1, x: 0 }}
                 initial={{ opacity: 0, x: 0 }}
                 transition={{ duration: 1.5 }}
+                viewport={{ once: true }}
                 className="w-full lg:w-1/2 lg:p-8">
                 <div className="flex items-center justify-center pt-2">
                   <img className="rounded-lg w-4/5" src={DrCortezImg} alt="about" />
@@ -96,6 +100,7 @@ const DrCortez = () => {
                       whileInView={{ opacity: 1, x: 0 }}
                       initial={{ opacity: 0, x: -100 }}
                       transition={{ duration: 1.3 }}
+                      viewport={{ once: true }}
                       className="bg-gradient-to-r from-blue-600 via-slate-400 to-blue-700
                                 bg-clip-text text-transparent text-2xl sm:text-3xl lg:text-4xl tracking-tight">
                       POSITION HELD
@@ -104,8 +109,9 @@ const DrCortez = () => {
                   <div className="flex flex-col lg:flex-row gap-8">
                 <motion.div
                   whileInView={{ opacity: 1, x: 0 }}
-                  // initial={{ opacity: 0, x: 0 }}
+                  initial={{ opacity: 0, x: 0 }}
                   transition={{ duration: 1.5 }}
+                  viewport={{ once: true }}
                   className="w-full lg:w-1/2"
                 >
                   <ul className="space-y-10 pt-1 pb-10">
@@ -156,8 +162,9 @@ const DrCortez = () => {
                 </motion.div>
                 <motion.div
                   whileInView={{ opacity: 1, x: 0 }}
-                  // initial={{ opacity: 0, x: 0 }}
+                  initial={{ opacity: 0, x: 0 }}
                   transition={{ duration: 1.5 }}
+                  viewport={{ once: true }}
                   className="w-full lg:w-1/2"
                 >
                   <ul className="space-y-10 pt-1">
@@ -215,6 +222,7 @@ const DrCortez = () => {
                       whileInView={{ opacity: 1, x: 0 }}
                       initial={{ opacity: 0, x: -100 }}
                       transition={{ duration: 1.3 }}
+                      viewport={{ once: true }}
                       className="bg-gradient-to-r from-blue-600 via-slate-400 to-blue-700
                                 bg-clip-text text-transparent text-2xl sm:text-3xl lg:text-4xl tracking-tight"
                     >
@@ -224,8 +232,9 @@ const DrCortez = () => {
                   <div className="flex flex-col lg:flex-row gap-8">
                   <motion.div
                   whileInView={{ opacity: 1, x: 0 }}
-                  // </div>initial={{ opacity: 0, x: -100 }}
+                  initial={{ opacity: 0, x: 0 }}
                   transition={{ duration: 1.5 }}
+                  viewport={{ once: true }}
                   className="w-full lg:w-1/2"
                 >
                   <ul className="space-y-10 pt-1">
@@ -247,8 +256,9 @@ const DrCortez = () => {
                 </motion.div>
                 <motion.div
                   whileInView={{ opacity: 1, x: 0 }}
-                  // initial={{ opacity: 0, x: 100 }}
+                  initial={{ opacity: 0, x: 0 }}
                   transition={{ duration: 1.5 }}
+                  viewport={{ once: true }}
                   className="w-full lg:w-1/2"
                 >
                   <ul className="space-y-10 pt-1">
