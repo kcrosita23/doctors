@@ -285,7 +285,7 @@ const DrCortez = () => {
                    <h3 className="font-bold mb-2 text-center">Dr. Cortez</h3>
                       <p className="text-sm text-black font-semibold text-center">
                         Mean  
-                      <p className="font-semibold text-sm text-white" >             
+                      <p className="text-sm text-white" >             
                     <div className="flex items-center justify-center">
                       <FaPhone className="mr-1" />
                          <span><u>+63 918 487 3816 </u></span>

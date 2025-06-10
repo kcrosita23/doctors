@@ -73,7 +73,7 @@ const About = () => {
                     <motion.span
                         whileInView={{ opacity: 1, x: 0 }}
                         initial={{ opacity: 0, x: 100 }}
-                        transition={{ duration: 1.3}}
+                        transition={{ duration: 1.5}}
                         className="bg-gradient-to-r from-blue-600 via-slate-400 to-blue-700
                         bg-clip-text text-4xl tracking-tight text-transparent mb-1 pt-8">
                         DR. CECILIO D.S HIPOLITO JR, M.D, DPBS
@@ -96,7 +96,7 @@ const About = () => {
                     <motion.span
                         whileInView={{ opacity: 1, x: 0 }}
                         initial={{ opacity: 0, x: -100 }}
-                        transition={{ duration: 1.3 }}
+                        transition={{ duration: 1.5 }}
                         className="bg-gradient-to-r from-blue-600 via-slate-400 to-blue-700
                         bg-clip-text text-4xl tracking-tight text-transparent mb-1 pt-8">
                         DR. GRACE DIANNE GONZALEZ RAYMUNDO, MD, FSOSP
@@ -131,7 +131,7 @@ const About = () => {
                     <motion.span
                         whileInView={{ opacity: 1, x: 0 }}
                         initial={{ opacity: 0, x: 100 }}
-                        transition={{ duration: 1.3 }}
+                        transition={{ duration: 1.5 }}
                         className="bg-gradient-to-r from-blue-600 via-slate-400 to-blue-700 
                         bg-clip-text text-4xl tracking-tight text-transparent mb-1 pt-8">
                         DR. EDGARDO R. CORTEZ M.D., FPCS, FACS

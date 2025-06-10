@@ -220,7 +220,7 @@ const DrHipolito = () => {
               <div>
                   <p className="text-sm text-black font-bold text-center">
                     Ann Carla  
-                  <p className="font-semibold text-sm text-gray-100" >             
+                  <p className="text-sm text-gray-100" >             
                 <div className="flex items-center justify-center">
                   <FaPhone className="mr-1" />
                      <span><u>+63 916 946 8578 </u></span>
@@ -233,7 +233,7 @@ const DrHipolito = () => {
               <div>
                   <p className="text-sm text-black font-bold text-center">
                     Jennifer  
-                  <p className="font-semibold text-sm text-gray-100" >             
+                  <p className="text-sm text-gray-100" >             
                 <div className="flex items-center justify-center">
                   <FaPhone className="mr-1" />
                     <span><u>+63 963 709 2072 </u></span>
@@ -247,7 +247,7 @@ const DrHipolito = () => {
                 
                   <p className="text-sm text-black font-bold text-center">
                     Marylen 
-                  <p className="font-semibold text-sm text-gray-100" >             
+                  <p className="text-sm text-gray-100" >             
                 <div className="flex items-center  justify-center">
                   <FaPhone className="mr-1" />
                     <span><u>+63 997 188 7848</u></span>

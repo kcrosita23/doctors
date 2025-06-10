@@ -251,7 +251,7 @@ const DrRaymundo = () => {
                    <h3 className="font-bold mb-2 text-center">Dr. Raymundo</h3>
                       <p className="text-sm text-black font-semibold text-center">
                         Nitz  
-                      <p className="font-semibold text-sm text-gray-100" >             
+                      <p className="text-sm text-gray-100" >             
                     <div className="flex items-center justify-center">
                       <FaPhone className="mr-1" />
                          <span><u>+63 917 848 1649 </u></span>
