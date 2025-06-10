@@ -315,7 +315,7 @@ const DrRaymundo = () => {
         </div>
         <p className="pt-6 flex items-center justify-center text-gray-500 font-montserrat  ">
           <TbCircleLetterC className="mr-1" />
-          <span>2025 Copyright | vibecoders04@gmail.com</span>
+          <span className="text-center">2025 Copyright | vibecoders04@gmail.com</span>
         </p>
       </div>
     </div>
