@@ -78,7 +78,7 @@ const DrCortez = () => {
                 </li>
                 <li className=" pl-4">
                   <h3 className="text-xl font-semibold text-gray-800">
-                    Philippine Board of Surgery, Inc. 1998 - 2010{" "}
+                    Philippine Board of Surgery, Inc., 1998 - 2010{" "}
                   </h3>
                   <p className="text-gray-600 mt-1">
                     MEMBER OF THE BOARD OF DIRECTORS
@@ -166,7 +166,7 @@ const DrCortez = () => {
             </motion.div>
           </div>
         </div>
-        <div className="px-4 sm:px-6 lg:px-8 pt-6 pb-8 scroll-mt-32">
+        <div className=" pt-6 pb-8 scroll-mt-32">
           <div className="flex flex-col items-center lg:items-start mb-10">
             <motion.span
               whileInView={{ opacity: 1, x: 0 }}

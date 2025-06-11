@@ -91,8 +91,9 @@ const DrHipolito = () => {
                       </h3>
                       <p className="text-gray-600 mt-1">
                         - Hepatopancreatico-biliary Section Memorial Sloan
-                        Kettering, New York USA 2009 - Peritoneal Surface
-                        Malignancy Division St Agnes Hospital,Baltimore USA 2011
+                        Kettering, New York USA 2009
+                        <br />- Peritoneal Surface Malignancy Division St Agnes
+                        Hospital,Baltimore USA 2011
                       </p>
                     </li>
                   </ul>
