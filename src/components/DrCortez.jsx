@@ -12,7 +12,7 @@ const DrCortez = () => {
         <Navbar />
         <div
           id="aboutDrCortez"
-          className="scroll-mt-32 border-b border-neutral-900 pb-8 pt-20"
+          className="scroll-mt-32 pt-20 pb-6 border-b border-neutral-900"
         >
           <div className="flex flex-wrap">
             <motion.div
@@ -20,7 +20,7 @@ const DrCortez = () => {
               initial={{ opacity: 0, x: -100 }}
               viewport={{ once: true }}
               transition={{ duration: 1.5 }}
-              className="w-full lg:w-1/2"
+              className="w-full lg:w-1/2 order-2 lg:order-1"
             >
               <div className="flex flex-col items-center lg:items-start">
                 <motion.span
@@ -128,6 +128,31 @@ const DrCortez = () => {
                     </h3>
                     <p className="text-gray-600 mt-1">DIRECTOR</p>
                   </li>
+                  <li className=" pl-4">
+                    <h3 className="text-xl font-semibold text-gray-800">
+                      Medical Affairs and Medical Director, St. Luke’s Medical
+                      Center, 2008 - 2012
+                    </h3>
+                    <p className="text-gray-600 mt-1">VICE PRESIDENT</p>
+                  </li>
+                  <li className=" pl-4">
+                    <h3 className="text-xl font-semibold text-gray-800">
+                      St. Luke’s Medical Center, 2012 - 2017
+                    </h3>
+                    <p className="text-gray-600 mt-1">PRESIDENT AND CEO</p>
+                  </li>
+                  <li className=" pl-4">
+                    <h3 className="text-xl font-semibold text-gray-800">
+                      St. Luke’s Foundation, 2013 - 2017
+                    </h3>
+                    <p className="text-gray-600 mt-1">PRESIDENT</p>
+                  </li>
+                  <li className=" pl-4">
+                    <h3 className="text-xl font-semibold text-gray-800">
+                      Board of Trustees, St. Luke’s Medical Center, 2012 - 2017
+                    </h3>
+                    <p className="text-gray-600 mt-1">MEMBER</p>
+                  </li>
                 </ul>
               </motion.div>
             </motion.div>
@@ -137,7 +162,7 @@ const DrCortez = () => {
               initial={{ opacity: 0, x: 0 }}
               transition={{ duration: 1.5 }}
               viewport={{ once: true }}
-              className="w-full lg:w-1/2 lg:p-8"
+              className="w-full lg:w-1/2 lg:p-8 order-1 lg:order-2"
             >
               <div className="flex items-center justify-center pt-2">
                 <img
@@ -149,58 +174,7 @@ const DrCortez = () => {
             </motion.div>
           </div>
         </div>
-
-        <div className="px-4 sm:px-6 lg:px-8 pt-6 pb-10 scroll-mt-32 border-b border-neutral-900">
-          <div className="flex flex-col items-center lg:items-start mb-10"></div>
-          <div className="flex flex-col lg:flex-row gap-8">
-            <motion.div
-              whileInView={{ opacity: 1, x: 0 }}
-              initial={{ opacity: 0, x: 0 }}
-              transition={{ duration: 1.5 }}
-              viewport={{ once: true }}
-              className="w-full lg:w-1/2"
-            >
-              <ul className="space-y-10 pt-1 pb-10"></ul>
-            </motion.div>
-            <motion.div
-              whileInView={{ opacity: 1, x: 0 }}
-              initial={{ opacity: 0, x: 0 }}
-              transition={{ duration: 1.5 }}
-              viewport={{ once: true }}
-              className="w-full lg:w-1/2"
-            >
-              <ul className="space-y-10 pt-1">
-                <li className=" pl-4">
-                  <h3 className="text-xl font-semibold text-gray-800">
-                    Medical Affairs and Medical Director, St. Luke’s Medical
-                    Center, 2008 - 2012
-                  </h3>
-                  <p className="text-gray-600 mt-1">VICE PRESIDENT</p>
-                </li>
-                <li className=" pl-4">
-                  <h3 className="text-xl font-semibold text-gray-800">
-                    St. Luke’s Medical Center, 2012 - 2017
-                  </h3>
-                  <p className="text-gray-600 mt-1">PRESIDENT AND CEO</p>
-                </li>
-                <li className=" pl-4">
-                  <h3 className="text-xl font-semibold text-gray-800">
-                    St. Luke’s Foundation, 2013 - 2017
-                  </h3>
-                  <p className="text-gray-600 mt-1">PRESIDENT</p>
-                </li>
-                <li className=" pl-4">
-                  <h3 className="text-xl font-semibold text-gray-800">
-                    Board of Trustees, St. Luke’s Medical Center, 2012 - 2017
-                  </h3>
-                  <p className="text-gray-600 mt-1">MEMBER</p>
-                </li>
-              </ul>
-            </motion.div>
-          </div>
-        </div>
-
-        <div className="px-4 sm:px-6 lg:px-8 pt-6 pb-16 scroll-mt-32">
+        <div className="px-4 sm:px-6 lg:px-8 pt-6 pb-8 scroll-mt-32">
           <div className="flex flex-col items-center lg:items-start mb-10">
             <motion.span
               whileInView={{ opacity: 1, x: 0 }}
@@ -208,7 +182,7 @@ const DrCortez = () => {
               transition={{ duration: 1.3 }}
               viewport={{ once: true }}
               className="bg-gradient-to-r from-blue-600 via-slate-400 to-blue-700
-                                bg-clip-text text-transparent text-2xl sm:text-3xl lg:text-4xl tracking-tight"
+                        bg-clip-text text-transparent text-2xl sm:text-3xl lg:text-4xl tracking-tight"
             >
               CURRENT POSITION
             </motion.span>
@@ -221,7 +195,7 @@ const DrCortez = () => {
               viewport={{ once: true }}
               className="w-full lg:w-1/2"
             >
-              <ul className="space-y-10 pt-1">
+              <ul className="space-y-10">
                 <li className=" pl-4">
                   <h3 className="text-xl font-semibold text-gray-800">
                     Board of Trustees, St. Luke’s College of Medicine - William

@@ -20,7 +20,7 @@ const DrRaymundo = () => {
               initial={{ opacity: 0, x: -100 }}
               viewport={{ once: true }}
               transition={{ duration: 1.5 }}
-              className="w-full lg:w-1/2"
+              className="w-full lg:w-1/2 order-2 lg:order-1"
             >
               <div className="flex flex-col items-center lg:items-start">
                 <motion.span
@@ -108,7 +108,7 @@ const DrRaymundo = () => {
               initial={{ opacity: 0, x: 0 }}
               transition={{ duration: 1.5 }}
               viewport={{ once: true }}
-              className="w-full lg:w-1/2 lg:p-8"
+              className="w-full lg:w-1/2 lg:p-8 order-1 lg:order-2"
             >
               <div className="flex items-center justify-center pt-2">
                 <img
