@@ -12,7 +12,7 @@ const Contact = () => {
         Send us a message!
       </p>
 
-      <div className=" grid grid-cols-1 md:grid-cols-3 gap-1 text-center">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-1 text-center pb-2">
         <div>
           <h3 className="font-bold mb-1 mt-6 ">Dr. Hipolito</h3>
           <div className="text-sm ">
@@ -70,15 +70,10 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      {/*div className="text-center tracking-tighter">
-                <p className="my-4">{CONTACT.address}</p>
-                <p className="my-4">{CONTACT.phoneNo}</p>
-                <a href="#" className="border-b">{CONTACT.email}</a>
-            </div>
-            */}
-      <p className="pt-6 flex items-center justify-center text-gray-500 font-montserrat  m-1">
+
+      <p className="pt-2 flex items-center justify-center text-gray-600 font-montserrat m-1 border-t border-neutral-700">
         <TbCircleLetterC className="mr-1" />
-        <span className="text-center">
+        <span className="text-center text-sm">
           2025 Copyright | vibecoders04@gmail.com
         </span>
       </p>
