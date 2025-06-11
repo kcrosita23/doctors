@@ -1,4 +1,3 @@
-import { CONTACT } from "../constants";
 import { FaPhone } from "react-icons/fa6";
 import { MdOutlinePinDrop } from "react-icons/md";
 import { TbCircleLetterC } from "react-icons/tb";
@@ -16,7 +15,7 @@ const Contact = () => {
       <div className=" grid grid-cols-1 md:grid-cols-3 gap-1 text-center">
         <div>
           <h3 className="font-bold mb-1 mt-6 ">Dr. Hipolito</h3>
-          <p className="text-sm ">
+          <div className="text-sm ">
             Ann Carla
             <p className="text-sm text-gray-100">
               <div className="flex items-center justify-center">
@@ -30,12 +29,12 @@ const Contact = () => {
               <MdOutlinePinDrop className="mr-1" />
               <span>St. Lukes BGC </span>
             </div>
-          </p>
+          </div>
         </div>
 
         <div>
           <h3 className="font-bold mb-1 mt-6 ">Dr. Raymundo</h3>
-          <p className="text-sm ">
+          <div className="text-sm ">
             Nitz
             <p className="text-sm text-gray-100">
               <div className="flex items-center justify-center">
@@ -49,12 +48,12 @@ const Contact = () => {
               <MdOutlinePinDrop className="mr-1" />
               <span>UERM </span>
             </div>
-          </p>
+          </div>
         </div>
 
         <div>
           <h3 className="font-bold mb-1 mt-6 ">Dr. Cortez</h3>
-          <p className="text-sm ">
+          <div className="text-sm ">
             Mean
             <p className="text-sm text-gray-100">
               <div className="flex items-center justify-center">
@@ -68,7 +67,7 @@ const Contact = () => {
               <MdOutlinePinDrop className="mr-1" />
               <span>St. Lukes BGC </span>
             </div>
-          </p>
+          </div>
         </div>
       </div>
       {/*div className="text-center tracking-tighter">
@@ -79,7 +78,9 @@ const Contact = () => {
             */}
       <p className="pt-6 flex items-center justify-center text-gray-500 font-montserrat  m-1">
         <TbCircleLetterC className="mr-1" />
-        <span className="text-center">2025 Copyright | vibecoders04@gmail.com</span>
+        <span className="text-center">
+          2025 Copyright | vibecoders04@gmail.com
+        </span>
       </p>
     </div>
   );
