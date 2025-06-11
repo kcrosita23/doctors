@@ -1,12 +1,9 @@
 import aboutImg from "../assets/aboutdoc.jpg";
-import { ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion";
 
-
 const Projects = () => {
-    return (
-        <div id="interventions" className="scroll-mt-32">
-
+  return (
+    <div id="interventions" className="scroll-mt-32">
       <div className="flex flex-wrap justify-between gap-12">
         <motion.div
           whileInView={{ opacity: 1, x: 0 }}
@@ -16,29 +13,44 @@ const Projects = () => {
         >
           <ul className="space-y-10">
             <li className="border-l-4 border-blue-500 pl-6">
-              <h3 className="text-2xl font-semibold text-blue-900">Breast Cancer Surgery</h3>
+              <h3 className="text-2xl font-semibold text-blue-900">
+                Breast Cancer Surgery
+              </h3>
               <p className="text-gray-600 mt-2 leading-relaxed">
-                Lumpectomy – removal of the tumor and a small margin of tissue.<br />
-                Mastectomy – removal of one or both breasts (partial or total).<br />
+                Lumpectomy – removal of the tumor and a small margin of tissue.
+                <br />
+                Mastectomy – removal of one or both breasts (partial or total).
+                <br />
                 Sentinel lymph node biopsy – to check if cancer has spread.
               </p>
             </li>
 
             <li className="border-l-4 border-blue-500 pl-6">
-              <h3 className="text-2xl font-semibold text-blue-900">Colorectal Surgery</h3>
+              <h3 className="text-2xl font-semibold text-blue-900">
+                Colorectal Surgery
+              </h3>
               <p className="text-gray-600 mt-2 leading-relaxed">
-                Colectomy – removal of all or part of the colon.<br />
-                Low anterior resection – removes part of the rectum while preserving anal function.<br />
-                Abdominoperineal resection – complete removal of the rectum and anus.
+                Colectomy – removal of all or part of the colon.
+                <br />
+                Low anterior resection – removes part of the rectum while
+                preserving anal function.
+                <br />
+                Abdominoperineal resection – complete removal of the rectum and
+                anus.
               </p>
             </li>
 
             <li className="border-l-4 border-blue-500 pl-6">
-              <h3 className="text-2xl font-semibold text-blue-900">Gastrointestinal (GI) Cancer Surgeries</h3>
+              <h3 className="text-2xl font-semibold text-blue-900">
+                Gastrointestinal (GI) Cancer Surgeries
+              </h3>
               <p className="text-gray-600 mt-2 leading-relaxed">
-                Gastrectomy – removal of part or all of the stomach.<br />
-                Whipple procedure – for pancreatic or bile duct cancer.<br />
-                Liver resection – to remove cancerous liver tissue.<br />
+                Gastrectomy – removal of part or all of the stomach.
+                <br />
+                Whipple procedure – for pancreatic or bile duct cancer.
+                <br />
+                Liver resection – to remove cancerous liver tissue.
+                <br />
                 Esophagectomy – removal of part or all of the esophagus.
               </p>
             </li>
@@ -51,7 +63,11 @@ const Projects = () => {
           transition={{ duration: 1 }}
           className="w-full lg:w-[48%] flex justify-center items-center"
         >
-          <img src={aboutImg} alt="Surgical Interventions" className="rounded-xl shadow-xl w-4/5" />
+          <img
+            src={aboutImg}
+            alt="Surgical Interventions"
+            className="rounded-xl shadow-xl w-4/5"
+          />
         </motion.div>
       </div>
 
@@ -62,7 +78,11 @@ const Projects = () => {
           transition={{ duration: 1 }}
           className="w-full lg:w-[48%] flex justify-center items-center"
         >
-          <img src={aboutImg} alt="More Interventions" className="rounded-xl shadow-xl w-4/5" />
+          <img
+            src={aboutImg}
+            alt="More Interventions"
+            className="rounded-xl shadow-xl w-4/5"
+          />
         </motion.div>
 
         <motion.div
@@ -73,27 +93,39 @@ const Projects = () => {
         >
           <ul className="space-y-10">
             <li className="border-l-4 border-blue-500 pl-6">
-              <h3 className="text-2xl font-semibold text-blue-900">Gynecologic Cancer Surgeries</h3>
+              <h3 className="text-2xl font-semibold text-blue-900">
+                Gynecologic Cancer Surgeries
+              </h3>
               <p className="text-gray-600 mt-2 leading-relaxed">
-                Hysterectomy – removal of the uterus for uterine or cervical cancer.<br />
-                Oophorectomy – removal of the ovaries.<br />
+                Hysterectomy – removal of the uterus for uterine or cervical
+                cancer.
+                <br />
+                Oophorectomy – removal of the ovaries.
+                <br />
                 Debulking surgery – removing as much tumor as possible.
               </p>
             </li>
 
             <li className="border-l-4 border-blue-500 pl-6">
-              <h3 className="text-2xl font-semibold text-blue-900">Head, Neck & Skin Cancers</h3>
+              <h3 className="text-2xl font-semibold text-blue-900">
+                Head, Neck & Skin Cancers
+              </h3>
               <p className="text-gray-600 mt-2 leading-relaxed">
-                Thyroidectomy – removal of the thyroid gland.<br />
-                Neck dissection – to remove lymph nodes with cancer.<br />
+                Thyroidectomy – removal of the thyroid gland.
+                <br />
+                Neck dissection – to remove lymph nodes with cancer.
+                <br />
                 Wide local excision – for melanoma or skin cancers.
               </p>
             </li>
 
             <li className="border-l-4 border-blue-500 pl-6">
-              <h3 className="text-2xl font-semibold text-blue-900">Soft Tissue Tumors (Sarcomas)</h3>
+              <h3 className="text-2xl font-semibold text-blue-900">
+                Soft Tissue Tumors (Sarcomas)
+              </h3>
               <p className="text-gray-600 mt-2 leading-relaxed">
-                Surgical removal of soft tissue or bone sarcomas, often involving limb-sparing techniques.
+                Surgical removal of soft tissue or bone sarcomas, often
+                involving limb-sparing techniques.
               </p>
             </li>
           </ul>
@@ -103,4 +135,4 @@ const Projects = () => {
   );
 };
 
-export default Projects
+export default Projects;

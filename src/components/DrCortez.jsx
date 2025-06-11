@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { ABOUT_TEXT } from "../constants";
 import Navbar from "./Navbar";
 import DrCortezImg from "../assets/docCortez.jpg";
 import { FaPhone } from "react-icons/fa6";
@@ -174,13 +173,13 @@ const DrCortez = () => {
                 <li className=" pl-4">
                   <h3 className="text-xl font-semibold text-gray-800">
                     Medical Affairs and Medical Director, St. Luke’s Medical
-                    Center,  2008 - 2012
+                    Center, 2008 - 2012
                   </h3>
                   <p className="text-gray-600 mt-1">VICE PRESIDENT</p>
                 </li>
                 <li className=" pl-4">
                   <h3 className="text-xl font-semibold text-gray-800">
-                    St. Luke’s Medical Center,  2012 - 2017
+                    St. Luke’s Medical Center, 2012 - 2017
                   </h3>
                   <p className="text-gray-600 mt-1">PRESIDENT AND CEO</p>
                 </li>

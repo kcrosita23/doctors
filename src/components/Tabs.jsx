@@ -1,12 +1,5 @@
 import { useState } from "react";
-import {
-  FaRibbon,
-  FaToilet,
-  FaStethoscope,
-  FaFemale,
-  FaHeadSideVirus,
-  FaBone,
-} from "react-icons/fa";
+import { FaRibbon } from "react-icons/fa";
 import Operation1 from "../assets/Operation1.jpg";
 import Operation2 from "../assets/Operation2.jpg";
 import Operation3 from "../assets/Operation3.jpg";
@@ -205,7 +198,7 @@ const Projects = () => {
           </motion.div>
         </AnimatePresence>
       </div>
-      <div class="bg-transparent bg-gradient-to-b from-transparent to-sky-400 w-full h-24"></div>
+      <div className="bg-transparent bg-gradient-to-b from-transparent to-sky-400 w-full h-24"></div>
     </div>
   );
 };

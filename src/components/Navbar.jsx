@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import logo from "../assets/oncology_logo.png";
 import { Menu, X } from "lucide-react";
 import { HashLink } from "react-router-hash-link";
@@ -9,23 +9,23 @@ const Navbar = () => {
 
   const navItems = [
     { name: "HOME ", to: "/#home" },
-    { name: "TEAM", to: "/#doctors"},
+    { name: "TEAM", to: "/#doctors" },
     { name: "ABOUT US", to: "/#about" },
     { name: "SURGICAL INTERVENTIONS", to: "/#interventions" },
     { name: "CONTACT US", to: "/#contact", isButton: true },
   ];
 
-    return (
-    <nav className="fixed top-0 left-0 w-full z-50 bg-sky-500 
-                    bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))] shadow-md">
+  return (
+    <nav
+      className="fixed top-0 left-0 w-full z-50 bg-sky-500 
+                    bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))] shadow-md"
+    >
       <div className="flex justify-between items-center py-4 px-9 md:px-40 xl:px-20 ">
-        
         <div className="flex items-start">
           <a href="/#home">
-          <img className="w-40 sm:w-80 h-15" src={logo} alt="logo" />
+            <img className="w-40 sm:w-80 h-15" src={logo} alt="logo" />
           </a>
         </div>
-
 
         <div className="xl:hidden">
           <button onClick={() => setIsOpen(!isOpen)} className="text-white">
@@ -37,17 +37,25 @@ const Navbar = () => {
           {navItems.map((item) =>
             item.isButton ? (
               <li key={item.name}>
-                <HashLink smooth to={item.to} onClick={() => setIsOpen(false)} 
+                <HashLink
+                  smooth
+                  to={item.to}
+                  onClick={() => setIsOpen(false)}
                   className="px-3 py-3 bg-sky-800 font-semibold text-white rounded-md 
                   hover:bg-white hover:text-sky-800 transition duration-300 transform hover:-translate-y-1 hover:scale-105 
-                  shadow-md hover:shadow-lg ">
+                  shadow-md hover:shadow-lg "
+                >
                   {item.name}
                 </HashLink>
               </li>
             ) : (
               <li key={item.name}>
-                <HashLink smooth to={item.to} onClick={() => setIsOpen(false)}
-                  className="justify-center text-white hover:text-black transition duration-300">
+                <HashLink
+                  smooth
+                  to={item.to}
+                  onClick={() => setIsOpen(false)}
+                  className="justify-center text-white hover:text-black transition duration-300"
+                >
                   {item.name}
                 </HashLink>
               </li>
@@ -58,31 +66,39 @@ const Navbar = () => {
 
       {isOpen && (
         <motion.div
-                whileInView={{ opacity: 1, y: 0 }}
-                initial={{ opacity: 0, y: -100 }}
-                transition={{ duration: 1 }}
-        className="xl:hidden px-4 mt-60 mb-80 pb-4">
-          <ul       
-          className="flex flex-col gap-10 text-xl">
+          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, y: -100 }}
+          transition={{ duration: 1 }}
+          className="xl:hidden px-4 mt-60 mb-80 pb-4"
+        >
+          <ul className="flex flex-col gap-10 text-xl">
             {navItems.map((item) =>
               item.isButton ? (
-                <li
-                key={item.name}>
-                  <HashLink smooth to={item.to} onClick={() => setIsOpen(false)}
+                <li key={item.name}>
+                  <HashLink
+                    smooth
+                    to={item.to}
+                    onClick={() => setIsOpen(false)}
                     className="block w-full text-center px-2 py-2 bg-gray-800 text-white rounded-md 
                             hover:bg-black transition duration-300 transform hover:-translate-y-1 hover:scale-105
-                            shadow-md hover:shadow-lg">
+                            shadow-md hover:shadow-lg"
+                  >
                     {item.name}
                   </HashLink>
                 </li>
               ) : (
                 <li key={item.name}>
-                  <HashLink smooth to={item.to} onClick={() => setIsOpen(false)}
-                    className="text-center font-thin text-white hover:text-black transition duration-300 block">
+                  <HashLink
+                    smooth
+                    to={item.to}
+                    onClick={() => setIsOpen(false)}
+                    className="text-center font-thin text-white hover:text-black transition duration-300 block"
+                  >
                     {item.name}
                   </HashLink>
                 </li>
-              ))}
+              )
+            )}
           </ul>
         </motion.div>
       )}

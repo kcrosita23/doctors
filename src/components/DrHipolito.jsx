@@ -58,7 +58,7 @@ const DrHipolito = () => {
                   <ul className="space-y-8 pt-5">
                     <li className=" pl-4">
                       <h3 className="text-xl font-semibold text-gray-800">
-                        St. Luke's Medical Center - Global City{" "}
+                        St. Luke`s Medical Center - Global City
                       </h3>
                       <p className="text-gray-600 mt-1">
                         32nd St. Bonifacio Global City Taguig City, 1634
@@ -66,11 +66,11 @@ const DrHipolito = () => {
                     </li>
                     <li className="pl-4">
                       <h3 className="text-xl font-semibold text-gray-800">
-                        St Luke's Medical Center - Quezon City
+                        St Luke`s Medical Center - Quezon City
                       </h3>
                       <p className="text-gray-600 mt-1">
                         Rm.1018 South Cathedral Heights Bldg. Complex, St.
-                        Luke's Medical Center 279 E. Rodriquez Sr. Boulevard
+                        Luke`s Medical Center 279 E. Rodriquez Sr. Boulevard
                         Quezon City, 1112
                       </p>
                     </li>
@@ -183,7 +183,7 @@ const DrHipolito = () => {
         </p>
         <div className=" grid grid-cols-1 md:grid-cols-3  text-center">
           <div>
-            <p className="text-sm text-black font-bold text-center mt-8 ">
+            <div className="text-sm text-black font-bold text-center mt-8 ">
               Ann Carla
               <p className="text-sm text-gray-100">
                 <div className="flex items-center justify-center">
@@ -197,10 +197,10 @@ const DrHipolito = () => {
                 <MdOutlinePinDrop className="mr-1" />
                 <span>St. Lukes BGC </span>
               </div>
-            </p>
+            </div>
           </div>
           <div>
-            <p className="text-sm text-black font-bold text-center mt-8">
+            <div className="text-sm text-black font-bold text-center mt-8">
               Jennifer
               <p className="text-sm text-gray-100">
                 <div className="flex items-center justify-center">
@@ -214,10 +214,10 @@ const DrHipolito = () => {
                 <MdOutlinePinDrop className="mr-1" />
                 <span>St. Lukes Quezon City </span>
               </div>
-            </p>
+            </div>
           </div>
           <div>
-            <p className="text-sm text-black font-bold text-center mt-8">
+            <div className="text-sm text-black font-bold text-center mt-8">
               Marylen
               <p className="text-sm text-gray-100">
                 <div className="flex items-center  justify-center">
@@ -231,7 +231,7 @@ const DrHipolito = () => {
                 <MdOutlinePinDrop className="mr-1" />
                 <span>UERM </span>
               </div>
-            </p>
+            </div>
           </div>
         </div>
         <p className="pt-6 flex items-center justify-center text-gray-500 font-montserrat  ">
