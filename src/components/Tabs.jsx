@@ -3,16 +3,7 @@ import { FaRibbon } from "react-icons/fa";
 import Operation1 from "../assets/Operation1.jpg";
 import Operation2 from "../assets/Operation2.jpg";
 import Operation3 from "../assets/Operation3.jpg";
-import { motion, AnimatePresence } from "framer-motion";
-
-const tabs = [
-  { id: "breast", label: "Breast Cancer Surgery", icon: FaRibbon },
-  { id: "colorectal", label: "Colorectal Surgery", icon: FaRibbon },
-  { id: "gi", label: "Gastrointestinal Surgeries", icon: FaRibbon },
-  { id: "gynecologic", label: "Gynecologic Surgeries", icon: FaRibbon },
-  { id: "head-neck", label: "Head & Neck Cancers", icon: FaRibbon },
-  { id: "sarcomas", label: "Soft Tissue Tumors", icon: FaRibbon },
-];
+import { motion, AnimatePresence, color } from "framer-motion";
 
 const tabContent = {
   breast: (
@@ -148,6 +139,45 @@ const contentVariants = {
   animate: { opacity: 1, y: 0 },
   exit: { opacity: 0, y: -20 },
 };
+
+const tabs = [
+  {
+    id: "breast",
+    label: "Breast Cancer Surgery",
+    icon: FaRibbon,
+    color: "pink",
+  },
+  {
+    id: "colorectal",
+    label: "Colorectal Surgery",
+    icon: FaRibbon,
+    color: "red",
+  },
+  {
+    id: "gi",
+    label: "Gastrointestinal Surgeries",
+    icon: FaRibbon,
+    color: "blue",
+  },
+  {
+    id: "gynecologic",
+    label: "Gynecologic Surgeries",
+    icon: FaRibbon,
+    color: "green",
+  },
+  {
+    id: "head-neck",
+    label: "Head & Neck Cancers",
+    icon: FaRibbon,
+    color: "black",
+  },
+  {
+    id: "sarcomas",
+    label: "Soft Tissue Tumors",
+    icon: FaRibbon,
+    color: "yellow",
+  },
+];
 
 const Projects = () => {
   const [activeTab, setActiveTab] = useState("breast");

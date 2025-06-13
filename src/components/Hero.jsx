@@ -1,19 +1,29 @@
-import { HERO_CONTENT } from "../constants";
-import heroBg from "../assets/herobg.png";
+import { ABOUT_DRRAYMUNDO, HERO_CONTENT } from "../constants";
+import { motion } from "framer-motion";
+import DrHipolitoDrCortez from "../assets/DrHipolito&DrCortez.jpg";
+import DrCortez1 from "../assets/docCortez1.jpg";
+import HeroPhoto from "../assets/Hero_photo.png";
+import { image } from "framer-motion/client";
+import HeroBg from "../assets/hero_bg.png";
+import Operation3 from "../assets/Operation3.jpg";
+import Navbar from "./Navbar";
 
 const Hero = () => {
   return (
     <div id="home" className="scroll-mt-32 flex flex-wrap">
       <img
-        className="float-right w-auto top-0 -z-10 fixed hidden xl:block"
-        src={heroBg}
-        alt="Hero Background"
+        className="float-right w-auto top-0 -z-10 fixed  hidden xl:block"
+        src="..\src\assets\Herobg7.png"
+        alt="Herobg"
       />
 
       <div className="py-40 px-10 mt-10  md:p-20">
         <div className="flex mx-auto items-center lg:items-start">
           <div className="mx-auto text-center md:text-start md:mt-10 md:ml-20">
-            <h1 className="text-5xl mb-5 pt-10 md:pt-20  md:pr-80 font-montserrat">
+            <h1
+              h1
+              className="text-5xl mb-5 pt-10 md:pt-20  md:pr-80 font-montserrat"
+            >
               Surgical Excellence, Lifesaving Results
             </h1>
 
@@ -40,7 +50,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="bg-transparent bg-gradient-to-b from-transparent to-sky-400 w-full h-48"></div>
+      <div class="bg-transparent bg-gradient-to-b from-transparent to-sky-400 w-full h-48"></div>
     </div>
   );
 };
