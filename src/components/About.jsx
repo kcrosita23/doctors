@@ -1,12 +1,12 @@
-import aboutImg from "../assets/aboutdoc.jpg";
+import DocHipolito from "../assets/aboutdoc.jpg";
 import {
   ABOUT_DRCORTEZ,
   ABOUT_DRHIPOLITO,
   ABOUT_DRRAYMUNDO,
 } from "../constants";
 import { motion } from "framer-motion";
-import DrCortez1 from "../assets/docCortez1.jpg";
-import DrRaymundo1 from "../assets/docRaymundo.jpg";
+import DrCortez from "../assets/docCortez1.jpg";
+import DrRaymundo from "../assets/DraRaymundo.jpg";
 
 const About = () => {
   return (
@@ -23,7 +23,11 @@ const About = () => {
           // className="w-full lg:w-1/2 lg:px-6 lg:py-4 order-2 lg:order-1 pt-2"
         >
           <div className="flex items-center justify-center px-4">
-            <img className="rounded-lg w-3/5" src={aboutImg} alt="about" />
+            <img
+              className="rounded-lg w-3/5"
+              src={DocHipolito}
+              alt="Dr. Hipolito Image"
+            />
           </div>
         </motion.div>
         <motion.div
@@ -43,7 +47,7 @@ const About = () => {
             >
               DR. CECILIO D.S HIPOLITO JR, M.D, DPBS
             </motion.span>
-            <p className="my-2 max-w-xl py-6 text-justify">
+            <p className="my-2 max-w-xl py-6 text-justify lg:text-2xl">
               {ABOUT_DRHIPOLITO}
             </p>
           </div>
@@ -68,7 +72,7 @@ const About = () => {
             >
               DR. GRACE DIANNE GONZALEZ RAYMUNDO, MD, FSOSP
             </motion.span>
-            <p className="my-2 max-w-xl py-6 text-justify">
+            <p className="my-2 max-w-xl py-6 text-justify lg:text-2xl">
               {ABOUT_DRRAYMUNDO}
             </p>
           </div>
@@ -82,7 +86,11 @@ const About = () => {
           className="w-full lg:w-1/2 lg:px-6 lg:py-4"
         >
           <div className="flex items-center justify-center px-4">
-            <img className="rounded-lg w-3/5" src={DrRaymundo1} alt="about" />
+            <img
+              className="rounded-lg w-3/5"
+              src={DrRaymundo}
+              alt="Dr. Raymundo Image"
+            />
           </div>
         </motion.div>
       </div>
@@ -105,7 +113,9 @@ const About = () => {
             >
               DR. EDGARDO R. CORTEZ M.D., FPCS, FACS
             </motion.span>
-            <p className="my-2 max-w-xl py-6 text-justify">{ABOUT_DRCORTEZ}</p>
+            <p className="my-2 max-w-xl py-6 text-justify lg:text-2xl">
+              {ABOUT_DRCORTEZ}
+            </p>
           </div>
         </motion.div>
 
@@ -117,7 +127,11 @@ const About = () => {
           className="w-full lg:w-1/2 lg:px-6 lg:py-4 order-2 lg:order-1 pt-2"
         >
           <div className="flex items-center justify-center px-4">
-            <img className="rounded-lg w-3/5" src={DrCortez1} alt="about" />
+            <img
+              className="rounded-lg w-3/5"
+              src={DrCortez}
+              alt="Dr. Cortez Image"
+            />
           </div>
         </motion.div>
       </div>
