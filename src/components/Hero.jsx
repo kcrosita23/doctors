@@ -15,7 +15,7 @@ const Hero = () => {
         alt="Hero Background"
       />
 
-      <div className="py-40 px-10 mt-10  md:p-20">
+      <div className="py-40 px-10  md:p-20">
         <div className="flex mx-auto items-center lg:items-start">
           <div className="mx-auto text-center md:text-start md:mt-10 md:ml-20">
             <h1 className="text-5xl font-semibold mb-5 pt-10 md:pt-20 md:text-black md:pr-60 md:mr-80 font-montserrat">
