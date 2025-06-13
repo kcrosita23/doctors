@@ -1,15 +1,46 @@
 import { useState } from "react";
-import { FaRibbon } from "react-icons/fa";
+import { GiStomach } from "react-icons/gi";
+import { PiBoneFill } from "react-icons/pi";
+import {
+  FaRibbon,
+  FaUserMd,
+  FaFemale,
+  FaHeadSideVirus,
+  FaSyringe,
+} from "react-icons/fa";
 import Operation1 from "../assets/Operation1.jpg";
 import Operation2 from "../assets/Operation2.jpg";
 import Operation3 from "../assets/Operation3.jpg";
+import Operation4 from "../assets/Operation4.jpg";
+import Operation5 from "../assets/Operation5.jpg";
+import Operation6 from "../assets/Operation6.jpg";
+import Operation7 from "../assets/Operation7.jpg";
 import { motion, AnimatePresence, color } from "framer-motion";
 
 const tabContent = {
+  hipec: (
+    <div className="flex flex-col md:flex-row items-center gap-6">
+      <img
+        src={Operation5}
+        alt="Hyperthermic Intraperitoneal Chemotherapy"
+        className="w-64 sm:w-72 md:w-80 lg:w-96 xl:w- rounded-lg shadow-md cursor-pointer filter grayscale hover:grayscale-0 duration-500 object-cover"
+      />
+      <div className="text-gray-600 text-base leading-relaxed">
+        <h3 className="text-3xl font-semibold text-blue-900 mb-2">
+          Hyperthermic Intraperitoneal Chemotherapy (HIPEC)
+        </h3>
+        <p className="text-gray-600 mt-2 leading-relaxed">
+          A two-step cancer treatment where tumors are surgically removed,
+          followed by heated chemotherapy applied directly to the abdomen to
+          kill remaining cancer cells and reduce the risk of recurrence.
+        </p>
+      </div>
+    </div>
+  ),
   breast: (
     <div className="flex flex-col md:flex-row items-center gap-6">
       <img
-        src={Operation1}
+        src={Operation2}
         alt="Breast Cancer Surgery"
         className="w-64 sm:w-72 md:w-80 lg:w-96 xl:w- rounded-lg shadow-md cursor-pointer filter grayscale hover:grayscale-0 duration-500 object-cover"
       />
@@ -52,7 +83,7 @@ const tabContent = {
   gi: (
     <div className="flex flex-col md:flex-row items-center gap-6">
       <img
-        src={Operation2}
+        src={Operation4}
         alt="Gastrointestinal Surgeries"
         className="w-64 sm:w-72 md:w-80 lg:w-96 xl:w- rounded-lg shadow-md cursor-pointer filter grayscale hover:grayscale-0 duration-500 object-cover"
       />
@@ -96,8 +127,8 @@ const tabContent = {
   "head-neck": (
     <div className="flex flex-col md:flex-row items-center gap-6">
       <img
-        src={Operation2}
-        alt="Gynecologic Surgeries"
+        src={Operation6}
+        alt="Head & Neck Cancers"
         className="w-64 sm:w-72 md:w-80 lg:w-96 xl:w- rounded-lg shadow-md cursor-pointer filter grayscale hover:grayscale-0 duration-500 object-cover"
       />
       <div>
@@ -117,8 +148,8 @@ const tabContent = {
   sarcomas: (
     <div className="flex flex-col md:flex-row items-center gap-6">
       <img
-        src={Operation3}
-        alt="Gynecologic Surgeries"
+        src={Operation7}
+        alt="Soft Tissue Tumors"
         className="w-64 sm:w-72 md:w-80 lg:w-96 xl:w- rounded-lg shadow-md cursor-pointer filter grayscale hover:grayscale-0 duration-500 object-cover"
       />
       <div>
@@ -145,37 +176,36 @@ const tabs = [
     id: "breast",
     label: "Breast Cancer Surgery",
     icon: FaRibbon,
-    color: "pink",
   },
   {
     id: "colorectal",
     label: "Colorectal Surgery",
-    icon: FaRibbon,
-    color: "red",
+    icon: FaUserMd,
   },
   {
     id: "gi",
     label: "Gastrointestinal Surgeries",
-    icon: FaRibbon,
-    color: "blue",
+    icon: GiStomach,
+  },
+  {
+    id: "hipec",
+    label: "HIPEC Surgery",
+    icon: FaSyringe,
   },
   {
     id: "gynecologic",
     label: "Gynecologic Surgeries",
-    icon: FaRibbon,
-    color: "green",
+    icon: FaFemale,
   },
   {
     id: "head-neck",
     label: "Head & Neck Cancers",
-    icon: FaRibbon,
-    color: "black",
+    icon: FaHeadSideVirus,
   },
   {
     id: "sarcomas",
     label: "Soft Tissue Tumors",
-    icon: FaRibbon,
-    color: "yellow",
+    icon: PiBoneFill,
   },
 ];
 
@@ -190,21 +220,21 @@ const Projects = () => {
 
       <div className="w-full overflow-x-auto">
         <div className="flex justify-center px-4">
-          <div className="flex w-full max-w-4xl">
+          <div className="flex w-full max-w-6xl max-h-3xl">
             {tabs.map((tab) => (
               <button
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id)}
                 className={`flex-1 flex flex-col items-center justify-center px-4 py-3 m-1 rounded-md transition-colors duration-300 ${
                   activeTab === tab.id
-                    ? "bg-blue-500 text-white"
+                    ? "bg-sky-500 text-white"
                     : "bg-gray-200 text-gray-700 hover:bg-blue-100"
                 }`}
               >
-                {/* Icon: Visible on all screen sizes with responsive sizing */}
-                <tab.icon className="text-2xl md:text-3xl lg:text-4xl mb-1" />
+                {/* Icon: Always visible and responsive-sized */}
+                <tab.icon className="text-2xl md:text-3xl lg:text-3xl mb-1" />
 
-                {/* Label: Hidden on small screens, visible on medium and larger screens */}
+                {/* Label: hidden on medium and smaller; appears on larger screens */}
                 <span className="hidden md:block text-sm md:text-base text-center">
                   {tab.label}
                 </span>
