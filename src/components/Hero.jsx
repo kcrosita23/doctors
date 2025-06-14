@@ -18,7 +18,7 @@ const Hero = () => {
             </h1>
 
             <div className="m-30 max-w-xl py-6 font-light tracking-tighter">
-              <span>{HERO_CONTENT}, </span>
+              <span >{HERO_CONTENT}, </span>
               <span className="font-semibold">{HERO_CONTENT2} </span>
               <span>{HERO_CONTENT3}</span>
             </div>
@@ -26,7 +26,7 @@ const Hero = () => {
             <div className="mt-8 gap-x-4 md:flex">
               <a
                 href="/#contact"
-                className="px-3 py-3 md:px-8 md:py-3 text-lg font-semibold text-white rounded-lg bg-sky-500 hover:bg-white hover:text-sky-800  transition duration-300 transform hover:-translate-y-1 hover:scale-105 
+                className="px-3 py-3 md:px-8 md:py-3 text-lg font-semibold text-white rounded-lg bg-sky-800 hover:bg-white hover:text-sky-800  transition duration-300 transform hover:-translate-y-1 hover:scale-105 
                   shadow-md hover:shadow-lg"
               >
                 Contact Us
