@@ -7,7 +7,7 @@ import DrRaymundo from "../assets/DraRaymundo.png";
 
 const DocsCards = () => {
   return (
-    <div id="doctors" className="scroll-mt-40">
+    <div id="doctors" className="scroll-mt-32">
       <div className="text-center bg-sky-400">
         <motion.h1
           whileInView={{ opacity: 1, x: 0 }}

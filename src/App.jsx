@@ -32,11 +32,11 @@ const Home = () => {
       <Hero />
       <DocsCards />
       <About />
-      <div className="container mx-auto px-8">
-        {/* <Technologies />
+      {/*<div className="container mx-auto px-8">
+      <Technologies />
       <Experience /> 
-      <Projects />*/}
-      </div>
+      <Projects />
+      </div>*/}
       <Tabs />
       <Contact />
     </>
