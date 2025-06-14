@@ -1,10 +1,5 @@
-import {
-  HERO_CONTENT,
-  HERO_CONTENT2,
-  HERO_CONTENT3,
-  HIPEC,
-} from "../constants";
-import heroBg from "../assets/Herobg.png";
+import { HERO_CONTENT, HERO_CONTENT2, HERO_CONTENT3 } from "../constants";
+import heroBg from "../assets/herobg.png";
 
 const Hero = () => {
   return (
@@ -24,8 +19,7 @@ const Hero = () => {
 
             <div className="m-30 max-w-xl py-6 font-light tracking-tighter">
               <span>{HERO_CONTENT}, </span>
-              <span className="font-semibold">{HERO_CONTENT2} </span> <br />
-              <span className="font-semibold underline">{HIPEC}</span>
+              <span className="font-semibold">{HERO_CONTENT2} </span>
               <span>{HERO_CONTENT3}</span>
             </div>
 

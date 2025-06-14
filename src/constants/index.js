@@ -8,8 +8,7 @@ export const HERO_CONTENT =
 export const HERO_CONTENT2 =
   "Hyperthermic Intraperitoneal Chemotherapy (HIPEC).";
 export const HERO_CONTENT3 =
-  " combines precise surgical removal of tumors with heated chemotherapy delivered directly into the abdominal cavity to target any remaining microscopic cancer cells. With our advanced training and a collaborative approach, we provide high-quality, personalized care designed to maximize treatment effectiveness and improve patient outcomes.";
-export const HIPEC = "HIPEC";
+  " With our advanced training and a collaborative approach, we provide high-quality, personalized care designed to maximize treatment effectiveness and improve patient outcomes.";
 
 export const ABOUT_TEXT = `I specialize in surgical oncology, a field dedicated to the surgical management of cancer. My role involves diagnosing, staging, and treating various types of cancers through surgery while collaborating with a multidisciplinary team to provide comprehensive care to patients.
 
