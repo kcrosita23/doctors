@@ -11,17 +11,13 @@ import {
 import Operation1 from "../assets/Operation1.jpg";
 import Operation2 from "../assets/Operation2.jpg";
 import Operation3 from "../assets/Operation3.jpg";
-import Operation4 from "../assets/Operation4.jpg";
-import Operation5 from "../assets/Operation5.jpg";
-import Operation6 from "../assets/Operation6.jpg";
-import Operation7 from "../assets/Operation7.jpg";
 import { motion, AnimatePresence } from "framer-motion";
 
 const tabContent = {
   hipec: (
     <div className="flex flex-col md:flex-row items-center gap-6">
       <img
-        src={Operation5}
+        src={Operation1}
         alt="Hyperthermic Intraperitoneal Chemotherapy"
         className="w-64 sm:w-72 md:w-80 lg:w-96 xl:w- rounded-lg shadow-md cursor-pointer filter grayscale hover:grayscale-0 duration-500 object-cover"
       />
@@ -83,7 +79,7 @@ const tabContent = {
   gi: (
     <div className="flex flex-col md:flex-row items-center gap-6">
       <img
-        src={Operation4}
+        src={Operation1}
         alt="Gastrointestinal Surgeries"
         className="w-64 sm:w-72 md:w-80 lg:w-96 xl:w- rounded-lg shadow-md cursor-pointer filter grayscale hover:grayscale-0 duration-500 object-cover"
       />
@@ -106,7 +102,7 @@ const tabContent = {
   gynecologic: (
     <div className="flex flex-col md:flex-row items-center gap-6">
       <img
-        src={Operation1}
+        src={Operation2}
         alt="Gynecologic Surgeries"
         className="w-64 sm:w-72 md:w-80 lg:w-96 xl:w- rounded-lg shadow-md cursor-pointer filter grayscale hover:grayscale-0 duration-500 object-cover"
       />
@@ -127,7 +123,7 @@ const tabContent = {
   "head-neck": (
     <div className="flex flex-col md:flex-row items-center gap-6">
       <img
-        src={Operation6}
+        src={Operation3}
         alt="Head & Neck Cancers"
         className="w-64 sm:w-72 md:w-80 lg:w-96 xl:w- rounded-lg shadow-md cursor-pointer filter grayscale hover:grayscale-0 duration-500 object-cover"
       />
@@ -148,7 +144,7 @@ const tabContent = {
   sarcomas: (
     <div className="flex flex-col md:flex-row items-center gap-6">
       <img
-        src={Operation7}
+        src={Operation1}
         alt="Soft Tissue Tumors"
         className="w-64 sm:w-72 md:w-80 lg:w-96 xl:w- rounded-lg shadow-md cursor-pointer filter grayscale hover:grayscale-0 duration-500 object-cover"
       />
