@@ -11,10 +11,10 @@ import {
 import Operation1 from "../assets/Operation1.jpg";
 import Operation2 from "../assets/Operation2.jpg";
 import Operation3 from "../assets/Operation3.jpg";
-import Operation4 from "../assets/Operation2.jpg";
-import Operation5 from "../assets/Operation1.jpg";
-import Operation6 from "../assets/Operation3.jpg";
-import Operation7 from "../assets/Operation2.jpg";
+import Operation4 from "../assets/Operation4.jpg";
+import Operation5 from "../assets/Operation5.jpg";
+import Operation6 from "../assets/Operation6.jpg";
+import Operation7 from "../assets/Operation7.jpg";
 import { motion, AnimatePresence } from "framer-motion";
 
 const tabContent = {
