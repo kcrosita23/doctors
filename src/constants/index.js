@@ -1,8 +1,3 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
-
 export const HERO_CONTENT =
   "We are a dedicated team of Surgical Oncologists specializing in the surgical treatment of cancer, including advanced procedures like";
 export const HERO_CONTENT2 =
@@ -15,11 +10,14 @@ export const ABOUT_TEXT = `I specialize in surgical oncology, a field dedicated 
 I pursued my medical education at [Medical School Name] and completed my residency in general surgery at [Institution Name], followed by a fellowship in surgical oncology at [Specialized Center]. My clinical expertise includes performing complex oncologic surgeries, such as tumor resections, minimally invasive procedures, and reconstructive surgeries when required.`;
 
 export const ABOUT_DRCORTEZ =
-  "Dr. Edgardo Cortez is a prominent oncologist known for his expertise in treating various types of cancer, including sarcomas and renal cancers. His approach often includes advanced surgical techniques and comprehensive oncological care. Hes highly regarded in the medical community for his research contributions and patient care outcomes.";
+  "Dr. Edgardo Cortez is a prominent oncologist known for his expertise in treating various types of cancer, including sarcomas and renal cancers. His approach often includes advanced surgical techniques and comprehensive oncological care. He's highly regarded in the medical community for his research contributions and patient care outcomes.";
 export const ABOUT_DRRAYMUNDO =
-  "Dr. Grace Dianne Gonzalez Raymundo, MD, FSOSP, is a highly skilled surgical oncologist specializing in the treatment of breast cancer and other malignancies. With a focus on personalized patient care, she employs advanced surgical techniques and collaborates with multidisciplinary teams to ensure optimal outcomes for her patients.";
+  "Dr. Grace Dianne Raymundo is a surgical oncologist practicing at Diliman Doctors Hospital in Quezon City, Philippines. She specializes in the surgical treatment of cancer and is available for consultations from Monday to Saturday (except Wednesdays), between 9:00 AM and 3:00 PM, at Clinic Number 706.";
 export const ABOUT_DRHIPOLITO =
-  "Dr. Cecilio D.S Hipolito Jr, M.D, DPBS, is a distinguished surgical oncologist with extensive experience in treating various cancers. He is known for his expertise in complex surgical procedures and his commitment to advancing cancer care through research and education.";
+  "Dr. Cecilio S. Hipolito Jr. is a distinguished surgical oncologist in the Philippines, specializing in advanced cancer treatments. He serves as the Division Head of Surgical Oncology at St. Luke’s Medical Center, with practice locations in both Global City, Quezon City and UE Ramon Magsaysay Medical Center.";
+
+export const ABOUT_DRHIPOLITO1 =
+  "Dr. Hipolito leads the Cytoreductive Surgery and Hyperthermic Intraperitoneal Chemotherapy (HIPEC) Service at St. Luke’s. This multidisciplinary team addresses peritoneal carcinomatosis—cancers that have spread within the abdominal cavity, such as those originating from the appendix, colon, rectum, stomach, and ovaries. The HIPEC procedure combines surgical removal of visible tumors with the application of heated chemotherapy directly into the abdominal cavity, aiming to eliminate microscopic cancer cells and improve patient outcomes.";
 
 export const EXPERIENCES = [
   {
@@ -51,40 +49,3 @@ export const EXPERIENCES = [
     technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
   },
 ];
-
-export const PROJECTS = [
-  {
-    title: "E-Commerce Website",
-    image: project1,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-  },
-  {
-    title: "Task Management App",
-    image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
-  },
-  {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  },
-];
-
-export const CONTACT = {
-  address: " 69 Paco Manila, Philippines ",
-  phoneNo: " +63 912 345 6789 ",
-  email: " me@example.com ",
-};

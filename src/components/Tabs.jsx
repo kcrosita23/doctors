@@ -11,11 +11,11 @@ import {
 import Operation1 from "../assets/Operation1.jpg";
 import Operation2 from "../assets/Operation2.jpg";
 import Operation3 from "../assets/Operation3.jpg";
-import Operation4 from "../assets/Operation4.jpg";
-import Operation5 from "../assets/Operation5.jpg";
-import Operation6 from "../assets/Operation6.jpg";
-import Operation7 from "../assets/Operation7.jpg";
-import { motion, AnimatePresence, color } from "framer-motion";
+import Operation4 from "../assets/Operation2.jpg";
+import Operation5 from "../assets/Operation1.jpg";
+import Operation6 from "../assets/Operation3.jpg";
+import Operation7 from "../assets/Operation2.jpg";
+import { motion, AnimatePresence } from "framer-motion";
 
 const tabContent = {
   hipec: (
@@ -173,6 +173,11 @@ const contentVariants = {
 
 const tabs = [
   {
+    id: "hipec",
+    label: "HIPEC Surgery",
+    icon: FaSyringe,
+  },
+  {
     id: "breast",
     label: "Breast Cancer Surgery",
     icon: FaRibbon,
@@ -186,11 +191,6 @@ const tabs = [
     id: "gi",
     label: "Gastrointestinal Surgeries",
     icon: GiStomach,
-  },
-  {
-    id: "hipec",
-    label: "HIPEC Surgery",
-    icon: FaSyringe,
   },
   {
     id: "gynecologic",
@@ -210,7 +210,7 @@ const tabs = [
 ];
 
 const Projects = () => {
-  const [activeTab, setActiveTab] = useState("breast");
+  const [activeTab, setActiveTab] = useState("hipec");
 
   return (
     <div id="interventions" className="scroll-mt-24">

@@ -2,6 +2,7 @@ import DocHipolito from "../assets/DrHipolitoScrub.jpg";
 import {
   ABOUT_DRCORTEZ,
   ABOUT_DRHIPOLITO,
+  ABOUT_DRHIPOLITO1,
   ABOUT_DRRAYMUNDO,
 } from "../constants";
 import { motion } from "framer-motion";
@@ -48,8 +49,8 @@ const About = () => {
               >
                 DR. CECILIO D.S HIPOLITO JR, M.D, DPBS
               </motion.span>
-              <p className="my-2 max-w-xl py-6 text-justify lg:text-2xl">
-                {ABOUT_DRHIPOLITO}
+              <p className="my-2 max-w-xl py-6 text-justify lg:text-xl">
+                {ABOUT_DRHIPOLITO} <br /> <br /> {ABOUT_DRHIPOLITO1}
               </p>
             </div>
           </motion.div>
