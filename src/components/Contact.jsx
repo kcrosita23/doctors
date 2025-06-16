@@ -13,7 +13,7 @@ const Contact = () => {
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-1 text-center pb-2">
-        <div>
+        <div className="block bg-transparent border border-gray-700 rounded-3xl justify-center m-8 mb-4 pb-4">
           <h3 className="font-bold mb-1 mt-6 pb-3">
             Dr. Hipolito`s Secretaries
           </h3>
@@ -85,7 +85,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <div>
+        <div className="block bg-transparent border border-gray-700 rounded-3xl justify-center m-8 mb-4 pb-4">
           <h3 className="font-bold mb-1 mt-6 pb-3 ">
             Dr. Raymundo`s Secretaries
           </h3>
@@ -135,7 +135,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <div>
+        <div className="block bg-transparent border border-gray-700 rounded-3xl justify-center m-8 mb-4 pb-4">
           <h3 className="font-bold mb-1 mt-6 pb-3 ">
             Dr. Cortez`s Secretaries
           </h3>
