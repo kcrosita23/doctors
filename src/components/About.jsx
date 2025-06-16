@@ -1,4 +1,4 @@
-import DocHipolito from "../assets/aboutdoc.jpg";
+import DocHipolito from "../assets/DrHipolitoScrub.jpg";
 import {
   ABOUT_DRCORTEZ,
   ABOUT_DRHIPOLITO,
