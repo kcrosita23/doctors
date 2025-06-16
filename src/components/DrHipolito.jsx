@@ -68,7 +68,7 @@ const DrHipolito = () => {
                         St Luke`s Medical Center - Quezon City
                       </h3>
                       <p className="text-gray-600 mt-1">
-                        Rm.1018 South Cathedral Heights Bldg. Complex, St.
+                        Rm. 1018 South Cathedral Heights Bldg. Complex, St.
                         Luke`s Medical Center 279 E. Rodriquez Sr. Boulevard
                         Quezon City, 1112
                       </p>
@@ -78,7 +78,7 @@ const DrHipolito = () => {
                         UERM Memorial Medical Center
                       </h3>
                       <p className="text-gray-600 mt-1">
-                        Rm.112 College of Medicine Bldg. 64 Aurora Blvd. Brgy.
+                        Rm. 112 College of Medicine Bldg. 64 Aurora Blvd. Brgy.
                         Dona Imelda, Quezon City, 1113h
                       </p>
                     </li>
