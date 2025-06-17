@@ -9,7 +9,7 @@ const DrHipolito = () => {
   return (
     <div>
       <Navbar />
-      <div className="justify-center flex flex-auto pt-20">
+      <h1 className="justify-center flex flex-auto pt-20">
         <motion.span
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: 0 }}
@@ -21,7 +21,7 @@ const DrHipolito = () => {
         >
           DR. CECILIO D.S HIPOLITO JR, M.D, DPBS
         </motion.span>
-      </div>
+      </h1>
 
       <div className="container mx-auto px-4">
         <div
@@ -50,8 +50,8 @@ const DrHipolito = () => {
                         Surgical Oncology{" "}
                       </h3>
                       <p className="text-gray-600 mt-1">
-                        St. Luke's Medical Center Quezon City, Philippines
-                        2008-2009
+                        St. Luke's Medical Center Quezon City, Philippines 2008
+                        - 2009
                       </p>
                     </li>
                     <li className=" pl-4">
@@ -60,7 +60,7 @@ const DrHipolito = () => {
                       </h3>
                       <p className="text-gray-600 mt-1">
                         University Of The East Ramon Magsaysay Memorial Medical
-                        Center Quezon City, Philippines 2002-2006
+                        Center Quezon City, Philippines 2002 - 2006
                       </p>
                     </li>
                     <li className=" pl-4">
@@ -69,7 +69,7 @@ const DrHipolito = () => {
                       </h3>
                       <p className="text-gray-600 mt-1">
                         University Of The East Ramon Magsaysay Memorial Medical
-                        Center Quezon City, Philippines 1998-1999
+                        Center Quezon City, Philippines 1998 - 1999
                       </p>
                     </li>
                     <li className="pl-4">
@@ -78,7 +78,7 @@ const DrHipolito = () => {
                       </h3>
                       <p className="text-gray-600 mt-1">
                         University Of The East Ramon Magsaysay Memorial Medical
-                        Center Quezon City, Philippines 1994-1998
+                        Center Quezon City, Philippines 1994 - 1998
                       </p>
                     </li>
                     <li className=" pl-4">
@@ -86,7 +86,8 @@ const DrHipolito = () => {
                         BS. Medical Technology{" "}
                       </h3>
                       <p className="text-gray-600 mt-1">
-                        University Of Santo Tomas Manila, Philippines 1990-1994
+                        University Of Santo Tomas Manila, Philippines 1990 -
+                        x1994
                       </p>
                     </li>
                   </ul>

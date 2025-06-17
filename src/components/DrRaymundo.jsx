@@ -9,7 +9,7 @@ const DrRaymundo = () => {
   return (
     <div>
       <Navbar />
-      <div className="justify-center flex flex-auto pt-20">
+      <h1 className="justify-center flex flex-auto pt-20">
         <motion.span
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: 0 }}
@@ -21,7 +21,7 @@ const DrRaymundo = () => {
         >
           DR. GRACE DIANNE GONZALEZ RAYMUNDO, MD, FSOSP
         </motion.span>
-      </div>
+      </h1>
 
       <div className="container mx-auto px-8">
         <div
@@ -52,7 +52,7 @@ const DrRaymundo = () => {
                       </h3>
                       <p className="text-gray-600 mt-1">
                         University of the East Ramon Magsaysay Memorial Medical
-                        Center, Philippines, 2007 to 2011
+                        Center, Philippines, 2007 - 2011
                       </p>
                     </li>
 
@@ -61,7 +61,7 @@ const DrRaymundo = () => {
                         Bachelor of Science in Geography{" "}
                       </h3>
                       <p className="text-gray-600 mt-1">
-                        University of the Philippines, Diliman, 2004 to 2007
+                        University of the Philippines, Diliman, 2004 - 2007
                       </p>
                     </li>
                     <li className=" pl-4">
@@ -69,7 +69,7 @@ const DrRaymundo = () => {
                         High School Diploma
                       </h3>
                       <p className="text-gray-600 mt-1">
-                        St. Scholastica's College, Manila, Philippines, 1998 to
+                        St. Scholastica's College, Manila, Philippines, 1998 -
                         2002
                       </p>
                     </li>
@@ -78,8 +78,8 @@ const DrRaymundo = () => {
                         Elementary Diploma
                       </h3>
                       <p className="text-gray-600 mt-1">
-                        O.B. Montessori Center, Inc., Sta. Ana, Philippines
-                        1992-1998
+                        O.B. Montessori Center, Inc., Sta. Ana, Philippines 1992
+                        - 1998
                       </p>
                     </li>
                   </ul>
