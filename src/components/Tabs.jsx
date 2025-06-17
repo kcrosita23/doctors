@@ -25,7 +25,7 @@ const tabContent = {
         <h3 className="text-3xl font-semibold text-blue-900 mb-2">
           Hyperthermic Intraperitoneal Chemotherapy (HIPEC)
         </h3>
-        <p className="text-gray-600 mt-2 leading-relaxed">
+        <p className="text-black mt-2 leading-relaxed">
           A two-step cancer treatment where tumors are surgically removed,
           followed by heated chemotherapy applied directly to the abdomen to
           kill remaining cancer cells and reduce the risk of recurrence.
@@ -40,7 +40,7 @@ const tabContent = {
         alt="Breast Cancer Surgery"
         className="w-64 sm:w-72 md:w-80 lg:w-96 xl:w- rounded-lg shadow-md cursor-pointer filter grayscale hover:grayscale-0 duration-500 object-cover"
       />
-      <div className="text-gray-600 text-base leading-relaxed">
+      <div className="text-black text-base leading-relaxed">
         <h3 className="text-3xl font-semibold text-blue-900 mb-2">
           Breast Cancer Surgery
         </h3>
@@ -65,7 +65,7 @@ const tabContent = {
         <h3 className="text-3xl font-semibold text-blue-900 mb-2">
           Colorectal Surgery
         </h3>
-        <p className="text-gray-600 mt-2 leading-relaxed">
+        <p className="text-black mt-2 leading-relaxed">
           Colectomy – removal of all or part of the colon.
           <br />
           Low anterior resection – removes part of the rectum while preserving
@@ -87,7 +87,7 @@ const tabContent = {
         <h3 className="text-3xl font-semibold text-blue-900 mb-2">
           Gastrointestinal Surgeries
         </h3>
-        <p className="text-gray-600 mt-2 leading-relaxed">
+        <p className="text-black mt-2 leading-relaxed">
           Gastrectomy – removal of part or all of the stomach.
           <br />
           Whipple procedure – for pancreatic or bile duct cancer.
@@ -110,7 +110,7 @@ const tabContent = {
         <h3 className="text-3xl font-semibold text-blue-900 mb-2">
           Gynecologic Surgeries
         </h3>
-        <p className="text-gray-600 mt-2 leading-relaxed">
+        <p className="text-black mt-2 leading-relaxed">
           Hysterectomy – removal of the uterus for uterine or cervical cancer.
           <br />
           Oophorectomy – removal of the ovaries.
@@ -131,7 +131,7 @@ const tabContent = {
         <h3 className="text-3xl font-semibold text-blue-900 mb-2">
           Head & Neck Cancers
         </h3>
-        <p className="text-gray-600 mt-2 leading-relaxed">
+        <p className="text-black mt-2 leading-relaxed">
           Thyroidectomy – removal of the thyroid gland.
           <br />
           Neck dissection – to remove lymph nodes with cancer.
@@ -152,7 +152,7 @@ const tabContent = {
         <h3 className="text-3xl font-semibold text-blue-900 mb-2">
           Soft Tissue Tumors (Sarcomas)
         </h3>
-        <p className="text-gray-600 mt-2 leading-relaxed">
+        <p className="text-black mt-2 leading-relaxed">
           Surgical removal of soft tissue or bone sarcomas, often involving
           limb-sparing techniques.
         </p>
