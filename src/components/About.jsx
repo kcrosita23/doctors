@@ -39,7 +39,7 @@ const About = () => {
             transition={{ duration: 1.5 }}
             className="w-full lg:w-1/2 lg:pr-6 lg:py-4 order-1 lg:order-2"
           >
-            <div className="flex flex-col items-center lg:items-start">
+            <h1 className="flex flex-col items-center lg:items-start">
               <motion.span
                 whileInView={{ opacity: 1, x: 0 }}
                 initial={{ opacity: 0, x: 100 }}
@@ -49,10 +49,10 @@ const About = () => {
               >
                 DR. CECILIO D.S HIPOLITO JR, M.D, DPBS
               </motion.span>
-              <p className="my-2 max-w-xl py-6 text-justify lg:text-xl">
-                {ABOUT_DRHIPOLITO} <br /> <br /> {ABOUT_DRHIPOLITO1}
-              </p>
-            </div>
+            </h1>
+            <p className="my-2 max-w-xl py-6 text-justify lg:text-xl">
+              {ABOUT_DRHIPOLITO} <br /> <br /> {ABOUT_DRHIPOLITO1}
+            </p>
           </motion.div>
         </div>
 
@@ -64,7 +64,7 @@ const About = () => {
             transition={{ duration: 1.5 }}
             className="w-full lg:w-1/2 lg:pl-20 lg:py-4"
           >
-            <div className="flex flex-col items-center lg:items-start">
+            <h1 className="flex flex-col items-center lg:items-start">
               <motion.span
                 whileInView={{ opacity: 1, x: 0 }}
                 initial={{ opacity: 0, x: -100 }}
@@ -74,10 +74,10 @@ const About = () => {
               >
                 DR. GRACE DIANNE GONZALEZ RAYMUNDO, MD, FSOSP
               </motion.span>
-              <p className="my-2 max-w-xl py-6 text-justify lg:text-2xl">
-                {ABOUT_DRRAYMUNDO}
-              </p>
-            </div>
+            </h1>
+            <p className="my-2 max-w-xl py-6 text-justify lg:text-2xl">
+              {ABOUT_DRRAYMUNDO}
+            </p>
           </motion.div>
 
           <motion.div
@@ -105,7 +105,7 @@ const About = () => {
             transition={{ duration: 1.5 }}
             className="w-full lg:w-1/2 lg:pr-6 lg:py-4 order-1 lg:order-2"
           >
-            <div className="flex flex-col items-center lg:items-start">
+            <h1 className="flex flex-col items-center lg:items-start">
               <motion.span
                 whileInView={{ opacity: 1, x: 0 }}
                 initial={{ opacity: 0, x: 100 }}
@@ -115,10 +115,10 @@ const About = () => {
               >
                 DR. EDGARDO R. CORTEZ M.D., FPCS, FACS
               </motion.span>
-              <p className="my-2 max-w-xl py-6 text-justify lg:text-2xl">
-                {ABOUT_DRCORTEZ}
-              </p>
-            </div>
+            </h1>
+            <p className="my-2 max-w-xl py-6 text-justify lg:text-2xl">
+              {ABOUT_DRCORTEZ}
+            </p>
           </motion.div>
 
           <motion.div
