@@ -9,7 +9,7 @@ const DrCortez = () => {
   return (
     <div>
       <Navbar />
-      <div className="justify-center flex flex-auto pt-20">
+      <h1 className="justify-center flex flex-auto pt-20">
         <motion.span
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: 0 }}
@@ -21,7 +21,7 @@ const DrCortez = () => {
         >
           DR. EDGARDO R. CORTEZ M.D., FPCS, FACS
         </motion.span>
-      </div>
+      </h1>
 
       <div className="container mx-auto px-8">
         <div
@@ -62,7 +62,7 @@ const DrCortez = () => {
                   </h3>
                   <p className="text-gray-600 mt-1">
                     UERMMMC, as Scholar of the Philippine College of Surgeons,
-                    1980 to 1983
+                    1980 - 1983
                   </p>
                 </li>
                 <li className=" pl-4">
