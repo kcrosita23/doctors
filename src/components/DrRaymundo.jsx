@@ -26,7 +26,7 @@ const DrRaymundo = () => {
       <div className="container mx-auto px-8">
         <div
           id="aboutDrRaymundo"
-          className="scroll-mt-32 border-b border-neutral-900 pb-14"
+          className="scroll-mt-32 border-b border-neutral-900 pb-10"
         >
           <div className="flex flex-wrap">
             <motion.div
@@ -44,60 +44,42 @@ const DrRaymundo = () => {
                   viewport={{ once: true }}
                   className="w-full lg:w-8/9"
                 >
-                  <div className="flex flex-col items-center lg:items-start mt-6 mb-4">
-                    <motion.span
-                      whileInView={{ opacity: 1, x: 0 }}
-                      initial={{ opacity: 0, x: -100 }}
-                      transition={{ duration: 1.3 }}
-                      viewport={{ once: true }}
-                      className="bg-gradient-to-r from-blue-600 via-slate-400 to-blue-700
-                            bg-clip-text text-transparent text-2xl sm:text-3xl lg:text-4xl tracking-tight"
-                    >
-                      HOSPITAL AFFILIATES
-                    </motion.span>
-                  </div>
-                  <ul className="space-y-8 pt-2">
+                  <div className="flex flex-col items-center lg:items-start mt-6 mb-4"></div>
+                  <ul className="space-y-10 ">
                     <li className=" pl-4">
                       <h3 className="text-xl font-semibold text-gray-800">
-                        {" "}
-                        CLINICAL PRECEPTOR for SURGERY I, Department of Surgery,
-                        College of Medicine, University of the East Ramon
-                        Magsaysay Memorial Medical Center, Inc.
-                      </h3>
-                    </li>
-                    <li className="pl-4">
-                      <h3 className="text-xl font-semibold text-gray-800">
-                        CONSULTANT, Institute of Surgery, St. Luke’s Medical
-                        Center – Quezon City{" "}
+                        Doctor of Medicine
                       </h3>
                       <p className="text-gray-600 mt-1">
-                        N-809 CHBC, 279 E. Rodriguez Sr. Ave, Quezon City, 1112
-                        <br />
+                        University of the East Ramon Magsaysay Memorial Medical
+                        Center, Philippines, 2007 to 2011
+                      </p>
+                    </li>
+
+                    <li className=" pl-4">
+                      <h3 className="text-xl font-semibold text-gray-800">
+                        Bachelor of Science in Geography{" "}
+                      </h3>
+                      <p className="text-gray-600 mt-1">
+                        University of the Philippines, Diliman, 2004 to 2007
                       </p>
                     </li>
                     <li className=" pl-4">
                       <h3 className="text-xl font-semibold text-gray-800">
-                        CONSULTANT, Department of Surgery, Diliman Doctors
-                        Hospital, Inc.
+                        High School Diploma
                       </h3>
                       <p className="text-gray-600 mt-1">
-                        Rm. 706 MAB, #251 Commonwealth Ave., Matandang Balara,
-                        Quezon City, 1119
+                        St. Scholastica's College, Manila, Philippines, 1998 to
+                        2002
                       </p>
                     </li>
                     <li className=" pl-4">
                       <h3 className="text-xl font-semibold text-gray-800">
-                        CONSULTANT, Institute of Surgery, St. Luke’s Medical
-                        Center – Global City{" "}
-                      </h3>
-                    </li>
-                    <li className=" pl-4">
-                      <h3 className="text-xl font-semibold text-gray-800">
-                        CONSULTANT, Department of Surgery, University of the
-                        East Ramon Magsaysay Memorial Medical Center, Inc.
+                        Elementary Diploma
                       </h3>
                       <p className="text-gray-600 mt-1">
-                        Rm. 322 MAB, #64 Aurora Boulevard, Quezon City, 1113
+                        O.B. Montessori Center, Inc., Sta. Ana, Philippines
+                        1992-1998
                       </p>
                     </li>
                   </ul>
@@ -123,6 +105,89 @@ const DrRaymundo = () => {
           </div>
         </div>
 
+        <div className=" py-2 scroll-mt-32 border-b border-neutral-900 ">
+          <div className="flex flex-col items-center lg:items-start mb-6 ">
+            <motion.span
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: -100 }}
+              transition={{ duration: 1.3 }}
+              viewport={{ once: true }}
+              className="bg-gradient-to-r from-blue-600 via-slate-400 to-blue-700
+                            bg-clip-text text-transparent text-2xl sm:text-3xl lg:text-4xl tracking-tight pt-6"
+            >
+              HOSPITAL AFFILIATES
+            </motion.span>
+          </div>
+          <div className="flex flex-col lg:flex-row gap-7">
+            <motion.div
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: -100 }}
+              transition={{ duration: 1.3 }}
+              viewport={{ once: true }}
+              className="w-full lg:w-1/2"
+            >
+              <ul className="space-y-10 pt-1 pb-10">
+                <li className=" pl-4">
+                  <h3 className="text-xl font-semibold text-gray-800">
+                    CLINICAL PRECEPTOR for SURGERY I, Department of Surgery,
+                    College of Medicine, University of the East Ramon Magsaysay
+                    Memorial Medical Center, Inc.{" "}
+                  </h3>
+                </li>
+                <li className=" pl-4">
+                  <h3 className="text-xl font-semibold text-gray-800">
+                    CONSULTANT, Institute of Surgery, St. Luke’s Medical Center
+                    – Quezon City
+                  </h3>
+                  <p className="text-gray-600 mt-1">
+                    N-809 CHBC, 279 E. Rodriguez Sr. Ave, Quezon City, 1112
+                    <br />
+                  </p>
+                </li>
+                <li className=" pl-4">
+                  <h3 className="text-xl font-semibold text-gray-800">
+                    CONSULTANT, Department of Surgery, Diliman Doctors Hospital,
+                    Inc.
+                  </h3>
+                  <p className="text-gray-600 mt-1">
+                    Rm. 706 MAB, #251 Commonwealth Ave., Matandang Balara,
+                    Quezon City, 1119
+                    <br />
+                  </p>
+                </li>
+              </ul>
+            </motion.div>
+            <motion.div
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: 100 }}
+              transition={{ duration: 1.3 }}
+              viewport={{ once: true }}
+              className="w-full lg:w-1/2"
+            >
+              <ul className="space-y-10 pt-1">
+                <li className=" pl-4">
+                  <h3 className="text-xl font-semibold text-gray-800">
+                    CONSULTANT, Institute of Surgery, St. Luke’s Medical Center
+                    – Global City
+                  </h3>
+                </li>
+              </ul>
+              <br />
+              <br />
+              <ul className="space-y-10 pt-1">
+                <li className=" pl-4">
+                  <h3 className="text-xl font-semibold text-gray-800">
+                    CONSULTANT, Department of Surgery, University of the East
+                    Ramon Magsaysay Memorial Medical Center, Inc.
+                  </h3>
+                  <p className="text-gray-600 mt-1">
+                    Rm. 322 MAB, #64 Aurora Boulevard, Quezon City, 1113
+                  </p>
+                </li>
+              </ul>
+            </motion.div>
+          </div>
+        </div>
         <div className=" py-6 scroll-mt-32 ">
           <div className="flex flex-col items-center lg:items-start mb-6">
             <motion.span
