@@ -94,7 +94,7 @@ const DrCortez = () => {
             >
               <div className="flex items-center justify-center pt-2">
                 <img
-                  className="rounded-lg w-4/5"
+                  className="rounded-lg w-3/5"
                   src={DrCortezImg}
                   alt="about"
                 />
