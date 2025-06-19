@@ -24,6 +24,13 @@ const DocsCards = () => {
           transition={{ duration: 1.5 }}
           className="px-20 pb-20 flex justify-center gap-20 flex-wrap"
         >
+          <Link to="/dr-cortez">
+            <ImageCard
+              image={DrCortez}
+              title="Dr. Cortez"
+              description="Click to know more about Dr. Cortez."
+            />
+          </Link>
           <Link to="/dr-hipolito">
             <ImageCard
               image={DrHipolito}
@@ -36,13 +43,6 @@ const DocsCards = () => {
               image={DrRaymundo}
               title="Dr. Raymundo"
               description="Click to know more about Dr. Raymundo."
-            />
-          </Link>
-          <Link to="/dr-cortez">
-            <ImageCard
-              image={DrCortez}
-              title="Dr. Cortez"
-              description="Click to know more about Dr. Cortez."
             />
           </Link>
         </motion.div>
