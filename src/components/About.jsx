@@ -138,7 +138,7 @@ const About = () => {
           </motion.div>
         </div>
       </div>
-      <div className="bg-transparent bg-gradient-to-b from-slate-100 to-transparent w-full h-40"></div>
+      <div className="bg-slate-100 h-28"></div>
     </div>
   );
 };

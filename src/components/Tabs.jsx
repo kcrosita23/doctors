@@ -210,51 +210,53 @@ const Projects = () => {
 
   return (
     <div id="interventions" className="scroll-mt-24">
-      <h2 className="mb-8 text-center text-4xl font-montserrat tracking-wide pt-10">
-        SURGICAL INTERVENTIONS
-      </h2>
+      <div className="bg-slate-100">
+        <h2 className="mb-8 text-center text-4xl font-montserrat tracking-wide pt-10">
+          SURGICAL INTERVENTIONS
+        </h2>
 
-      <div className="w-full overflow-x-auto">
-        <div className="flex justify-center px-4">
-          <div className="flex w-full max-w-6xl max-h-3xl">
-            {tabs.map((tab) => (
-              <button
-                key={tab.id}
-                onClick={() => setActiveTab(tab.id)}
-                className={`flex-1 flex flex-col items-center justify-center px-4 py-3 m-1 rounded-md transition-colors duration-300 ${
-                  activeTab === tab.id
-                    ? "bg-sky-500 text-white"
-                    : "bg-gray-200 text-gray-700 hover:bg-blue-100"
-                }`}
-              >
-                {/* Icon: Always visible and responsive-sized */}
-                <tab.icon className="text-2xl md:text-3xl lg:text-3xl mb-1" />
+        <div className="w-full overflow-x-auto">
+          <div className="flex justify-center px-4">
+            <div className="flex w-full max-w-6xl max-h-3xl">
+              {tabs.map((tab) => (
+                <button
+                  key={tab.id}
+                  onClick={() => setActiveTab(tab.id)}
+                  className={`flex-1 flex flex-col items-center justify-center px-4 py-3 m-1 rounded-md transition-colors duration-300 ${
+                    activeTab === tab.id
+                      ? "bg-sky-500 text-white"
+                      : "bg-gray-200 text-gray-700 hover:bg-blue-100"
+                  }`}
+                >
+                  {/* Icon: Always visible and responsive-sized */}
+                  <tab.icon className="text-2xl md:text-3xl lg:text-3xl mb-1" />
 
-                {/* Label: hidden on medium and smaller; appears on larger screens */}
-                <span className="hidden md:block text-sm md:text-base text-center">
-                  {tab.label}
-                </span>
-              </button>
-            ))}
+                  {/* Label: hidden on medium and smaller; appears on larger screens */}
+                  <span className="hidden md:block text-sm md:text-base text-center">
+                    {tab.label}
+                  </span>
+                </button>
+              ))}
+            </div>
           </div>
         </div>
-      </div>
 
-      <div className="max-w-3xl mx-auto mt-8 px-4">
-        <AnimatePresence mode="wait">
-          <motion.div
-            key={activeTab}
-            variants={contentVariants}
-            initial="initial"
-            animate="animate"
-            exit="exit"
-            transition={{ duration: 0.3 }}
-          >
-            {tabContent[activeTab]}
-          </motion.div>
-        </AnimatePresence>
+        <div className="max-w-3xl mx-auto mt-8 px-4">
+          <AnimatePresence mode="wait">
+            <motion.div
+              key={activeTab}
+              variants={contentVariants}
+              initial="initial"
+              animate="animate"
+              exit="exit"
+              transition={{ duration: 0.3 }}
+            >
+              {tabContent[activeTab]}
+            </motion.div>
+          </AnimatePresence>
+        </div>
+        <div className="bg-transparent bg-gradient-to-b from-transparent to-sky-400 w-full h-40"></div>
       </div>
-      <div className="bg-transparent bg-gradient-to-b from-transparent to-sky-400 w-full h-24"></div>
     </div>
   );
 };
