@@ -24,27 +24,33 @@ const DocsCards = () => {
           transition={{ duration: 1.5 }}
           className="px-20 pb-20 flex justify-center gap-20 flex-wrap"
         >
-          <Link to="/dr-cortez">
-            <ImageCard
-              image={DrCortez}
-              title="Dr. Cortez"
-              description="Click to know more about Dr. Cortez."
-            />
-          </Link>
-          <Link to="/dr-hipolito">
-            <ImageCard
-              image={DrHipolito}
-              title="Dr. Hipolito"
-              description="Click to know more about Dr. Hipolito."
-            />
-          </Link>
-          <Link to="/dr-raymundo">
-            <ImageCard
-              image={DrRaymundo}
-              title="Dr. Raymundo"
-              description="Click to know more about Dr. Raymundo."
-            />
-          </Link>
+          <div className="order-2 md:order-1">
+            <Link to="/dr-cortez">
+              <ImageCard
+                image={DrCortez}
+                title="Dr. Cortez"
+                description="Click to know more about Dr. Cortez."
+              />
+            </Link>
+          </div>
+          <div className="order-1 md:order-2">
+            <Link to="/dr-hipolito">
+              <ImageCard
+                image={DrHipolito}
+                title="Dr. Hipolito"
+                description="Click to know more about Dr. Hipolito."
+              />
+            </Link>
+          </div>
+          <div className="order-3">
+            <Link to="/dr-raymundo">
+              <ImageCard
+                image={DrRaymundo}
+                title="Dr. Raymundo"
+                description="Click to know more about Dr. Raymundo."
+              />
+            </Link>
+          </div>
         </motion.div>
       </div>
       <div className="bg-transparent bg-gradient-to-b from-sky-400 to-slate-100 w-full h-48"></div>
