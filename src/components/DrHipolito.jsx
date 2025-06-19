@@ -50,7 +50,7 @@ const DrHipolito = () => {
                         Surgical Oncology{" "}
                       </h3>
                       <p className="text-gray-600 mt-1">
-                        St. Luke's Medical Center Quezon City, Philippines 2008
+                        St. Luke`s Medical Center Quezon City, Philippines 2008
                         - 2009
                       </p>
                     </li>
@@ -261,7 +261,7 @@ const DrHipolito = () => {
           </h3>
         </div>
         <div className=" grid grid-cols-1 md:grid-cols-3  text-center">
-          <div>
+          <div className="block bg-transparent border border-gray-700 rounded-3xl justify-center m-8 mb-4 pb-4">
             <div className="flex items-center font-normal justify-center">
               <div className="text-sm flex items-center justify-center hover:text-gray-100 mt-6">
                 <MdOutlinePinDrop className="mr-1 my-1" />
@@ -292,7 +292,7 @@ const DrHipolito = () => {
             </div>
           </div>
 
-          <div>
+          <div className="block bg-transparent border border-gray-700 rounded-3xl justify-center m-8 mb-4 pb-4">
             <div className="flex items-center font-normal justify-center ">
               <div className="text-sm flex items-center justify-center hover:text-gray-100 mt-6">
                 <MdOutlinePinDrop className="mr-1 my-1" />
@@ -313,7 +313,7 @@ const DrHipolito = () => {
               </p>
             </div>
             <p className="text-sm text-black font-semibold text-center  pb-2">
-              Ms. Jacq
+              Ms. Jaq
               <p className="text-sm text-gray-100">
                 <div className="flex items-center justify-center font-normal">
                   <FaPhone className="mr-1" />
@@ -323,7 +323,7 @@ const DrHipolito = () => {
             </p>
           </div>
 
-          <div>
+          <div className="block bg-transparent border border-gray-700 rounded-3xl justify-center m-8 mb-4 pb-4">
             <div className="flex items-center font-normal justify-center">
               <div className="text-sm flex items-center justify-center hover:text-gray-100 mt-6 ">
                 <MdOutlinePinDrop className="mr-1" />

@@ -326,9 +326,9 @@ const DrCortez = () => {
       {/* Footer Section */}
       <div className="bg-transparent bg-gradient-to-b from-transparent to-sky-400 w-full h-24"></div>
       <div className="scroll-mt-32  bg-sky-400">
-        <h2 className="text-center text-4xl font-montserrat">
-          SCHEDULE AN APPLICATION TODAY
-        </h2>
+        <p className="text-center text-4xl font-montserrat">
+          SCHEDULE AN APPOINTMENT TODAY
+        </p>
         <p className="text-center text-2xl font-montserrat m-1 pb-1">
           Send us a message on viber!
         </p>
@@ -338,7 +338,7 @@ const DrCortez = () => {
           </h3>
         </div>
         <div className=" grid grid-cols-1 md:grid-cols-2  text-center">
-          <div>
+          <div className="block bg-transparent border border-gray-700 rounded-3xl justify-center m-8 mb-4 pb-4">
             <div className="flex items-center font-normal justify-center">
               <div className="text-sm flex items-center justify-center hover:text-gray-100 mt-6">
                 <MdOutlinePinDrop className="mr-1 my-1" />
@@ -358,7 +358,7 @@ const DrCortez = () => {
                 Sat | 10:00am - 12:00pm
               </p>
             </div>
-            <p className="text-sm text-black font-bold text-center  pb-2">
+            <p className="text-sm text-black font-semibold text-center  pb-2">
               Ms. Mean
               <p className="text-sm text-gray-100">
                 <div className="flex items-center justify-center font-normal">
@@ -368,7 +368,8 @@ const DrCortez = () => {
               </p>
             </p>
           </div>
-          <div>
+
+          <div className="block bg-transparent border border-gray-700 rounded-3xl justify-center m-8 mb-4 pb-4">
             <div className="flex items-center font-normal justify-center ">
               <div className="text-sm flex items-center justify-center hover:text-gray-100 mt-6">
                 <MdOutlinePinDrop className="mr-1 my-1" />
@@ -388,7 +389,7 @@ const DrCortez = () => {
                 Sat | 1:00pm - 3:00pm
               </p>
             </div>
-            <p className="text-sm text-black font-bold text-center  pb-2">
+            <p className="text-sm text-black font-semibold text-center  pb-2">
               Ms. Emma
               <p className="text-sm text-gray-100">
                 <div className="flex items-center justify-center font-normal">

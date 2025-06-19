@@ -5,9 +5,9 @@ import { TbCircleLetterC } from "react-icons/tb";
 const Contact = () => {
   return (
     <div id="contact" className="scroll-mt-32 bg-sky-400 text-gray-900 pb-2">
-      <h2 className="pt-10 text-center text-4xl font-montserrat">
+      <p className="pt-10 text-center text-4xl font-montserrat">
         SCHEDULE AN APPOINTMENT TODAY
-      </h2>
+      </p>
       <p className="text-center text-2xl font-montserrat  m-1 pb-1">
         Send us a message on viber!
       </p>
@@ -183,8 +183,8 @@ const Contact = () => {
             </div>
             <div>
               <p>
-                MAB 322 <br />
-                Wed | 1:00pm - 3:00 pm
+                MAB 322 <br /> Wed | 1:00pm - 3:00pm <br />
+                Sat | by appointment only
               </p>
             </div>
             <p className="font-semibold">Ms. Nitz</p>

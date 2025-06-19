@@ -69,7 +69,7 @@ const DrRaymundo = () => {
                         High School Diploma
                       </h3>
                       <p className="text-gray-600 mt-1">
-                        St. Scholastica's College, Manila, Philippines, 1998 -
+                        St. Scholastica`s College, Manila, Philippines, 1998 -
                         2002
                       </p>
                     </li>
@@ -287,7 +287,7 @@ const DrRaymundo = () => {
       <div className="bg-transparent bg-gradient-to-b from-transparent to-sky-400 w-full h-24"></div>
       <div className="scroll-mt-32  bg-sky-400">
         <h2 className="text-center text-4xl font-montserrat">
-          SCHEDULE AN APPLICATION TODAY
+          SCHEDULE AN APPOINTMENT TODAY
         </h2>
         <p className="text-center text-2xl font-montserrat m-1 pb-1">
           Send us a message on viber!
@@ -298,7 +298,7 @@ const DrRaymundo = () => {
           </h3>
         </div>
         <div className=" grid grid-cols-1 md:grid-cols-3  text-center">
-          <div>
+          <div className="block bg-transparent border border-gray-700 rounded-3xl justify-center m-8 mb-4 pb-4">
             <div className="mt-6 flex items-center font-normal justify-center text-sm">
               <div className="flex items-center justify-center hover:text-gray-100">
                 <MdOutlinePinDrop className="mr-1 my-1" />
@@ -328,7 +328,8 @@ const DrRaymundo = () => {
               </p>
             </div>
           </div>
-          <div>
+
+          <div className="block bg-transparent border border-gray-700 rounded-3xl justify-center m-8 mb-4 pb-4">
             <div className="flex items-center font-normal justify-center">
               <div className="text-sm flex items-center justify-center hover:text-gray-100 mt-6">
                 <MdOutlinePinDrop className="mr-1" />
@@ -358,7 +359,8 @@ const DrRaymundo = () => {
               </p>
             </p>
           </div>
-          <div>
+
+          <div className="block bg-transparent border border-gray-700 rounded-3xl justify-center m-8 mb-4 pb-4">
             <div className="flex items-center font-normal justify-center">
               <div className="text-sm flex items-center justify-center hover:text-gray-100 mt-6">
                 <MdOutlinePinDrop className="mr-1" />
@@ -375,10 +377,10 @@ const DrRaymundo = () => {
             <div>
               <p className="text-sm text-center ">
                 MAB 322 <br /> Wed | 1:00pm - 3:00pm <br />
-                Sat | . . .
+                Sat | by appointment only
               </p>
             </div>
-            <p className="text-sm text-black font-semibold text-center  pb-2">
+            <p className="text-sm text-black font-semibold text-center pb-2">
               Ms. Nitz
               <p className="text-sm text-gray-100">
                 <div className="flex items-center  justify-center font-normal">
