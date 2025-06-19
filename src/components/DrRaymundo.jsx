@@ -287,7 +287,7 @@ const DrRaymundo = () => {
       <div className="bg-transparent bg-gradient-to-b from-transparent to-sky-400 w-full h-24"></div>
       <div className="scroll-mt-32  bg-sky-400">
         <h2 className="text-center text-4xl font-montserrat">
-          SCHEDULE A CONSULTATION TODAY
+          SCHEDULE AN APPLICATION TODAY
         </h2>
         <p className="text-center text-2xl font-montserrat m-1 pb-1">
           Send us a message on viber!
@@ -297,33 +297,88 @@ const DrRaymundo = () => {
             Dr. Raymundo`s Secretaries
           </h3>
         </div>
-        <div className=" grid grid-cols-1 md:grid-cols-2  text-center">
+        <div className=" grid grid-cols-1 md:grid-cols-3  text-center">
           <div>
-            <div className="text-sm text-black font-bold text-center mt-6 pb-2">
-              Ms. Jenny
+            <div className="mt-6 flex items-center font-normal justify-center text-sm">
+              <div className="flex items-center justify-center hover:text-gray-100">
+                <MdOutlinePinDrop className="mr-1 my-1" />
+                <a
+                  href="https://maps.app.goo.gl/2MP4cPaDFQ4PPHXg8"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:underline"
+                >
+                  <u>St. Lukes Medical City - BGC </u>
+                </a>
+              </div>
+            </div>
+            <div>
+              <p className="text-sm text-center ">
+                MAB 908 <br /> Wed | 10:00am - 12:00pm <br />
+                Thu | 1:00pm - 3:00pm
+              </p>
+            </div>
+            <div className="text-sm text-black font-semibold text-center  pb-2">
+              Ms. Carla
               <p className="text-sm text-gray-100">
                 <div className="flex items-center justify-center font-normal">
+                  <FaPhone className="mr-1" />
+                  <span>+63 916 946 8578</span>
+                </div>
+              </p>
+            </div>
+          </div>
+          <div>
+            <div className="flex items-center font-normal justify-center">
+              <div className="text-sm flex items-center justify-center hover:text-gray-100 mt-6">
+                <MdOutlinePinDrop className="mr-1" />
+                <a
+                  href="https://maps.app.goo.gl/y18zGKChkNF1vEDD8"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:underline"
+                >
+                  <u>St. Lukes Medical City - QC </u>
+                </a>
+              </div>
+            </div>
+            <div>
+              <p className="text-sm text-center ">
+                CHBC 809-N <br /> Tue and Thu <br />
+                9:00am - 12:00pm
+              </p>
+            </div>
+            <p className="text-sm text-black font-semibold text-center  pb-2">
+              Ms. Jenny
+              <p className="text-sm text-gray-100">
+                <div className="flex items-center  justify-center font-normal">
                   <FaPhone className="mr-1" />
                   <span>+63 966 837 2756</span>
                 </div>
               </p>
-              <div className="flex items-center font-normal justify-center">
-                <div className="flex items-center justify-center hover:text-gray-100">
-                  <MdOutlinePinDrop className="mr-1 my-1" />
-                  <a
-                    href="https://maps.app.goo.gl/2MP4cPaDFQ4PPHXg8"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="hover:underline"
-                  >
-                    <u>St. Lukes Medical City - BGC </u>
-                  </a>
-                </div>
-              </div>
-            </div>
+            </p>
           </div>
           <div>
-            <p className="text-sm text-black font-bold text-center mt-6 pb-2">
+            <div className="flex items-center font-normal justify-center">
+              <div className="text-sm flex items-center justify-center hover:text-gray-100 mt-6">
+                <MdOutlinePinDrop className="mr-1" />
+                <a
+                  href="https://maps.app.goo.gl/Adibmy3UPxtJUJxN9"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:underline"
+                >
+                  <u>UERM Medical Center </u>
+                </a>
+              </div>
+            </div>
+            <div>
+              <p className="text-sm text-center ">
+                MAB 322 <br /> Wed | 1:00pm - 3:00pm <br />
+                Sat | . . .
+              </p>
+            </div>
+            <p className="text-sm text-black font-semibold text-center  pb-2">
               Ms. Nitz
               <p className="text-sm text-gray-100">
                 <div className="flex items-center  justify-center font-normal">
@@ -331,19 +386,6 @@ const DrRaymundo = () => {
                   <span>+63 917 848 1649</span>
                 </div>
               </p>
-              <div className="flex items-center font-normal justify-center">
-                <div className="flex items-center justify-center hover:text-gray-100">
-                  <MdOutlinePinDrop className="mr-1" />
-                  <a
-                    href="https://maps.app.goo.gl/Adibmy3UPxtJUJxN9"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="hover:underline"
-                  >
-                    <u>UERM Medical Center </u>
-                  </a>
-                </div>
-              </div>
             </p>
           </div>
         </div>

@@ -327,7 +327,7 @@ const DrCortez = () => {
       <div className="bg-transparent bg-gradient-to-b from-transparent to-sky-400 w-full h-24"></div>
       <div className="scroll-mt-32  bg-sky-400">
         <h2 className="text-center text-4xl font-montserrat">
-          SCHEDULE A CONSULTATION TODAY
+          SCHEDULE AN APPLICATION TODAY
         </h2>
         <p className="text-center text-2xl font-montserrat m-1 pb-1">
           Send us a message on viber!
@@ -339,7 +339,26 @@ const DrCortez = () => {
         </div>
         <div className=" grid grid-cols-1 md:grid-cols-2  text-center">
           <div>
-            <div className="text-sm text-black font-bold text-center mt-6 pb-2">
+            <div className="flex items-center font-normal justify-center">
+              <div className="text-sm flex items-center justify-center hover:text-gray-100 mt-6">
+                <MdOutlinePinDrop className="mr-1 my-1" />
+                <a
+                  href="https://maps.app.goo.gl/2MP4cPaDFQ4PPHXg8"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:underline"
+                >
+                  <u>St. Lukes Medical City - BGC </u>
+                </a>
+              </div>
+            </div>
+            <div>
+              <p className="text-sm text-center ">
+                MAB 523 <br /> Tue and Thu | 1:00pm - 3:00pm <br />
+                Sat | 10:00am - 12:00pm
+              </p>
+            </div>
+            <p className="text-sm text-black font-bold text-center  pb-2">
               Ms. Mean
               <p className="text-sm text-gray-100">
                 <div className="flex items-center justify-center font-normal">
@@ -347,23 +366,29 @@ const DrCortez = () => {
                   <span>+63 918 487 3816</span>
                 </div>
               </p>
-              <div className="flex items-center font-normal justify-center">
-                <div className="flex items-center justify-center hover:text-gray-100">
-                  <MdOutlinePinDrop className="mr-1 my-1" />
-                  <a
-                    href="https://maps.app.goo.gl/2MP4cPaDFQ4PPHXg8"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="hover:underline"
-                  >
-                    <u>St. Lukes Medical City - BGC </u>
-                  </a>
-                </div>
-              </div>
-            </div>
+            </p>
           </div>
           <div>
-            <p className="text-sm text-black font-bold text-center mt-6 pb-2">
+            <div className="flex items-center font-normal justify-center ">
+              <div className="text-sm flex items-center justify-center hover:text-gray-100 mt-6">
+                <MdOutlinePinDrop className="mr-1 my-1" />
+                <a
+                  href="https://maps.app.goo.gl/y18zGKChkNF1vEDD8"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:underline"
+                >
+                  <u>St. Lukes Medical City - QC </u>
+                </a>
+              </div>
+            </div>
+            <div>
+              <p className="text-sm text-center ">
+                MAB 113 <br /> Tue and Thu | 10:00am - 12:00pm <br />
+                Sat | 1:00pm - 3:00pm
+              </p>
+            </div>
+            <p className="text-sm text-black font-bold text-center  pb-2">
               Ms. Emma
               <p className="text-sm text-gray-100">
                 <div className="flex items-center justify-center font-normal">
@@ -371,19 +396,6 @@ const DrCortez = () => {
                   <span>+63 917 885 1038</span>
                 </div>
               </p>
-              <div className="flex items-center font-normal justify-center ">
-                <div className="flex items-center justify-center hover:text-gray-100">
-                  <MdOutlinePinDrop className="mr-1 my-1" />
-                  <a
-                    href="https://maps.app.goo.gl/y18zGKChkNF1vEDD8"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="hover:underline"
-                  >
-                    <u>St. Lukes Medical City - QC </u>
-                  </a>
-                </div>
-              </div>
             </p>
           </div>
         </div>
