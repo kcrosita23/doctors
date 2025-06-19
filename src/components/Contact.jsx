@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div id="contact" className="scroll-mt-32 bg-sky-400 text-gray-900 pb-2">
       <h2 className="pt-10 text-center text-4xl font-montserrat">
-        SCHEDULE A CONSULTATION TODAY
+        SCHEDULE AN APPOINTMENT TODAY
       </h2>
       <p className="text-center text-2xl font-montserrat  m-1 pb-1">
         Send us a message on viber!
@@ -18,13 +18,6 @@ const Contact = () => {
             Dr. Hipolito`s Secretaries
           </h3>
           <div className="text-sm mb-3">
-            <p className="font-semibold">Ms. Carla</p>
-            <div className="text-sm text-gray-100">
-              <div className="flex items-center justify-center">
-                <FaPhone className="mr-1" />
-                <span>+63 916 946 8578</span>
-              </div>
-            </div>
             <div className="flex items-center justify-center">
               <div className="flex items-center justify-center hover:text-gray-100">
                 <MdOutlinePinDrop className="mr-1 my-1" />
@@ -38,15 +31,22 @@ const Contact = () => {
                 </a>
               </div>
             </div>
-          </div>
-          <div className="text-sm mb-3">
-            <p className="font-semibold">Ms. Jack</p>
+            <div>
+              <p>
+                MAB 908 <br />
+                Mon-Tue-Thu-Fri-Sat
+                <br /> 10:00am - 1:00pm
+              </p>
+            </div>
+            <p className="font-semibold ">Ms. Carla</p>
             <div className="text-sm text-gray-100">
               <div className="flex items-center justify-center">
                 <FaPhone className="mr-1" />
-                <span>+63 963 709 2072</span>
+                <span>+63 916 946 8578</span>
               </div>
             </div>
+          </div>
+          <div className="text-sm mb-3">
             <div className="flex items-center justify-center">
               <div className="flex items-center justify-center hover:text-gray-100">
                 <MdOutlinePinDrop className="mr-1 my-1" />
@@ -60,8 +60,40 @@ const Contact = () => {
                 </a>
               </div>
             </div>
+            <div>
+              <p>
+                CHBC 807-S <br />
+                Mon and Fri
+                <br /> 1:00pm - 3:00pm
+              </p>
+            </div>
+            <p className="font-semibold">Ms. Jaq</p>
+            <div className="text-sm text-gray-100">
+              <div className="flex items-center justify-center">
+                <FaPhone className="mr-1" />
+                <span>+63 963 709 2072</span>
+              </div>
+            </div>
           </div>
           <div className="text-sm ">
+            <div className="flex items-center justify-center hover:text-gray-100">
+              <MdOutlinePinDrop className="mr-1 my-1" />
+              <a
+                href="https://maps.app.goo.gl/Adibmy3UPxtJUJxN9"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:underline"
+              >
+                <u>UERM Medical Center </u>
+              </a>
+            </div>
+            <div>
+              <p>
+                MAB 313 <br />
+                Mon-Wed-Fri
+                <br /> 1:00pm - 3:00pm
+              </p>
+            </div>
             <p className="font-semibold">Ms. Len</p>
             <div className="text-sm text-gray-100">
               <div className="flex items-center justify-center">
@@ -69,19 +101,7 @@ const Contact = () => {
                 <span>+63 997 188 7848</span>
               </div>
             </div>
-            <div className="flex items-center justify-center">
-              <div className="flex items-center justify-center hover:text-gray-100">
-                <MdOutlinePinDrop className="mr-1 my-1" />
-                <a
-                  href="https://maps.app.goo.gl/Adibmy3UPxtJUJxN9"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:underline"
-                >
-                  <u>UERM Medical Center </u>
-                </a>
-              </div>
-            </div>
+            <div className="flex items-center justify-center"></div>
           </div>
         </div>
 
@@ -90,13 +110,6 @@ const Contact = () => {
             Dr. Raymundo`s Secretaries
           </h3>
           <div className="text-sm mb-3">
-            <p className="font-semibold">Ms. Jenny</p>
-            <div className="text-sm text-gray-100">
-              <div className="flex items-center justify-center">
-                <FaPhone className="mr-1" />
-                <span>+63 966 837 2756</span>
-              </div>
-            </div>
             <div className="flex items-center justify-center">
               <div className="flex items-center justify-center hover:text-gray-100">
                 <MdOutlinePinDrop className="mr-1 my-1" />
@@ -110,15 +123,51 @@ const Contact = () => {
                 </a>
               </div>
             </div>
-          </div>
-          <div className="text-sm ">
-            <p className="font-semibold">Ms. Nitz</p>
+            <div>
+              <p>
+                MAB 908 <br />
+                Wed | 10:00am - 12:00pm <br />
+                Thu | 1:00pm - 3:00pm
+              </p>
+            </div>
+            <p className="font-semibold">Ms. Carla</p>
             <div className="text-sm text-gray-100">
               <div className="flex items-center justify-center">
                 <FaPhone className="mr-1" />
-                <span>+63 917 848 1649</span>
+                <span>+63 916 946 8578</span>
               </div>
             </div>
+          </div>
+          <div className="text-sm mb-3">
+            <div className="flex items-center justify-center">
+              <div className="flex items-center justify-center hover:text-gray-100">
+                <MdOutlinePinDrop className="mr-1 my-1" />
+                <a
+                  href="https://maps.app.goo.gl/y18zGKChkNF1vEDD8"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:underline"
+                >
+                  <u>St. Lukes Medical City - QC </u>
+                </a>
+              </div>
+            </div>
+            <div>
+              <p>
+                CHBC 809-N <br />
+                Tue and Thu <br />
+                9:00am - 12:00pn
+              </p>
+            </div>
+            <p className="font-semibold">Ms. Jenny</p>
+            <div className="text-sm text-gray-100">
+              <div className="flex items-center justify-center">
+                <FaPhone className="mr-1" />
+                <span>+63 966 837 2756</span>
+              </div>
+            </div>
+          </div>
+          <div className="text-sm ">
             <div className="flex items-center justify-center">
               <div className="flex items-center justify-center hover:text-gray-100">
                 <MdOutlinePinDrop className="mr-1 my-1" />
@@ -130,6 +179,19 @@ const Contact = () => {
                 >
                   <u>UERM Medical Center </u>
                 </a>
+              </div>
+            </div>
+            <div>
+              <p>
+                MAB 322 <br />
+                Wed | 1:00pm - 3:00 pm
+              </p>
+            </div>
+            <p className="font-semibold">Ms. Nitz</p>
+            <div className="text-sm text-gray-100">
+              <div className="flex items-center justify-center">
+                <FaPhone className="mr-1" />
+                <span>+63 917 848 1649</span>
               </div>
             </div>
           </div>
@@ -140,13 +202,6 @@ const Contact = () => {
             Dr. Cortez`s Secretaries
           </h3>
           <div className="text-sm mb-2 ">
-            <p className="font-semibold">Ms. Mean</p>
-            <div className="text-sm text-gray-100">
-              <div className="flex items-center justify-center">
-                <FaPhone className="mr-1" />
-                <span>+63 918 487 3816</span>
-              </div>
-            </div>
             <div className="flex items-center justify-center">
               <div className="flex items-center justify-center hover:text-gray-100">
                 <MdOutlinePinDrop className="mr-1 my-1" />
@@ -160,15 +215,22 @@ const Contact = () => {
                 </a>
               </div>
             </div>
-          </div>
-          <div className="text-sm mb-3">
-            <p className="font-semibold">Ms. Emma</p>
+            <div>
+              <p>
+                MAB 523 <br />
+                Tue-Thu | 1:00pm 3:00pm <br />
+                Sat | 10:00am - 12:00pm
+              </p>
+            </div>
+            <p className="font-semibold">Ms. Mean</p>
             <div className="text-sm text-gray-100">
               <div className="flex items-center justify-center">
                 <FaPhone className="mr-1" />
-                <span>+63 917 885 1038</span>
+                <span>+63 918 487 3816</span>
               </div>
             </div>
+          </div>
+          <div className="text-sm mb-3">
             <div className="flex items-center justify-center">
               <div className="flex items-center justify-center hover:text-gray-100">
                 <MdOutlinePinDrop className="mr-1 my-1" />
@@ -180,6 +242,20 @@ const Contact = () => {
                 >
                   <u>St. Lukes Medical City - QC </u>
                 </a>
+              </div>
+            </div>
+            <div>
+              <p>
+                MAB 113 <br />
+                Tue-Thu | 10:00am - 12:00pm <br />
+                Sat | 1:00pm - 3:00pm
+              </p>
+            </div>
+            <p className="font-semibold">Ms. Emma</p>
+            <div className="text-sm text-gray-100">
+              <div className="flex items-center justify-center">
+                <FaPhone className="mr-1" />
+                <span>+63 917 885 1038</span>
               </div>
             </div>
           </div>
