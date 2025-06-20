@@ -23,7 +23,7 @@ const DrRaymundo = () => {
         </motion.span>
       </h1>
 
-      <div className="container mx-auto px-8">
+      <div className="container mx-auto px-8 lg:px-16">
         <div
           id="aboutDrRaymundo"
           className="scroll-mt-32 border-b border-neutral-900 pb-10"
