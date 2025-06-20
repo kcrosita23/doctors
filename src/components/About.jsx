@@ -62,7 +62,7 @@ const About = () => {
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 1.5 }}
-            className="w-full lg:w-1/2 lg:pr-6 lg:py-4"
+            className="w-full lg:w-1/2 lg:pl-20 lg:py-4"
           >
             <h1 className="flex flex-col items-center lg:items-start">
               <motion.span
@@ -103,7 +103,7 @@ const About = () => {
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: 100 }}
             transition={{ duration: 1.5 }}
-            className="w-full lg:w-1/2 lg:pl-20 lg:py-4  order-1 lg:order-2"
+            className="w-full lg:w-1/2 lg:pr-6 lg:py-4  order-1 lg:order-2"
           >
             <h1 className="flex flex-col items-center lg:items-start">
               <motion.span
