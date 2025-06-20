@@ -262,12 +262,24 @@ const Contact = () => {
         </div>
       </div>
 
-      <p className="pt-2 flex items-center justify-center text-gray-600 font-montserrat m-1 border-t border-neutral-700">
+      <div className="pt-2 flex flex-wrap items-center justify-center text-gray-600 font-montserrat m-1 border-t border-neutral-700 text-sm text-center gap-x-1">
         <TbCircleLetterC className="mr-1" />
-        <span className="text-center text-sm">
-          2025 Copyright | vibecoders04@gmail.com
-        </span>
-      </p>
+        <span>2025 Surgical Oncology | All rights Reserved |</span>
+        <span>website developed by:</span>
+        <a
+          href="mailto:kimcarlo23.dev@gmail.com"
+          className="text-white hover:text-sky-900 transition-colors font-medium underline"
+        >
+          kimcarlo23.dev@gmail.com
+        </a>
+        <span>and</span>
+        <a
+          href="mailto:vibecoders04@gmail.com"
+          className="text-white hover:text-sky-900 transition-colors font-medium underline"
+        >
+          vibecoders04@gmail.com
+        </a>
+      </div>
     </div>
   );
 };
