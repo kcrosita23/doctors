@@ -11,6 +11,7 @@ import Hero from "./components/Hero";
 import ScrollToTop from "./components/ScrollToTop";
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
+import Preloader from "./components/Preloader";
 
 const Home = () => {
   const location = useLocation();
@@ -27,14 +28,14 @@ const Home = () => {
   }, [location]);
 
   return (
-    <>
+    <Preloader>
       <Navbar />
       <Hero />
       <DocsCards />
       <About />
       <Tabs />
       <Contact />
-    </>
+    </Preloader>
   );
 };
 
