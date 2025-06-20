@@ -7,7 +7,7 @@ import {
 } from "../constants";
 import { motion } from "framer-motion";
 import DrCortez from "../assets/docCortez1.jpg";
-import DrRaymundo from "../assets/DraRaymundo.jpg";
+import DrRaymundo from "../assets/DraRaymundo1.jpg";
 
 const About = () => {
   return (
@@ -56,59 +56,18 @@ const About = () => {
           </motion.div>
         </div>
 
-        <div id="dr-raymundo-main" className="flex flex-wrap">
+        <div id="dr-cortez-main" className="flex flex-wrap">
           <motion.div
-            id="dr-raymundo-about"
+            id="dr-cortez-about"
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 1.5 }}
-            className="w-full lg:w-1/2 lg:pl-20 lg:py-4"
+            className="w-full lg:w-1/2 lg:pr-6 lg:py-4"
           >
             <h1 className="flex flex-col items-center lg:items-start">
               <motion.span
                 whileInView={{ opacity: 1, x: 0 }}
                 initial={{ opacity: 0, x: -100 }}
-                transition={{ duration: 1.5 }}
-                className="bg-gradient-to-r from-blue-600 via-slate-400 to-blue-700
-                        bg-clip-text text-4xl tracking-tight text-transparent mb-1 pt-8"
-              >
-                DR. GRACE DIANNE GONZALEZ RAYMUNDO, MD, FSOSP
-              </motion.span>
-            </h1>
-            <p className="my-2 max-w-xl py-6 text-justify lg:text-2xl">
-              {ABOUT_DRRAYMUNDO}
-            </p>
-          </motion.div>
-
-          <motion.div
-            id="dr-raymundo-img"
-            whileInView={{ opacity: 1, x: 0 }}
-            initial={{ opacity: 0, x: 0 }}
-            transition={{ duration: 1.5 }}
-            className="w-full lg:w-1/2 lg:px-6 lg:py-4"
-          >
-            <div className="flex items-center justify-center px-4">
-              <img
-                className="rounded-lg w-3/5"
-                src={DrRaymundo}
-                alt="Dr. Raymundo Image"
-              />
-            </div>
-          </motion.div>
-        </div>
-
-        <div id="dr-cortez-main" className="flex flex-wrap">
-          <motion.div
-            id="dr-cortez-about"
-            whileInView={{ opacity: 1, x: 0 }}
-            initial={{ opacity: 0, x: 100 }}
-            transition={{ duration: 1.5 }}
-            className="w-full lg:w-1/2 lg:pr-6 lg:py-4 order-1 lg:order-2"
-          >
-            <h1 className="flex flex-col items-center lg:items-start">
-              <motion.span
-                whileInView={{ opacity: 1, x: 0 }}
-                initial={{ opacity: 0, x: 100 }}
                 transition={{ duration: 1.5 }}
                 className="bg-gradient-to-r from-blue-600 via-slate-400 to-blue-700 
                         bg-clip-text text-4xl tracking-tight text-transparent mb-1 pt-8"
@@ -126,13 +85,54 @@ const About = () => {
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: 0 }}
             transition={{ duration: 1.5 }}
-            className="w-full lg:w-1/2 lg:px-6 lg:py-4 order-2 lg:order-1 pt-2"
+            className="w-full lg:w-1/2 lg:px-6 lg:py-4"
           >
             <div className="flex items-center justify-center px-4">
               <img
                 className="rounded-lg w-3/5"
                 src={DrCortez}
                 alt="Dr. Cortez Image"
+              />
+            </div>
+          </motion.div>
+        </div>
+
+        <div id="dr-raymundo-main" className="flex flex-wrap">
+          <motion.div
+            id="dr-raymundo-about"
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: 100 }}
+            transition={{ duration: 1.5 }}
+            className="w-full lg:w-1/2 lg:pl-20 lg:py-4  order-1 lg:order-2"
+          >
+            <h1 className="flex flex-col items-center lg:items-start">
+              <motion.span
+                whileInView={{ opacity: 1, x: 0 }}
+                initial={{ opacity: 0, x: 100 }}
+                transition={{ duration: 1.5 }}
+                className="bg-gradient-to-r from-blue-600 via-slate-400 to-blue-700
+                        bg-clip-text text-4xl tracking-tight text-transparent mb-1 pt-8"
+              >
+                DR. GRACE DIANNE GONZALEZ RAYMUNDO, MD, FSOSP
+              </motion.span>
+            </h1>
+            <p className="my-2 max-w-xl py-6 text-justify lg:text-2xl">
+              {ABOUT_DRRAYMUNDO}
+            </p>
+          </motion.div>
+
+          <motion.div
+            id="dr-raymundo-img"
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: 0 }}
+            transition={{ duration: 1.5 }}
+            className="w-full lg:w-1/2 lg:px-6 lg:py-4  order-2 lg:order-1 pt-2"
+          >
+            <div className="flex items-center justify-center px-4">
+              <img
+                className="rounded-lg w-3/5"
+                src={DrRaymundo}
+                alt="Dr. Raymundo Image"
               />
             </div>
           </motion.div>
