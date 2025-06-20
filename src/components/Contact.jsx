@@ -267,10 +267,10 @@ const Contact = () => {
         <span>2025 Surgical Oncology | All rights Reserved |</span>
         <span>website developed by:</span>
         <a
-          href="mailto:kimcarlo23.dev@gmail.com"
+          href="https://kimcarlo.vercel.app"
           className="text-white hover:text-sky-900 transition-colors font-medium underline"
         >
-          kimcarlo23.dev@gmail.com
+          Dev Portfolio
         </a>
         <span>and</span>
         <a
