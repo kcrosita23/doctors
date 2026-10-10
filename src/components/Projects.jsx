@@ -1,4 +1,4 @@
-import aboutImg from "../assets/aboutdoc.jpg";
+import aboutImg from "../assets/aboutdoc.webp";
 import { motion } from "framer-motion";
 
 const Projects = () => {

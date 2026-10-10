@@ -8,18 +8,18 @@ import {
   FaHeadSideVirus,
   FaSyringe,
 } from "react-icons/fa";
-import Operation1 from "../assets/Operation1.jpg";
-import Operation2 from "../assets/Operation2.jpg";
-import Operation3 from "../assets/Operation3.jpg";
+import Operation1 from "../assets/Operation1.webp";
+import Operation2 from "../assets/Operation2.webp";
+import Operation3 from "../assets/Operation3.webp";
 import { motion, AnimatePresence } from "framer-motion";
 
 const tabContent = {
   hipec: (
     <div className="flex flex-col md:flex-row items-center gap-6">
-      <img
+      <img loading="lazy" decoding="async"
         src={Operation1}
         alt="Hyperthermic Intraperitoneal Chemotherapy"
-        className="w-64 sm:w-72 md:w-80 lg:w-96 xl:w- rounded-lg shadow-md cursor-pointer filter grayscale hover:grayscale-0 duration-500 object-cover"
+        className="w-64 sm:w-72 md:w-80 lg:w-96 rounded-lg shadow-md cursor-pointer filter grayscale hover:grayscale-0 duration-500 object-cover"
       />
       <div className="text-gray-600 text-base leading-relaxed">
         <h3 className="text-3xl font-semibold text-blue-900 mb-2">
@@ -35,10 +35,10 @@ const tabContent = {
   ),
   breast: (
     <div className="flex flex-col md:flex-row items-center gap-6">
-      <img
+      <img loading="lazy" decoding="async"
         src={Operation2}
         alt="Breast Cancer Surgery"
-        className="w-64 sm:w-72 md:w-80 lg:w-96 xl:w- rounded-lg shadow-md cursor-pointer filter grayscale hover:grayscale-0 duration-500 object-cover"
+        className="w-64 sm:w-72 md:w-80 lg:w-96 rounded-lg shadow-md cursor-pointer filter grayscale hover:grayscale-0 duration-500 object-cover"
       />
       <div className="text-black text-base leading-relaxed">
         <h3 className="text-3xl font-semibold text-blue-900 mb-2">
@@ -56,10 +56,10 @@ const tabContent = {
   ),
   colorectal: (
     <div className="flex flex-col md:flex-row items-center gap-6">
-      <img
+      <img loading="lazy" decoding="async"
         src={Operation3}
         alt="Colorectal Surgery"
-        className="w-64 sm:w-72 md:w-80 lg:w-96 xl:w- rounded-lg shadow-md cursor-pointer filter grayscale hover:grayscale-0 duration-500 object-cover"
+        className="w-64 sm:w-72 md:w-80 lg:w-96 rounded-lg shadow-md cursor-pointer filter grayscale hover:grayscale-0 duration-500 object-cover"
       />
       <div>
         <h3 className="text-3xl font-semibold text-blue-900 mb-2">
@@ -78,10 +78,10 @@ const tabContent = {
   ),
   gi: (
     <div className="flex flex-col md:flex-row items-center gap-6">
-      <img
+      <img loading="lazy" decoding="async"
         src={Operation1}
         alt="Gastrointestinal Surgeries"
-        className="w-64 sm:w-72 md:w-80 lg:w-96 xl:w- rounded-lg shadow-md cursor-pointer filter grayscale hover:grayscale-0 duration-500 object-cover"
+        className="w-64 sm:w-72 md:w-80 lg:w-96 rounded-lg shadow-md cursor-pointer filter grayscale hover:grayscale-0 duration-500 object-cover"
       />
       <div>
         <h3 className="text-3xl font-semibold text-blue-900 mb-2">
@@ -101,10 +101,10 @@ const tabContent = {
   ),
   gynecologic: (
     <div className="flex flex-col md:flex-row items-center gap-6">
-      <img
+      <img loading="lazy" decoding="async"
         src={Operation2}
         alt="Gynecologic Surgeries"
-        className="w-64 sm:w-72 md:w-80 lg:w-96 xl:w- rounded-lg shadow-md cursor-pointer filter grayscale hover:grayscale-0 duration-500 object-cover"
+        className="w-64 sm:w-72 md:w-80 lg:w-96 rounded-lg shadow-md cursor-pointer filter grayscale hover:grayscale-0 duration-500 object-cover"
       />
       <div>
         <h3 className="text-3xl font-semibold text-blue-900 mb-2">
@@ -122,10 +122,10 @@ const tabContent = {
   ),
   "head-neck": (
     <div className="flex flex-col md:flex-row items-center gap-6">
-      <img
+      <img loading="lazy" decoding="async"
         src={Operation3}
         alt="Head & Neck Cancers"
-        className="w-64 sm:w-72 md:w-80 lg:w-96 xl:w- rounded-lg shadow-md cursor-pointer filter grayscale hover:grayscale-0 duration-500 object-cover"
+        className="w-64 sm:w-72 md:w-80 lg:w-96 rounded-lg shadow-md cursor-pointer filter grayscale hover:grayscale-0 duration-500 object-cover"
       />
       <div>
         <h3 className="text-3xl font-semibold text-blue-900 mb-2">
@@ -143,10 +143,10 @@ const tabContent = {
   ),
   sarcomas: (
     <div className="flex flex-col md:flex-row items-center gap-6">
-      <img
+      <img loading="lazy" decoding="async"
         src={Operation1}
         alt="Soft Tissue Tumors"
-        className="w-64 sm:w-72 md:w-80 lg:w-96 xl:w- rounded-lg shadow-md cursor-pointer filter grayscale hover:grayscale-0 duration-500 object-cover"
+        className="w-64 sm:w-72 md:w-80 lg:w-96 rounded-lg shadow-md cursor-pointer filter grayscale hover:grayscale-0 duration-500 object-cover"
       />
       <div>
         <h3 className="text-3xl font-semibold text-blue-900 mb-2">
@@ -209,18 +209,20 @@ const Projects = () => {
   const [activeTab, setActiveTab] = useState("hipec");
 
   return (
-    <div id="interventions" className="scroll-mt-24">
-      <div className="bg-slate-100">
+    <div id="interventions" className="services-section section-shell scroll-mt-24 bg-white">
+      <div className="page-width">
         <h2 className="mb-8 text-center text-4xl font-montserrat tracking-wide pt-10">
-          SURGICAL INTERVENTIONS
+          Our surgical expertise
         </h2>
 
         <div className="w-full overflow-x-auto">
           <div className="flex justify-center px-4">
-            <div className="flex w-full max-w-6xl max-h-3xl">
+            <div className="grid w-full grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-7 ">
               {tabs.map((tab) => (
                 <button
                   key={tab.id}
+                  aria-pressed={activeTab === tab.id}
+                  aria-label={tab.label}
                   onClick={() => setActiveTab(tab.id)}
                   className={`flex-1 flex flex-col items-center justify-center px-4 py-3 m-1 rounded-md transition-colors duration-300 ${
                     activeTab === tab.id
@@ -232,7 +234,7 @@ const Projects = () => {
                   <tab.icon className="text-2xl md:text-3xl lg:text-3xl mb-1" />
 
                   {/* Label: hidden on medium and smaller; appears on larger screens */}
-                  <span className="hidden md:block text-sm md:text-base text-center">
+                  <span className="block text-sm text-center">
                     {tab.label}
                   </span>
                 </button>
@@ -255,7 +257,7 @@ const Projects = () => {
             </motion.div>
           </AnimatePresence>
         </div>
-        <div className="bg-transparent bg-gradient-to-b from-transparent to-sky-400 w-full h-40"></div>
+
       </div>
     </div>
   );

@@ -1,0 +1,73 @@
+[
+  {
+    "doctor": "Hipolito",
+    "clinics": [
+      {
+        "map": "https://maps.app.goo.gl/2MP4cPaDFQ4PPHXg8",
+        "location": "St. Lukes Medical City - BGC",
+        "schedule": "MAB 908 | Mon-Tue-Thu-Fri-Sat | 10:00am - 1:00pm",
+        "secretary": "Ms. Carla",
+        "phone": "+63 916 946 8578"
+      },
+      {
+        "map": "https://maps.app.goo.gl/y18zGKChkNF1vEDD8",
+        "location": "St. Lukes Medical City - QC",
+        "schedule": "CHBC 807-S | Mon and Fri | 1:00pm - 3:00pm",
+        "secretary": "Ms. Jaq",
+        "phone": "+63 963 709 2072"
+      },
+      {
+        "map": "https://maps.app.goo.gl/Adibmy3UPxtJUJxN9",
+        "location": "UERM Medical Center",
+        "schedule": "MAB 313 | Mon-Wed-Fri | 1:00pm - 3:00pm",
+        "secretary": "Ms. Len",
+        "phone": "+63 997 188 7848"
+      }
+    ]
+  },
+  {
+    "doctor": "Raymundo",
+    "clinics": [
+      {
+        "map": "https://maps.app.goo.gl/2MP4cPaDFQ4PPHXg8",
+        "location": "St. Lukes Medical City - BGC",
+        "schedule": "MAB 908 | Wed | 10:00am - 12:00pm | Thu | 1:00pm - 3:00pm",
+        "secretary": "Ms. Carla",
+        "phone": "+63 916 946 8578"
+      },
+      {
+        "map": "https://maps.app.goo.gl/y18zGKChkNF1vEDD8",
+        "location": "St. Lukes Medical City - QC",
+        "schedule": "CHBC 809-N | Tue and Thu | 9:00am - 12:00pm",
+        "secretary": "Ms. Jenny",
+        "phone": "+63 966 837 2756"
+      },
+      {
+        "map": "https://maps.app.goo.gl/Adibmy3UPxtJUJxN9",
+        "location": "UERM Medical Center",
+        "schedule": "MAB 322 | Wed | 1:00pm - 3:00pm | Sat | by appointment only",
+        "secretary": "Ms. Nitz",
+        "phone": "+63 917 848 1649"
+      }
+    ]
+  },
+  {
+    "doctor": "Cortez",
+    "clinics": [
+      {
+        "map": "https://maps.app.goo.gl/2MP4cPaDFQ4PPHXg8",
+        "location": "St. Lukes Medical City - BGC",
+        "schedule": "MAB 523 | Tue-Thu | 1:00pm 3:00pm | Sat | 10:00am - 12:00pm",
+        "secretary": "Ms. Mean",
+        "phone": "+63 918 487 3816"
+      },
+      {
+        "map": "https://maps.app.goo.gl/y18zGKChkNF1vEDD8",
+        "location": "St. Lukes Medical City - QC",
+        "schedule": "MAB 113 | Tue-Thu | 10:00am - 12:00pm | Sat | 1:00pm - 3:00pm",
+        "secretary": "Ms. Emma",
+        "phone": "+63 917 885 1038"
+      }
+    ]
+  }
+]

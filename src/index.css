@@ -1,17 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-html {
-    scroll-behavior: smooth;
+@layer base {
+ html { scroll-behavior: smooth; }
+ body { @apply bg-white font-sans text-slate-700 antialiased; }
+ :focus-visible { outline: 3px solid #0284c7; outline-offset: 5px; }
+ ::selection { @apply bg-sky-200 text-slate-900; }
 }
-
-body {
-  @apply font-sans;
+@layer components {
+ .page-width { @apply mx-auto w-full max-w-7xl; }
+ .section-shell { @apply px-6 py-20 md:py-24; }
+ .eyebrow { @apply text-xs font-semibold uppercase tracking-[0.18em] text-sky-700; }
+ .section-title { @apply text-3xl font-semibold leading-tight tracking-tight text-slate-900 md:text-4xl; }
+ .button-primary { @apply inline-flex min-h-12 items-center justify-center gap-3 rounded-lg bg-sky-800 px-6 py-3 text-sm font-semibold text-white transition hover:bg-sky-900; }
+ .button-secondary { @apply inline-flex min-h-12 items-center justify-center gap-3 rounded-lg border border-slate-300 bg-white px-6 py-3 text-sm font-semibold text-slate-700 transition hover:border-sky-700 hover:text-sky-700; }
+ .skip-link { @apply fixed left-4 top-4 z-[100] -translate-y-24 rounded-lg bg-white p-4 text-slate-900 focus:translate-y-0; }
+ .clinic-record { @apply border-t border-white/10 py-5; }
+ .about-section h2 { @apply mb-12 text-left font-sans font-semibold tracking-tight text-slate-900; }
+ .about-section h3 { @apply text-2xl font-semibold leading-8 tracking-tight text-slate-900; }
+ .about-section [id$="-main"] { @apply mb-12 items-center gap-y-8 border-b border-slate-200 pb-12; }
+ .about-section img { @apply max-h-96 w-full max-w-md rounded-2xl object-cover; }
+ .about-section p { @apply text-base leading-8 text-slate-600; }
+ .services-section h2 { @apply text-left font-sans font-semibold tracking-tight text-slate-900; }
+ .services-section button { @apply m-0 min-h-24 rounded-xl; }
+ .services-section button[aria-pressed="true"] { @apply bg-sky-800; }
+ .services-section h3 { @apply text-2xl font-semibold; }
+ .profile-page > h1 { @apply mx-auto max-w-5xl px-6 pb-8 pt-36; }
+ .profile-page > h1 span { @apply bg-none font-sans text-3xl font-semibold leading-tight tracking-tight text-slate-900 md:text-5xl; }
+ .profile-page .container { @apply max-w-7xl; }
+ .profile-page .container img { @apply rounded-2xl; }
+ .profile-page .container p { @apply leading-8; }
+ .profile-page .container h2 { @apply font-sans font-semibold text-slate-900; }
 }
-
-:root {
-    font-family: "Inter", sans-serif;
+@media (prefers-reduced-motion: reduce) {
+ html { scroll-behavior: auto; }
+ *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
 }

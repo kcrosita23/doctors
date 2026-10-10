@@ -1,3 +1,4 @@
+import { MotionConfig } from "framer-motion";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import DocsCards from "./components/DocsCards";
@@ -11,7 +12,8 @@ import Hero from "./components/Hero";
 import ScrollToTop from "./components/ScrollToTop";
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import Preloader from "./components/Preloader";
+import PageMeta from "./components/PageMeta";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const location = useLocation();
@@ -28,14 +30,14 @@ const Home = () => {
   }, [location]);
 
   return (
-    <Preloader>
+    <>
       <Navbar />
       <Hero />
       <DocsCards />
       <About />
       <Tabs />
       <Contact />
-    </Preloader>
+    </>
   );
 };
 
@@ -57,15 +59,17 @@ const App = () => {
               </div>
             */}
 
-      <Router>
+      <MotionConfig reducedMotion="user"><Router>
         <ScrollToTop />
-        <Routes>
+        <PageMeta />
+        <main id="main-content" tabIndex={-1}><Routes>
           <Route path="/" element={<Home />} />
           <Route path="/dr-hipolito" element={<DrHipolito />} />
           <Route path="/dr-cortez" element={<DrCortez />} />
           <Route path="/dr-raymundo" element={<DrRaymundo />} />
-        </Routes>
-      </Router>
+        <Route path="*" element={<div className="page-width min-h-screen px-6 pt-48"><h1 className="section-title">Page not found</h1><p className="my-6">Let’s help you find your way back.</p><Link to="/" className="button-primary">Return home</Link></div>} />
+        </Routes></main>
+      </Router></MotionConfig>
     </div>
   );
 };

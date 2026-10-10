@@ -1,4 +1,4 @@
-import DocHipolito from "../assets/DrHipolitoScrub.jpg";
+import DocHipolito from "../assets/DrHipolitoScrub.webp";
 import {
   ABOUT_DRCORTEZ,
   ABOUT_DRHIPOLITO,
@@ -6,14 +6,14 @@ import {
   ABOUT_DRRAYMUNDO,
 } from "../constants";
 import { motion } from "framer-motion";
-import DrCortez from "../assets/docCortez1.jpg";
-import DrRaymundo from "../assets/DraRaymundo1.jpg";
+import DrCortez from "../assets/docCortez1.webp";
+import DrRaymundo from "../assets/DraRaymundo1.webp";
 
 const About = () => {
   return (
-    <div id="about" className="scroll-mt-32">
-      <div className="pb-4 bg-slate-100 px-4">
-        <h2 className="mb-4 text-center text-4xl font-montserrat">ABOUT US</h2>
+    <div id="about" className="about-section section-shell scroll-mt-24 bg-slate-50">
+      <div className="page-width">
+        <h2 className="mb-4 text-center text-4xl font-montserrat">A collaborative approach to care.</h2>
 
         <div id="dr-hipolito-main" className="flex flex-wrap">
           <motion.div
@@ -25,7 +25,7 @@ const About = () => {
             // className="w-full lg:w-1/2 lg:px-6 lg:py-4 order-2 lg:order-1 pt-2"
           >
             <div className="flex items-center justify-center px-4">
-              <img
+              <img loading="lazy" decoding="async"
                 className="rounded-lg w-3/5"
                 src={DocHipolito}
                 alt="Dr. Hipolito Image"
@@ -39,7 +39,7 @@ const About = () => {
             transition={{ duration: 1.5 }}
             className="w-full lg:w-1/2 lg:pr-6 lg:py-4 order-1 lg:order-2"
           >
-            <h1 className="flex flex-col items-center lg:items-start">
+            <h3 className="flex flex-col items-center lg:items-start">
               <motion.span
                 whileInView={{ opacity: 1, x: 0 }}
                 initial={{ opacity: 0, x: 100 }}
@@ -49,7 +49,7 @@ const About = () => {
               >
                 DR. CECILIO D.S HIPOLITO JR, M.D, DPBS
               </motion.span>
-            </h1>
+            </h3>
             <p className="my-2 max-w-xl py-6 text-justify lg:text-xl">
               {ABOUT_DRHIPOLITO} <br /> <br /> {ABOUT_DRHIPOLITO1}
             </p>
@@ -64,17 +64,17 @@ const About = () => {
             transition={{ duration: 1.5 }}
             className="w-full lg:w-1/2 lg:pl-20 lg:py-4"
           >
-            <h1 className="flex flex-col items-center lg:items-start">
+            <h3 className="flex flex-col items-center lg:items-start">
               <motion.span
                 whileInView={{ opacity: 1, x: 0 }}
                 initial={{ opacity: 0, x: -100 }}
                 transition={{ duration: 1.5 }}
-                className="bg-gradient-to-r from-blue-600 via-slate-400 to-blue-700 
+                className="bg-gradient-to-r from-blue-600 via-slate-400 to-blue-700
                         bg-clip-text text-4xl tracking-tight text-transparent mb-1 pt-8"
               >
                 DR. EDGARDO R. CORTEZ M.D., FPCS, FACS
               </motion.span>
-            </h1>
+            </h3>
             <p className="my-2 max-w-xl py-6 text-justify lg:text-2xl">
               {ABOUT_DRCORTEZ}
             </p>
@@ -88,7 +88,7 @@ const About = () => {
             className="w-full lg:w-1/2 lg:px-6 lg:py-4"
           >
             <div className="flex items-center justify-center px-4">
-              <img
+              <img loading="lazy" decoding="async"
                 className="rounded-lg w-3/5"
                 src={DrCortez}
                 alt="Dr. Cortez Image"
@@ -105,7 +105,7 @@ const About = () => {
             transition={{ duration: 1.5 }}
             className="w-full lg:w-1/2 lg:pr-6 lg:py-4  order-1 lg:order-2"
           >
-            <h1 className="flex flex-col items-center lg:items-start">
+            <h3 className="flex flex-col items-center lg:items-start">
               <motion.span
                 whileInView={{ opacity: 1, x: 0 }}
                 initial={{ opacity: 0, x: 100 }}
@@ -115,7 +115,7 @@ const About = () => {
               >
                 DR. GRACE DIANNE GONZALEZ RAYMUNDO, MD, FSOSP
               </motion.span>
-            </h1>
+            </h3>
             <p className="my-2 max-w-xl py-6 text-justify lg:text-2xl">
               {ABOUT_DRRAYMUNDO}
             </p>
@@ -129,7 +129,7 @@ const About = () => {
             className="w-full lg:w-1/2 lg:px-6 lg:py-4  order-2 lg:order-1 pt-2"
           >
             <div className="flex items-center justify-center px-4">
-              <img
+              <img loading="lazy" decoding="async"
                 className="rounded-lg w-3/5"
                 src={DrRaymundo}
                 alt="Dr. Raymundo Image"

@@ -1,61 +1,9 @@
-import DrHipolito from "../assets/docHipolito1.png";
-import { motion } from "framer-motion";
-import ImageCard from "./ImageCard";
-import DrCortez from "../assets/DrCortez.png";
 import { Link } from "react-router-dom";
-import DrRaymundo from "../assets/DraRaymundo.png";
-
-const DocsCards = () => {
-  return (
-    <div id="doctors" className="scroll-mt-32">
-      <div className="text-center bg-sky-400">
-        <motion.h1
-          whileInView={{ opacity: 1, x: 0 }}
-          initial={{ opacity: 0, x: 100 }}
-          transition={{ duration: 1.3 }}
-          className="text-4xl mb-10 pt-6 font-montserrat"
-        >
-          SURGICAL ONCOLOGY TEAM
-        </motion.h1>
-
-        <motion.div
-          whileInView={{ opacity: 1, y: 0 }}
-          initial={{ opacity: 0, y: 100 }}
-          transition={{ duration: 1.5 }}
-          className="px-20 pb-20 flex justify-center gap-20 flex-wrap"
-        >
-          <div className="order-2 md:order-1">
-            <Link to="/dr-cortez">
-              <ImageCard
-                image={DrCortez}
-                title="Dr. Cortez"
-                description="Click to know more about Dr. Cortez."
-              />
-            </Link>
-          </div>
-          <div className="order-1 md:order-2">
-            <Link to="/dr-hipolito">
-              <ImageCard
-                image={DrHipolito}
-                title="Dr. Hipolito"
-                description="Click to know more about Dr. Hipolito."
-              />
-            </Link>
-          </div>
-          <div className="order-3">
-            <Link to="/dr-raymundo">
-              <ImageCard
-                image={DrRaymundo}
-                title="Dr. Raymundo"
-                description="Click to know more about Dr. Raymundo."
-              />
-            </Link>
-          </div>
-        </motion.div>
-      </div>
-      <div className="bg-transparent bg-gradient-to-b from-sky-400 to-slate-100 w-full h-48"></div>
-    </div>
-  );
-};
-
-export default DocsCards;
+import { ArrowUpRight } from "lucide-react";
+import cortez from "../assets/DrCortez.webp";
+import hipolito from "../assets/docHipolito1.webp";
+import raymundo from "../assets/DraRaymundo.webp";
+const doctors = [{name:"Dr. Edgardo R. Cortez", credentials:"M.D., FPCS, FACS", image:cortez, slug:"cortez"}, {name:"Dr. Cecilio D.S. Hipolito Jr.", credentials:"M.D., DPBS", image:hipolito, slug:"hipolito"}, {name:"Dr. Grace Dianne Gonzalez Raymundo", credentials:"MD, FSOSP", image:raymundo, slug:"raymundo"}];
+export default function DocsCards() {
+ return <section id="doctors" className="section-shell scroll-mt-24 bg-white"><div className="page-width"><p className="eyebrow">Meet the specialists</p><div className="mt-3 flex flex-wrap items-end justify-between gap-6"><h2 className="section-title">Expertise with a human touch.</h2><p className="max-w-sm text-base leading-7 text-slate-500">Get to know the doctors behind our collaborative approach to cancer care.</p></div><div className="mt-12 grid gap-7 md:grid-cols-3">{doctors.map(doctor => <Link key={doctor.slug} to={`/dr-${doctor.slug}`} className="group overflow-hidden rounded-2xl border border-slate-200 bg-white transition duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-slate-900/5"><div className="bg-slate-100"><img src={doctor.image} alt={doctor.name} loading="lazy" decoding="async" className="h-80 w-full object-contain object-bottom pt-6"/></div><div className="p-6"><p className="eyebrow">Surgical oncologist</p><h3 className="mt-3 text-xl font-semibold leading-7 text-slate-900">{doctor.name}</h3><p className="mt-2 text-sm text-slate-500">{doctor.credentials}</p><span className="mt-6 flex items-center justify-between border-t border-slate-100 pt-5 text-sm font-semibold text-sky-700">View profile <ArrowUpRight size={19}/></span></div></Link>)}</div></div></section>;
+}
