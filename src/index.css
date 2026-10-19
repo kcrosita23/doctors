@@ -20,7 +20,7 @@
  .about-section h2 { @apply mb-12 text-left font-sans font-semibold tracking-tight text-slate-900; }
  .about-section h3 { @apply text-2xl font-semibold leading-8 tracking-tight text-slate-900; }
  .about-section [id$="-main"] { @apply mb-12 items-center gap-y-8 border-b border-slate-200 pb-12; }
- .about-section img { @apply max-h-96 w-full max-w-md rounded-2xl object-cover; }
+ .about-section img { @apply h-auto max-h-96 w-full max-w-md rounded-2xl object-contain; }
  .about-section p { @apply text-base leading-8 text-slate-600; }
  .services-section h2 { @apply text-left font-sans font-semibold tracking-tight text-slate-900; }
  .services-section button { @apply m-0 min-h-24 rounded-xl; }
